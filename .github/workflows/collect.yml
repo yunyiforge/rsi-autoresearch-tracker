@@ -29,9 +29,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }} # 最新分支头，而不是触发时的 SHA，避免与上一次数据提交冲突
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -42,28 +44,33 @@ jobs:
       - name: Unit tests
         run: python -m unittest discover -s tests
 
-      - name: Collect and build datasets
+      - name: Collect, build and commit
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SOURCES: ${{ github.event.inputs.sources }}
-        run: |
-          args=(run --step-summary)
-          if [ -n "$SOURCES" ]; then args+=(--sources "$SOURCES"); fi
-          python -m tracker "${args[@]}" > /dev/null
-
-      - name: Commit data
+          BRANCH: ${{ github.ref_name }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data reports
-          if git diff --cached --quiet; then
-            echo "No data changes."
-            exit 0
-          fi
-          git commit -m "data: update $(date -u +%Y-%m-%d) [skip ci]"
-          for i in 1 2 3; do
-            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
-            echo "Push failed, retrying ($i)..."
-            sleep $((i * 5))
+          args=(run)
+          if [ -n "$SOURCES" ]; then args+=(--sources "$SOURCES"); fi
+          for attempt in 1 2 3; do
+            # 每次都基于远端最新数据增量构建；推送冲突时重新拉取并重建，而不是合并生成文件。
+            git fetch -q origin "$BRANCH"
+            git reset -q --hard "origin/$BRANCH"
+            summary=()
+            if [ "$attempt" = 1 ]; then summary=(--step-summary); fi
+            python -m tracker "${args[@]}" "${summary[@]}" > /dev/null
+            git add data reports
+            if git diff --cached --quiet; then
+              echo "No data changes."
+              exit 0
+            fi
+            git commit -q -m "data: update $(date -u +%Y-%m-%d) [skip ci]"
+            if git push origin "HEAD:$BRANCH"; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt), rebuilding on latest $BRANCH..."
+            sleep $((attempt * 10))
           done
           exit 1

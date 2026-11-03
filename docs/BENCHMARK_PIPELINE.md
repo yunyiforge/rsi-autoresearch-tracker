@@ -173,7 +173,7 @@ CSV 中的列表字段用 `; ` 连接。所有输出按稳定顺序排序，便�
 * 每天 01:17 UTC 由 `.github/workflows/collect.yml` 运行，也可手动触发（可选只跑部分数据源）；
 * 读取上次的 `items.jsonl` 作为基线，新条目 `first_seen` = 本次时间，日报只列出当天新增；
 * 数据集记录保留 `first_seen`，精选仓库的指标每天刷新；
-* 有变化才提交（`data: update YYYY-MM-DD [skip ci]`），推送冲突时自动 rebase 重试；
+* 有变化才提交（`data: update YYYY-MM-DD [skip ci]`），推送冲突时基于远端最新数据重新构建并重试（不合并生成文件）；
 * `python -m tracker build` 可在不联网的情况下用已有条目按新配置重建所有数据集和报告。
 
 ## 9. 如何扩展
