@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T09:04:39Z",
+  "generated_at": "2026-11-03T09:11:21Z",
   "run_date": "2026-11-03",
   "mode": "collect",
   "counts": {
@@ -76,19 +76,19 @@
       "status": "ok",
       "fetched": 500,
       "errors": [],
-      "seconds": 49.9
+      "seconds": 49.6
     },
     "github": {
       "status": "ok",
       "fetched": 601,
       "errors": [],
-      "seconds": 54.8
+      "seconds": 52.8
     },
     "hn": {
       "status": "ok",
-      "fetched": 44,
+      "fetched": 39,
       "errors": [],
-      "seconds": 5.8
+      "seconds": 6.7
     },
     "rss": {
       "status": "partial",
@@ -96,12 +96,12 @@
       "errors": [
         "Import AI: HTTP 403 for https://importai.substack.com/feed"
       ],
-      "seconds": 3.1
+      "seconds": 2.8
     }
   },
   "pipeline": {
-    "collected": 1341,
-    "irrelevant_filtered": 315,
+    "collected": 1336,
+    "irrelevant_filtered": 310,
     "duplicates_removed": 0,
     "cross_links": 7,
     "enrich_errors": [],
