@@ -1,13 +1,13 @@
 # RSI & AutoResearch 技术框架清单
 
-> 自动生成于 2026-11-03T09:13:48Z（UTC）。精选 32 个（`config/frameworks.yaml`）+ 自动发现候选 80 个。Star 数据每日刷新。
+> 自动生成于 2026-11-03T09:23:48Z（UTC）。精选 32 个（`config/frameworks.yaml`）+ 自动发现候选 80 个。Star 数据每日刷新。
 
 ## agent-infra
 
 | 框架 | 机构 | ⭐ | 最近提交 | 论文 | 说明 |
 |---|---|---:|---|---|---|
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) |  | 92,547 | 2026-11-03 |  | 开源软件工程 agent 平台，常作为自我改进编码循环的执行器 |
-| [MetaGPT](https://github.com/geekan/MetaGPT) |  | 71,145 | 2026-01-21 |  | 多 agent 协作框架，含 Data Interpreter 等数据科学 agent |
+| [OpenHands](https://github.com/All-Hands-AI/OpenHands) |  | 92,549 | 2026-11-03 |  | 开源软件工程 agent 平台，常作为自我改进编码循环的执行器 |
+| [MetaGPT](https://github.com/geekan/MetaGPT) |  | 71,146 | 2026-01-21 |  | 多 agent 协作框架，含 Data Interpreter 等数据科学 agent |
 | [AutoGen](https://github.com/microsoft/autogen) | Microsoft | 61,686 | 2026-10-28 |  | 多 agent 对话与编排框架 |
 | [smolagents](https://github.com/huggingface/smolagents) | Hugging Face | 30,197 | 2026-10-29 |  | 轻量级 code-agent 框架，官方含 open deep research 示例 |
 | [SWE-agent](https://github.com/SWE-agent/SWE-agent) | Princeton / Stanford | 20,712 | 2026-11-02 |  | 面向真实仓库修复的编码 agent 与 agent-computer interface |
@@ -19,7 +19,7 @@
 | [autoresearch](https://github.com/karpathy/autoresearch) | Andrej Karpathy | 99,135 | 2026-03-26 |  | 让 AI agent 在单 GPU 上自主修改训练代码、跑实验、保留改进的极简自动科研循环 |
 | [RD-Agent](https://github.com/microsoft/RD-Agent) | Microsoft | 15,206 | 2026-10-21 |  | 面向数据驱动研发（量化、Kaggle、模型研发）的自动 R&D agent 框架 |
 | [The AI Scientist](https://github.com/SakanaAI/AI-Scientist) | Sakana AI | 14,928 | 2025-12-19 | [arXiv](https://arxiv.org/abs/2408.06292) | 从想法生成、写代码做实验到撰写论文与自动评审的全自动科研流水线 |
-| [PaperQA2](https://github.com/Future-House/paper-qa) | FutureHouse | 9,538 | 2026-10-26 | [arXiv](https://arxiv.org/abs/2409.13740) | 面向科学文献的高精度 RAG / 文献综述 agent |
+| [PaperQA2](https://github.com/Future-House/paper-qa) | FutureHouse | 9,539 | 2026-10-26 | [arXiv](https://arxiv.org/abs/2409.13740) | 面向科学文献的高精度 RAG / 文献综述 agent |
 | [The AI Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | Sakana AI | 7,433 | 2025-12-19 | [arXiv](https://arxiv.org/abs/2504.08066) | 基于 agentic tree search 的第二代 AI Scientist，产出过通过 workshop 评审的论文 |
 | [Agent Laboratory](https://github.com/SamuelSchmidgall/AgentLaboratory) | AMD / JHU | 5,916 | 2025-08-20 | [arXiv](https://arxiv.org/abs/2501.04227) | 文献综述→实验→报告撰写的多 agent 科研助手，支持人类在环 |
 | [AI-Researcher](https://github.com/HKUDS/AI-Researcher) | HKU Data Intelligence Lab | 5,866 | 2025-10-16 |  | 端到端自动化科研框架，覆盖文献、想法、实现、实验与论文写作 |
@@ -75,10 +75,10 @@
 
 | 仓库 | 类别 | ⭐ | 主题 | 描述 |
 |---|---|---:|---|---|
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | autoresearch-system | 55,899 | `AutoResearch` | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use val |
-| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | self-improvement | 41,422 | `RSI` | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills. |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | autoresearch-system | 55,901 | `AutoResearch` | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use val |
+| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | self-improvement | 41,423 | `RSI` | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills. |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | self-improvement | 25,324 | `RSI` | Platform for stateful agents: AI with advanced memory that can learn and self-improve over time. |
-| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | self-improvement | 22,549 | `RSI` | A self-improving RLM agent for coding workflows and long-running autonomous tasks. |
+| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | self-improvement | 22,550 | `RSI` | A self-improving RLM agent for coding workflows and long-running autonomous tasks. |
 | [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | autoresearch-system | 20,097 | `AutoResearch` | Tongyi Deep Research, the Leading Open-source Deep Research Agent |
 | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | self-improvement | 14,810 | `AutoResearch` `RSI` | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 |
 | [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | self-improvement | 14,385 | `RSI` | Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption |
@@ -95,7 +95,7 @@
 | [dwzhu-pku/PaperBanana](https://github.com/dwzhu-pku/PaperBanana) | autoresearch-system | 7,548 | `AutoResearch` | PaperBanana: Automating Academic Illustration For AI Scientists |
 | [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) | autoresearch-system | 6,791 | `AutoResearch` | Claude Autoresearch Skill — Autonomous goal-directed iteration for Claude Code. Inspired by Karpathy's autoresearch. Modify → Verify → Keep/ |
 | [alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill) | autoresearch-system | 6,773 | `AutoResearch` | 达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 \| Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, tes |
-| [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven) | self-improvement | 6,007 | `RSI` | The Harness of Harnesses • Super Agent: a trusted, persistent, self-evolving multi-agent ecosystem for all-domain collaboration. |
+| [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven) | self-improvement | 6,008 | `RSI` | The Harness of Harnesses • Super Agent: a trusted, persistent, self-evolving multi-agent ecosystem for all-domain collaboration. |
 | [Galaxy-Dawn/claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | autoresearch-system | 5,972 | `AutoResearch` | Semi-automated research assistant for academic research and software development. Supports Claude Code, Codex CLI, Kimi Code CLI, and OpenCo |
 | [aiwaves-cn/agents](https://github.com/aiwaves-cn/agents) | self-improvement | 5,968 | `RSI` | An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents |
 | [EvoScientist/EvoScientist](https://github.com/EvoScientist/EvoScientist) | autoresearch-system | 4,932 | `AutoResearch` `RSI` | 🔬 Harness Vibe Research with Self-evolving AI Scientists |
@@ -127,7 +127,7 @@
 | [modelscope/AgentEvolver](https://github.com/modelscope/AgentEvolver) | self-improvement | 1,590 | `RSI` | AgentEvolver: Towards Efficient Self-Evolving Agent System |
 | [hexdocom/lemonai](https://github.com/hexdocom/lemonai) | self-improvement | 1,573 | `RSI` | Lemon AI is the first Full-stack Open-source Self-Evolving General AI Agent, offering a fully local alternative to Agentic platforms like Ma |
 | [zhengkid/Dream-RSI](https://github.com/zhengkid/Dream-RSI) | self-improvement | 1,547 | `RSI` | The offical repo for "Dream-RSI: Recursive Self-Improvement through Evolving Worlds" |
-| [ghostwright/phantom](https://github.com/ghostwright/phantom) | self-improvement | 1,487 | `RSI` | An AI co-worker with its own computer. Self-evolving, persistent memory, MCP server, secure credential collection, email identity. Built on  |
+| [ghostwright/phantom](https://github.com/ghostwright/phantom) | self-improvement | 1,488 | `RSI` | An AI co-worker with its own computer. Self-evolving, persistent memory, MCP server, secure credential collection, email identity. Built on  |
 | [InternScience/InternAgent](https://github.com/InternScience/InternAgent) | autoresearch-system | 1,465 | `AutoResearch` | InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery |
 | [dzhng/skills](https://github.com/dzhng/skills) | autoresearch-system | 1,397 | `AutoResearch` | Reusable AI agent skills for software factories: explore ideas, write specs, implement, review, and run autonomous research. Works with Clau |
 | [CharlesQ9/Self-Evolving-Agents](https://github.com/CharlesQ9/Self-Evolving-Agents) | self-improvement | 1,345 | `RSI` |  |

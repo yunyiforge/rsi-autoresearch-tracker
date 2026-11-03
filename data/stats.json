@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-11-03T09:13:48Z",
+  "generated_at": "2026-11-03T09:23:48Z",
   "run_date": "2026-11-03",
   "mode": "collect",
   "counts": {
-    "items_total": 893,
-    "new_this_run": 0,
-    "new_today": 893,
+    "items_total": 900,
+    "new_this_run": 7,
+    "new_today": 900,
     "by_source": {
       "arxiv": 473,
       "github": 406,
-      "hn": 10,
-      "rss": 4
+      "rss": 11,
+      "hn": 10
     },
     "by_type": {
       "paper": 473,
       "repo": 406,
-      "discussion": 10,
-      "article": 4
+      "article": 11,
+      "discussion": 10
     },
     "by_topic": {
-      "autoresearch": 556,
-      "rsi": 384
+      "autoresearch": 562,
+      "rsi": 389
     },
     "by_tag": {
-      "benchmark": 292,
+      "benchmark": 294,
       "framework": 282,
       "multi-agent": 103,
       "has-code": 102,
       "code-agent": 88,
       "dataset": 85,
-      "idea-generation": 82,
+      "idea-generation": 83,
       "evolutionary-search": 66,
-      "safety": 54,
-      "science-domain": 38,
+      "safety": 55,
+      "science-domain": 40,
       "ml-engineering": 29,
       "survey": 23,
       "self-training": 21,
@@ -76,32 +76,30 @@
       "status": "ok",
       "fetched": 500,
       "errors": [],
-      "seconds": 50.3
+      "seconds": 51.1
     },
     "github": {
       "status": "ok",
       "fetched": 601,
       "errors": [],
-      "seconds": 56.2
+      "seconds": 53.9
     },
     "hn": {
       "status": "ok",
-      "fetched": 39,
+      "fetched": 36,
       "errors": [],
-      "seconds": 7.5
+      "seconds": 6.3
     },
     "rss": {
-      "status": "partial",
-      "fetched": 196,
-      "errors": [
-        "Import AI: HTTP 403 for https://importai.substack.com/feed"
-      ],
-      "seconds": 2.5
+      "status": "ok",
+      "fetched": 204,
+      "errors": [],
+      "seconds": 3.2
     }
   },
   "pipeline": {
-    "collected": 1336,
-    "irrelevant_filtered": 310,
+    "collected": 1341,
+    "irrelevant_filtered": 308,
     "duplicates_removed": 0,
     "cross_links": 7,
     "enrich_errors": [],

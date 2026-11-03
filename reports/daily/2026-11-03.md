@@ -1,6 +1,6 @@
 # RSI & AutoResearch 每日追踪 · 2026-11-03
 
-> 自动生成于 2026-11-03T09:13:48Z（UTC）。累计 **893** 条数据，今日新增 **893** 条；框架 112 个，benchmark 76 个，复现任务候选 100 个。
+> 自动生成于 2026-11-03T09:23:48Z（UTC）。累计 **900** 条数据，今日新增 **900** 条；框架 112 个，benchmark 76 个，复现任务候选 100 个。
 
 ## 运行概况
 
@@ -8,8 +8,8 @@
 |---|---|---:|---|
 | arxiv | ok | 500 |  |
 | github | ok | 601 |  |
-| hn | ok | 39 |  |
-| rss | partial | 196 | Import AI: HTTP 403 for https://importai.substack.com/feed |
+| hn | ok | 36 |  |
+| rss | ok | 204 |  |
 
 ## 🆕 新论文（473）
 
@@ -59,10 +59,10 @@
 | 仓库 | ⭐ | 描述 | 标签 |
 |---|---:|---|---|
 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,135 | AI agents running research on single-GPU nanochat training automatically | `AutoResearch` |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,899 | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use val | `AutoResearch` `#framework` `#science-domain` |
-| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,422 | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills. | `RSI` |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,901 | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use val | `AutoResearch` `#framework` `#science-domain` |
+| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,423 | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills. | `RSI` |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | 25,324 | Platform for stateful agents: AI with advanced memory that can learn and self-improve over time. | `RSI` `#framework` |
-| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,549 | A self-improving RLM agent for coding workflows and long-running autonomous tasks. | `RSI` |
+| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,550 | A self-improving RLM agent for coding workflows and long-running autonomous tasks. | `RSI` |
 | [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 20,097 | Tongyi Deep Research, the Leading Open-source Deep Research Agent | `AutoResearch` |
 | [dzhng/deep-research](https://github.com/dzhng/deep-research) | 19,871 | An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large la | `AutoResearch` |
 | [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | 14,928 | The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery 🧑‍🔬 | `AutoResearch` `#evolutionary-search` |
@@ -84,7 +84,7 @@
 | [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) | 6,791 | Claude Autoresearch Skill — Autonomous goal-directed iteration for Claude Code. Inspired by Karpathy's autoresearch. Modify → Verify → Keep/ | `AutoResearch` |
 | [alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill) | 6,773 | 达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 \| Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, tes | `AutoResearch` |
 | [loopx-project/loopx](https://github.com/loopx-project/loopx) | 6,541 | Turn long-horizon goals into verifiable results. A local-first semantic control plane and research workbench for long-running agent teams, a | `AutoResearch` `#benchmark` `#multi-agent` |
-| [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven) | 6,007 | The Harness of Harnesses • Super Agent: a trusted, persistent, self-evolving multi-agent ecosystem for all-domain collaboration. | `RSI` `#multi-agent` |
+| [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven) | 6,008 | The Harness of Harnesses • Super Agent: a trusted, persistent, self-evolving multi-agent ecosystem for all-domain collaboration. | `RSI` `#multi-agent` |
 | [Galaxy-Dawn/claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 5,972 | Semi-automated research assistant for academic research and software development. Supports Claude Code, Codex CLI, Kimi Code CLI, and OpenCo | `AutoResearch` |
 | [aiwaves-cn/agents](https://github.com/aiwaves-cn/agents) | 5,968 | An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents | `RSI` `#framework` |
 | [EvoScientist/EvoScientist](https://github.com/EvoScientist/EvoScientist) | 4,932 | 🔬 Harness Vibe Research with Self-evolving AI Scientists | `AutoResearch` `RSI` `#multi-agent` |
@@ -99,32 +99,39 @@
 | [Asymptote-Labs/agent-beacon](https://github.com/Asymptote-Labs/agent-beacon) | 3,167 | The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu | `RSI` |
 | [Prism-Shadow/penguin-harness](https://github.com/Prism-Shadow/penguin-harness) | 3,120 | 🐧 Unified and Stable RSI Platform | `RSI` `#framework` |
 
-## 🆕 讨论与博客（14）
+## 🆕 讨论与博客（21）
 
 - **AI Alignment Forum** [Some “coherence arguments” are two different things in a trenchcoat](https://www.alignmentforum.org/posts/5a4tuSNDNodPsiS26/some-coherence-arguments-are-two-different-things-in-a) `RSI`
 - **Sakana AI** [Intelligence Report: SNSのAI分析からみる米中間選挙](https://sakana.ai/us-midterms-analysis/) `AutoResearch`
 - **Hugging Face Blog** [Can we trust LLMs to judge whether a research idea is novel?](https://huggingface.co/blog/allenai/novelty-bench) `AutoResearch` `#idea-generation`
+- **Import AI** [Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means](https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means/) `AutoResearch` `RSI` `#benchmark` `#safety`
 - **HN** [What I saw inside Anthropic: AI lab pushes towards recursive self-improvement](https://www.theargumentmag.com/p/what-i-saw-inside-anthropic) · ▲7 · [讨论](https://news.ycombinator.com/item?id=50185430) `RSI`
 - **HN** [Startup Is All in on Recursive Self-Improvement. Latest Model Is Scary Good](https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/) · ▲5 · [讨论](https://news.ycombinator.com/item?id=50184762) `RSI`
+- **Import AI** [Import AI 477: In which I tell the IMF the Singularity has begun](https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/) `AutoResearch`
 - **HN** [Sergey Brin says Google's AI models are reaching recursive self-improvement](https://www.businessinsider.com/sergey-brin-google-gemini-ai-argon-recursive-self-improvement-rsi-2026-10) · ▲25 · [讨论](https://news.ycombinator.com/item?id=50113841) `RSI`
 - **HN** [Show HN: Dub Anything – Dub videos in each actor's own voice](https://github.com/swax/dub-anything) · ▲8 · [讨论](https://news.ycombinator.com/item?id=50094005) `RSI`
 - **HN** [Show HN: RSI-Anything – JEPA world models for self-improving agents](https://github.com/Gen-Verse/RSI-Anything) · ▲8 · [讨论](https://news.ycombinator.com/item?id=50072765) `RSI`
 - **HN** [Fork-and-Flush: Escaping Idea Basins in Autoresearch Agents](https://arxiv.org/abs/2610.07447) · ▲5 · [讨论](https://news.ycombinator.com/item?id=50066734) `AutoResearch`
+- **Import AI** [Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space](https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/) `RSI` `#benchmark`
 - **HN** [Show HN: I made an agent can self-improving while working](https://yehuitang0316.github.io/gear-site/) · ▲5 · [讨论](https://news.ycombinator.com/item?id=50050047) `RSI`
 - **HN** [Recursive self-improvement through collective intelligence](https://pub.sakana.ai/mass/) · ▲138 · [讨论](https://news.ycombinator.com/item?id=50048522) `RSI`
 - **HN** [Auto Research: Integer multiplication below n log n](https://app.getsupers.com/auto-research) · ▲83 · [讨论](https://news.ycombinator.com/item?id=50047664) `AutoResearch`
 - **Sakana AI** [Recursive Self-Improvement through Collective Intelligence](https://sakana.ai/mass/) `RSI` `#benchmark` `#evolutionary-search` `#multi-agent` `#safety`
 - **HN** [Intelligence Explosion](https://news.ycombinator.com/item?id=50007606) · ▲6 `RSI`
+- **Import AI** [Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy](https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/) `AutoResearch` `RSI` `#idea-generation` `#science-domain`
+- **Import AI** [Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop](https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/) `AutoResearch` `RSI` `#science-domain`
+- **Import AI** [Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics](https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/) `AutoResearch` `RSI`
+- **Import AI** [Import AI 472: DeepMind’s cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman](https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/) `AutoResearch`
 
 ## 🔥 Star 最多的相关仓库（累计）
 
 | 仓库 | ⭐ | 主题 |
 |---|---:|---|
 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,135 | `AutoResearch` |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,899 | `AutoResearch` `#framework` `#science-domain` |
-| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,422 | `RSI` |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,901 | `AutoResearch` `#framework` `#science-domain` |
+| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,423 | `RSI` |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | 25,324 | `RSI` `#framework` |
-| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,549 | `RSI` |
+| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,550 | `RSI` |
 | [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 20,097 | `AutoResearch` |
 | [dzhng/deep-research](https://github.com/dzhng/deep-research) | 19,871 | `AutoResearch` |
 | [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | 14,928 | `AutoResearch` `#evolutionary-search` |
