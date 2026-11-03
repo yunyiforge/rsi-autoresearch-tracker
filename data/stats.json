@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-03T09:23:48Z",
+  "generated_at": "2026-11-03T09:26:17Z",
   "run_date": "2026-11-03",
   "mode": "collect",
   "counts": {
     "items_total": 900,
-    "new_this_run": 7,
+    "new_this_run": 0,
     "new_today": 900,
     "by_source": {
       "arxiv": 473,
@@ -76,25 +76,25 @@
       "status": "ok",
       "fetched": 500,
       "errors": [],
-      "seconds": 51.1
+      "seconds": 49.5
     },
     "github": {
       "status": "ok",
       "fetched": 601,
       "errors": [],
-      "seconds": 53.9
+      "seconds": 54.3
     },
     "hn": {
       "status": "ok",
       "fetched": 36,
       "errors": [],
-      "seconds": 6.3
+      "seconds": 6.7
     },
     "rss": {
       "status": "ok",
       "fetched": 204,
       "errors": [],
-      "seconds": 3.2
+      "seconds": 2.5
     }
   },
   "pipeline": {

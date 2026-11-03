@@ -1,6 +1,6 @@
 # RSI & AutoResearch 技术框架清单
 
-> 自动生成于 2026-11-03T09:23:48Z（UTC）。精选 32 个（`config/frameworks.yaml`）+ 自动发现候选 80 个。Star 数据每日刷新。
+> 自动生成于 2026-11-03T09:26:17Z（UTC）。精选 32 个（`config/frameworks.yaml`）+ 自动发现候选 80 个。Star 数据每日刷新。
 
 ## agent-infra
 
@@ -75,7 +75,7 @@
 
 | 仓库 | 类别 | ⭐ | 主题 | 描述 |
 |---|---|---:|---|---|
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | autoresearch-system | 55,901 | `AutoResearch` | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use val |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | autoresearch-system | 55,902 | `AutoResearch` | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use val |
 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | self-improvement | 41,423 | `RSI` | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills. |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | self-improvement | 25,324 | `RSI` | Platform for stateful agents: AI with advanced memory that can learn and self-improve over time. |
 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | self-improvement | 22,550 | `RSI` | A self-improving RLM agent for coding workflows and long-running autonomous tasks. |
@@ -83,7 +83,7 @@
 | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | self-improvement | 14,810 | `AutoResearch` `RSI` | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 |
 | [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | self-improvement | 14,385 | `RSI` | Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption |
 | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | autoresearch-system | 14,225 | `AutoResearch` | Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemi |
-| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | self-improvement | 13,795 | `RSI` | One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows. |
+| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | self-improvement | 13,796 | `RSI` | One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows. |
 | [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | self-improvement | 12,234 | `RSI` | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token saving |
 | [aden-hive/hive](https://github.com/aden-hive/hive) | agent-infra | 11,139 | `RSI` | Multi-Agent Harness for Production AI |
 | [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman) | autoresearch-system | 10,063 | `AutoResearch` | The open source AI research agent. |

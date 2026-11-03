@@ -25,7 +25,7 @@
       "github:karpathy/autoresearch"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:the-ai-scientist",
@@ -52,7 +52,7 @@
       "github:sakanaai/ai-scientist"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:the-ai-scientist-v2",
@@ -79,7 +79,7 @@
       "github:sakanaai/ai-scientist-v2"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:agent-laboratory",
@@ -104,7 +104,7 @@
     "description": "文献综述→实验→报告撰写的多 agent 科研助手，支持人类在环",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:ai-researcher",
@@ -129,7 +129,7 @@
     "description": "端到端自动化科研框架，覆盖文献、想法、实现、实验与论文写作",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:rd-agent",
@@ -155,7 +155,7 @@
     "description": "面向数据驱动研发（量化、Kaggle、模型研发）的自动 R&D agent 框架",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:data-to-paper",
@@ -180,7 +180,7 @@
     "description": "从数据出发、可追溯地自动完成假设→分析→论文写作的科研流程",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:paperqa2",
@@ -205,7 +205,7 @@
     "description": "面向科学文献的高精度 RAG / 文献综述 agent",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:storm",
@@ -230,7 +230,7 @@
     "description": "多视角提问 + 检索，自动生成维基百科式长篇研究报告",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:gpt-researcher",
@@ -255,7 +255,7 @@
     "description": "开源自主研究 agent，自动检索并生成带引用的研究报告",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:open-deep-research",
@@ -280,7 +280,7 @@
     "description": "可配置的开源 deep research agent 参考实现",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:deep-research",
@@ -307,7 +307,7 @@
       "github:dzhng/deep-research"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:aide",
@@ -336,7 +336,7 @@
       "arxiv:2502.13138"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:darwin-godel-machine",
@@ -364,7 +364,7 @@
       "arxiv:2505.22954"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:godel-agent",
@@ -389,7 +389,7 @@
     "description": "受 Gödel machine 启发、可递归修改自身逻辑的自指 agent 框架",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:self-improving-coding-agent-sica",
@@ -416,7 +416,7 @@
       "github:maximerobeyns/self_improving_coding_agent"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:adas-meta-agent-search",
@@ -443,7 +443,7 @@
       "arxiv:2408.08435"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:stop-self-taught-optimizer",
@@ -468,7 +468,7 @@
     "description": "递归改进“改进器”代码本身的自我优化脚手架",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:voyager",
@@ -493,7 +493,7 @@
     "description": "通过自动课程与技能库持续自我扩展能力的终身学习 agent",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:alphaevolve",
@@ -519,7 +519,7 @@
     "description": "Gemini 驱动的进化式编码 agent，用于算法与数学发现（未开源）",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:openevolve",
@@ -546,7 +546,7 @@
     "evidence": [],
     "repo_moved_to": "algorithmicsuperintelligence/openevolve",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:shinkaevolve",
@@ -572,7 +572,7 @@
     "description": "样本高效的 LLM 程序进化框架，面向开放式科学发现",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:funsearch",
@@ -597,7 +597,7 @@
     "description": "LLM + 进化搜索在数学问题上发现新构造的方法",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:dspy",
@@ -622,7 +622,7 @@
     "description": "声明式 LM 程序与自动 prompt/权重优化框架",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:textgrad",
@@ -647,7 +647,7 @@
     "description": "用文本“梯度”反向传播优化复合 AI 系统",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:gepa",
@@ -672,7 +672,7 @@
     "description": "基于反思与 Pareto 进化的 prompt 优化器",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:gptswarm",
@@ -699,7 +699,7 @@
       "github:metauto-ai/gptswarm"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:openhands",
@@ -726,7 +726,7 @@
     "evidence": [],
     "repo_moved_to": "OpenHands/OpenHands",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:swe-agent",
@@ -751,7 +751,7 @@
     "description": "面向真实仓库修复的编码 agent 与 agent-computer interface",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:metagpt",
@@ -777,7 +777,7 @@
     "evidence": [],
     "repo_moved_to": "FoundationAgents/MetaGPT",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:autogen",
@@ -802,7 +802,7 @@
     "description": "多 agent 对话与编排框架",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:smolagents",
@@ -827,7 +827,7 @@
     "description": "轻量级 code-agent 框架，官方含 open deep research 示例",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:k-dense-ai-scientific-agent-skills",
@@ -847,14 +847,14 @@
     "evidence": [
       "github:k-dense-ai/scientific-agent-skills"
     ],
-    "stars": 55901,
+    "stars": 55902,
     "forks": 4919,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-11-02T09:23:27Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:volcengine-openviking",
@@ -881,7 +881,7 @@
     "last_push": "2026-11-03T09:20:38Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:letta-ai-letta",
@@ -908,7 +908,7 @@
     "last_push": "2026-10-18T22:28:04Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:primeintellect-ai-prime-agent",
@@ -935,7 +935,7 @@
     "last_push": "2026-11-03T02:02:06Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:alibaba-nlp-deepresearch",
@@ -962,7 +962,7 @@
     "last_push": "2026-02-27T13:12:11Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:aiming-lab-autoresearchclaw",
@@ -990,7 +990,7 @@
     "last_push": "2026-08-19T03:35:13Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:lsdefine-genericagent",
@@ -1017,7 +1017,7 @@
     "last_push": "2026-11-03T09:04:20Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:orchestra-research-ai-research-skills",
@@ -1044,7 +1044,7 @@
     "last_push": "2026-10-11T02:56:34Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:evermind-ai-everos",
@@ -1064,14 +1064,14 @@
     "evidence": [
       "github:evermind-ai/everos"
     ],
-    "stars": 13795,
+    "stars": 13796,
     "forks": 962,
     "language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-11-02T17:48:42Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:memtensor-memos",
@@ -1098,7 +1098,7 @@
     "last_push": "2026-11-02T13:41:21Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:aden-hive-hive",
@@ -1125,7 +1125,7 @@
     "last_push": "2026-11-02T10:07:20Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:companion-inc-feynman",
@@ -1152,7 +1152,7 @@
     "last_push": "2026-10-31T14:05:32Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:mervinpraison-praisonai",
@@ -1179,7 +1179,7 @@
     "last_push": "2026-11-03T09:22:23Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:evomap-evolver",
@@ -1206,7 +1206,7 @@
     "last_push": "2026-11-01T09:57:28Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:davebcn87-pi-autoresearch",
@@ -1233,7 +1233,7 @@
     "last_push": "2026-10-07T14:17:37Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:alphaxiv-openresearch",
@@ -1260,7 +1260,7 @@
     "last_push": "2026-11-03T08:19:48Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:human-agent-society-reef",
@@ -1287,7 +1287,7 @@
     "last_push": "2026-11-03T08:50:43Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:dwzhu-pku-paperbanana",
@@ -1314,7 +1314,7 @@
     "last_push": "2026-10-24T09:32:54Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:uditgoenka-autoresearch",
@@ -1341,7 +1341,7 @@
     "last_push": "2026-10-31T13:56:11Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:alchaincyf-darwin-skill",
@@ -1368,7 +1368,7 @@
     "last_push": "2026-09-18T13:16:41Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:evermind-ai-raven",
@@ -1395,7 +1395,7 @@
     "last_push": "2026-11-03T09:22:40Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:galaxy-dawn-claude-scholar",
@@ -1422,7 +1422,7 @@
     "last_push": "2026-10-19T10:08:11Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:aiwaves-cn-agents",
@@ -1449,7 +1449,7 @@
     "last_push": "2024-09-26T03:12:53Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:evoscientist-evoscientist",
@@ -1477,7 +1477,7 @@
     "last_push": "2026-11-03T09:19:22Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:ruc-datalab-deepanalyze",
@@ -1504,7 +1504,7 @@
     "last_push": "2026-11-02T13:47:42Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:jordan-gibbs-hyperresearch",
@@ -1531,7 +1531,7 @@
     "last_push": "2026-11-01T18:57:21Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:letta-ai-letta-code",
@@ -1558,7 +1558,7 @@
     "last_push": "2026-11-03T07:07:21Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:yilewang-llm-for-zotero",
@@ -1585,7 +1585,7 @@
     "last_push": "2026-11-02T16:40:49Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:anative-lab-evoagentx",
@@ -1612,7 +1612,7 @@
     "last_push": "2026-10-31T01:50:36Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:sentrux-sentrux",
@@ -1639,7 +1639,7 @@
     "last_push": "2026-03-19T02:23:12Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:asymptote-labs-agent-beacon",
@@ -1666,7 +1666,7 @@
     "last_push": "2026-11-03T06:29:07Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:prism-shadow-penguin-harness",
@@ -1690,10 +1690,10 @@
     "forks": 334,
     "language": "TypeScript",
     "license": "Apache-2.0",
-    "last_push": "2026-11-03T09:22:42Z",
+    "last_push": "2026-11-03T09:24:53Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:leo-lilinxiao-codex-autoresearch",
@@ -1720,7 +1720,7 @@
     "last_push": "2026-09-12T14:07:51Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:evomap-autoresearch",
@@ -1747,7 +1747,7 @@
     "last_push": "2026-09-16T08:13:08Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:opennswm-lab-faros",
@@ -1774,7 +1774,7 @@
     "last_push": "2026-10-21T12:30:47Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:phyagentos-phyagentos-core",
@@ -1801,7 +1801,7 @@
     "last_push": "2026-10-30T07:09:48Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:openags-paper-search-mcp",
@@ -1828,7 +1828,7 @@
     "last_push": "2026-10-02T06:16:38Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:sahibzada-allahyar-formal-verification-rsi",
@@ -1855,7 +1855,7 @@
     "last_push": "2026-10-22T19:27:09Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:facebookresearch-hyperagents",
@@ -1882,7 +1882,7 @@
     "last_push": "2026-07-31T16:56:22Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:yeqing17-2026-omniagent",
@@ -1909,7 +1909,7 @@
     "last_push": "2026-07-27T07:54:11Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:chrisworsey55-atlas-gic",
@@ -1937,7 +1937,7 @@
     "last_push": "2026-09-22T11:51:44Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:guy-hartstein-company-research-agent",
@@ -1964,7 +1964,7 @@
     "last_push": "2026-10-26T14:22:46Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:anotiawang-deep-research-web-ui",
@@ -1991,7 +1991,7 @@
     "last_push": "2026-10-26T09:22:58Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:hyperspaceai-agi",
@@ -2018,7 +2018,7 @@
     "last_push": "2026-10-17T14:34:45Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:trevin-creator-autoresearch-mlx",
@@ -2045,7 +2045,7 @@
     "last_push": "2026-07-02T13:49:49Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:os-copilot-os-copilot",
@@ -2072,7 +2072,7 @@
     "last_push": "2024-09-09T02:11:13Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:mims-harvard-tooluniverse",
@@ -2099,7 +2099,7 @@
     "last_push": "2026-11-03T06:41:13Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:tokenrhythm-neohorse",
@@ -2126,7 +2126,7 @@
     "last_push": "2026-09-26T04:42:21Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:rightnow-ai-autokernel",
@@ -2153,7 +2153,7 @@
     "last_push": "2026-10-23T02:35:40Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:modelscope-agentevolver",
@@ -2180,7 +2180,7 @@
     "last_push": "2026-04-01T08:47:19Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:hexdocom-lemonai",
@@ -2207,7 +2207,7 @@
     "last_push": "2026-02-03T10:39:31Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:zhengkid-dream-rsi",
@@ -2234,7 +2234,7 @@
     "last_push": "2026-10-23T18:30:23Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:ghostwright-phantom",
@@ -2261,7 +2261,7 @@
     "last_push": "2026-06-16T21:26:09Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:internscience-internagent",
@@ -2288,7 +2288,7 @@
     "last_push": "2026-07-29T07:46:45Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:dzhng-skills",
@@ -2315,7 +2315,7 @@
     "last_push": "2026-11-01T11:21:23Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:charlesq9-self-evolving-agents",
@@ -2342,7 +2342,7 @@
     "last_push": "2025-10-15T08:17:14Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:huytieu-cog-second-brain",
@@ -2369,7 +2369,7 @@
     "last_push": "2026-10-23T02:52:56Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:openraiser-nanoresearch",
@@ -2396,7 +2396,7 @@
     "last_push": "2026-10-09T06:06:51Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:greyhaven-ai-autocontext",
@@ -2424,7 +2424,7 @@
     "last_push": "2026-11-03T04:13:12Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:aiming-lab-agent0",
@@ -2451,7 +2451,7 @@
     "last_push": "2026-07-10T07:54:20Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:zhangzhengeric-sage",
@@ -2472,13 +2472,13 @@
       "github:zhangzhengeric/sage"
     ],
     "stars": 1220,
-    "forks": 113,
+    "forks": 114,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-11-03T08:32:58Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:openlair-dr-claw",
@@ -2505,7 +2505,7 @@
     "last_push": "2026-10-26T21:41:08Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:mattprusak-autoresearch-genealogy",
@@ -2532,7 +2532,7 @@
     "last_push": "2026-06-30T03:46:55Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:polyuiislab-infiagent",
@@ -2559,7 +2559,7 @@
     "last_push": "2026-07-11T17:43:37Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:withkynam-vibecode-pro-max-kit",
@@ -2586,7 +2586,7 @@
     "last_push": "2026-06-21T08:31:44Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:rashakil-ds-roadmap-docs",
@@ -2613,7 +2613,7 @@
     "last_push": "2026-10-21T18:28:53Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:ruc-nlpir-arbor",
@@ -2640,7 +2640,7 @@
     "last_push": "2026-11-03T05:57:10Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:xiangyue-zhang-auto-deep-researcher-24x7",
@@ -2667,7 +2667,7 @@
     "last_push": "2026-06-03T03:18:50Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:ruc-datalab-evoontology",
@@ -2694,7 +2694,7 @@
     "last_push": "2026-10-09T15:55:00Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:human-agent-society-coral",
@@ -2722,7 +2722,7 @@
     "last_push": "2026-10-19T05:19:16Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:gen-verse-rsi-anything",
@@ -2749,7 +2749,7 @@
     "last_push": "2026-10-13T10:00:45Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:opencrabs-opencrabs",
@@ -2776,7 +2776,7 @@
     "last_push": "2026-11-03T08:43:16Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:wangziqi06-724-office",
@@ -2803,7 +2803,7 @@
     "last_push": "2026-07-31T07:53:16Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:xvirobotics-metabot",
@@ -2830,7 +2830,7 @@
     "last_push": "2026-10-26T00:13:56Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:olelehmann1337-autoresearch-skill",
@@ -2857,7 +2857,7 @@
     "last_push": "2026-03-18T07:36:13Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:kulaxyz-self-learning-skills",
@@ -2884,7 +2884,7 @@
     "last_push": "2026-09-14T17:06:52Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:mikekelly-agentk",
@@ -2911,7 +2911,7 @@
     "last_push": "2024-09-04T07:53:48Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:zamalali-deepgit",
@@ -2938,7 +2938,7 @@
     "last_push": "2026-08-30T09:46:12Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:vostride-agent-qa",
@@ -2965,7 +2965,7 @@
     "last_push": "2026-11-03T07:54:59Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   },
   {
     "id": "fw:openmemind-memind",
@@ -2992,6 +2992,6 @@
     "last_push": "2026-08-13T08:41:16Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-03T09:23:48Z"
+    "last_seen": "2026-11-03T09:26:17Z"
   }
 ]

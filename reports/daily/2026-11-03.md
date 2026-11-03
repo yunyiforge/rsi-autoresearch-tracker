@@ -1,6 +1,6 @@
 # RSI & AutoResearch 每日追踪 · 2026-11-03
 
-> 自动生成于 2026-11-03T09:23:48Z（UTC）。累计 **900** 条数据，今日新增 **900** 条；框架 112 个，benchmark 76 个，复现任务候选 100 个。
+> 自动生成于 2026-11-03T09:26:17Z（UTC）。累计 **900** 条数据，今日新增 **900** 条；框架 112 个，benchmark 76 个，复现任务候选 100 个。
 
 ## 运行概况
 
@@ -59,7 +59,7 @@
 | 仓库 | ⭐ | 描述 | 标签 |
 |---|---:|---|---|
 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,135 | AI agents running research on single-GPU nanochat training automatically | `AutoResearch` |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,901 | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use val | `AutoResearch` `#framework` `#science-domain` |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,902 | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use val | `AutoResearch` `#framework` `#science-domain` |
 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,423 | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills. | `RSI` |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | 25,324 | Platform for stateful agents: AI with advanced memory that can learn and self-improve over time. | `RSI` `#framework` |
 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,550 | A self-improving RLM agent for coding workflows and long-running autonomous tasks. | `RSI` |
@@ -69,7 +69,7 @@
 | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 14,810 | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 | `AutoResearch` `RSI` `#multi-agent` |
 | [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 14,385 | Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption | `RSI` |
 | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | 14,225 | Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemi | `AutoResearch` `#framework` |
-| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,795 | One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows. | `RSI` |
+| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,796 | One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows. | `RSI` |
 | [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 12,234 | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token saving | `RSI` |
 | [aden-hive/hive](https://github.com/aden-hive/hive) | 11,139 | Multi-Agent Harness for Production AI | `RSI` `#framework` `#multi-agent` |
 | [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman) | 10,063 | The open source AI research agent. | `AutoResearch` `#code-agent` |
@@ -128,7 +128,7 @@
 | 仓库 | ⭐ | 主题 |
 |---|---:|---|
 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,135 | `AutoResearch` |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,901 | `AutoResearch` `#framework` `#science-domain` |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,902 | `AutoResearch` `#framework` `#science-domain` |
 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,423 | `RSI` |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | 25,324 | `RSI` `#framework` |
 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,550 | `RSI` |
@@ -138,7 +138,7 @@
 | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 14,810 | `AutoResearch` `RSI` `#multi-agent` |
 | [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 14,385 | `RSI` |
 | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | 14,225 | `AutoResearch` `#framework` |
-| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,795 | `RSI` |
+| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,796 | `RSI` |
 | [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 12,234 | `RSI` |
 | [aden-hive/hive](https://github.com/aden-hive/hive) | 11,139 | `RSI` `#framework` `#multi-agent` |
 | [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman) | 10,063 | `AutoResearch` `#code-agent` |
