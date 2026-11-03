@@ -10,10 +10,13 @@
 - 📏 **Benchmark 目录**：人工精选（MLE-bench、RE-Bench、PaperBench、MLAgentBench、CORE-Bench 等）+ 自动发现的候选；
 - 🧪 **论文复现任务候选集**：PaperBench 风格，从「相关论文 + 官方代码」自动生成。
 
+🌐 **网站：<https://yunyiforge.github.io/rsi-autoresearch-tracker/>** —— 可搜索、筛选条目 / 框架 / Benchmark / 复现任务并阅读日报，随每日 Action 自动更新。
+
 ## 快速查看
 
 | 内容 | 链接 |
 | --- | --- |
+| 🌐 网站（搜索 / 筛选） | <https://yunyiforge.github.io/rsi-autoresearch-tracker/> |
 | 今日日报 | [reports/LATEST.md](reports/LATEST.md)（历史：[reports/daily/](reports/daily/)） |
 | 技术框架清单 | [reports/FRAMEWORKS.md](reports/FRAMEWORKS.md) · [JSON](data/frameworks.json) · [CSV](data/frameworks.csv) |
 | Benchmark 清单 | [reports/BENCHMARKS.md](reports/BENCHMARKS.md) · [JSONL](data/benchmarks.jsonl) · [CSV](data/benchmarks.csv) |
@@ -34,7 +37,8 @@
 ## 目录结构
 
 ```
-.github/workflows/collect.yml  每日定时 / 手动触发的采集 workflow
+.github/workflows/collect.yml  每日定时 / 手动触发的采集 workflow（结束后部署网站）
+.github/workflows/pages.yml    GitHub Pages 部署（可复用 workflow）
 config/
   sources.yaml                 关键词、主题、标签、数据源查询、数据集构建规则
   frameworks.yaml              精选技术框架
@@ -48,6 +52,7 @@ tracker/                       Python 包（仅依赖标准库 + PyYAML）
   reports.py                   Markdown 报告
   pipeline.py                  流水线编排
 tests/                         离线单元测试
+site/                          GitHub Pages 静态网站（index.html + assets/，build.sh 组装 _site/）
 data/                          生成的数据（由 Action 自动提交）
 reports/                       生成的报告（由 Action 自动提交）
 docs/BENCHMARK_PIPELINE.md     Benchmark 数据自动化构建方法说明
@@ -81,6 +86,7 @@ python -m unittest discover -s tests
 - **步骤**：安装依赖 → 单元测试 → 采集与构建（结果写入 Step Summary）→ 有变化时以 `github-actions[bot]` 提交 `data/` 与 `reports/`。
 - **权限**：`contents: write`；只使用内置 `GITHUB_TOKEN`，无需配置额外 secret。
 - 质量检查失败时运行失败，不会提交数据。
+- **网站部署**：采集成功后以 `workflow_call` 调用 `.github/workflows/pages.yml`，用 `site/build.sh` 把 `site/`（无构建工具的静态页面）与最新的 `data/`、`reports/` 组装后发布到 GitHub Pages（需要 `pages: write`、`id-token: write`）。修改 `site/` 后推送到 main 或手动运行 `pages.yml` 也会重新部署。本地预览：`./site/build.sh && python -m http.server -d _site 8000`。
 
 ## 数据结构（摘要）
 

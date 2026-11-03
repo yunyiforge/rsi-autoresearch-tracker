@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RSI & AutoResearch Tracker</title>
+  <meta name="description" content="每日自动采集的 RSI（递归自我改进）与 AutoResearch（AI 自动科研）论文、仓库、框架、Benchmark 与论文复现任务。">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔁</text></svg>">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#/">🔁 RSI &amp; AutoResearch Tracker</a>
+      <nav id="nav">
+        <a href="#/" data-route="">概览</a>
+        <a href="#/items" data-route="items">条目</a>
+        <a href="#/frameworks" data-route="frameworks">技术框架</a>
+        <a href="#/benchmarks" data-route="benchmarks">Benchmark</a>
+        <a href="#/tasks" data-route="tasks">复现任务</a>
+        <a href="#/reports" data-route="reports">日报</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap" id="app" aria-live="polite">
+    <p class="muted">加载中…</p>
+  </main>
+  <footer class="wrap footer">
+    <span id="updated"></span>
+    <span>数据由 <a href="https://github.com/yunyiforge/rsi-autoresearch-tracker/actions/workflows/collect.yml">GitHub Actions</a> 每天 01:17 UTC 自动采集 ·
+      <a href="https://github.com/yunyiforge/rsi-autoresearch-tracker">源码与原始数据</a></span>
+  </footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

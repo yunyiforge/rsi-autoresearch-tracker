@@ -74,3 +74,12 @@ jobs:
             sleep $((attempt * 10))
           done
           exit 1
+
+  pages:
+    needs: collect
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
