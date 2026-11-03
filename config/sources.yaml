@@ -1,0 +1,226 @@
+# =============================================================
+# RSI & AutoResearch Tracker 采集 / 分类配置
+# 修改本文件即可调整关键词、数据源与分类规则，无需改代码。
+#
+# 关键词匹配规则（topics / tags / exclude_keywords / 类别规则通用）：
+#   - 大小写不敏感；连字符、下划线、斜杠视为空格；去除重音（Gödel == Godel）
+#   - 默认整词匹配；以 * 结尾表示前缀匹配（"replicat*" 匹配 replicate / replication）
+#   - 以 "re:" 开头表示正则，作用于归一化后的文本（小写、连字符已转空格）
+# =============================================================
+
+settings:
+  user_agent: "rsi-autoresearch-tracker/1.0 (+https://github.com/yunyiforge/rsi-autoresearch-tracker)"
+  timeout: 30
+  retries: 3
+
+# ---------- 主题：决定一条数据是否“相关” ----------
+topics:
+  rsi:
+    label: "RSI · 递归自我改进"
+    keywords:
+      - recursive self improv*
+      - recursively self improving
+      - self improv*
+      - self evolving
+      - self evolution
+      - self rewarding
+      - self refine*
+      - self modifying
+      - self modification
+      - self referential
+      - self taught optimizer
+      - godel machine
+      - godel agent
+      - darwin godel machine
+      - intelligence explosion
+      - automated ai research
+      - automating ai research
+      - ai r&d automation
+      - automated ai r&d
+      - open endedness
+      - open ended learning
+      - automated design of agentic systems
+      - meta agent search
+      - alphaevolve
+      - openevolve
+  autoresearch:
+    label: "AutoResearch · AI 自动科研"
+    keywords:
+      - autoresearch
+      - auto research
+      - ai scientist*
+      - ai co scientist
+      - automated scientific discovery
+      - autonomous scientific discovery
+      - ai driven scientific discovery
+      - ai for scientific discovery
+      - automated research
+      - autonomous research
+      - research agent*
+      - scientific agent*
+      - science agent*
+      - agent laboratory
+      - automated science
+      - automating science
+      - automated experimentation
+      - autonomous experimentation
+      - research automation
+      - hypothesis generation
+      - research idea*
+      - paper replication
+      - paper reproduction
+      - ml engineering agent*
+      - machine learning engineering agent*
+      - ml research agent*
+      - kaggle agent*
+      - deep research agent*
+      - automated paper writing
+      - automated peer review
+      - mle bench
+      - re bench
+      - paperbench
+
+# 命中任意一个即丢弃（排除“个人成长类 self-improvement”等噪声）
+exclude_keywords:
+  - self help
+  - personal development
+  - life coach*
+  - self improvement tips
+
+# ---------- 标签：多标签，用于细分与下游数据集构建 ----------
+tags:
+  benchmark: ["benchmark*", "re:\\w*bench\\b", "leaderboard*", "evaluation suite", "eval suite", "testbed"]
+  framework: ["framework*", "toolkit", "library", "platform", "sdk", "open source implementation"]
+  survey: ["survey*", "systematic review", "a review of", "overview of", "position paper"]
+  dataset: ["dataset*", "corpus", "corpora"]
+  safety: ["ai safety", "alignment", "misalign*", "oversight", "dangerous capabilit*", "sabotage", "reward hacking", "control evaluation*"]
+  evolutionary-search: ["evolutionary", "evolution strateg*", "genetic programming", "alphaevolve", "openevolve", "funsearch", "open ended*", "quality diversity", "novelty search"]
+  code-agent: ["coding agent*", "code agent*", "software engineering agent*", "swe bench", "program synthesis", "code generation"]
+  ml-engineering: ["ml engineering", "machine learning engineering", "kaggle", "mle bench", "automl", "hyperparameter*", "neural architecture search"]
+  paper-replication: ["paper replication", "paper reproduction", "research replication", "replicate research", "replicating research", "reproduce research", "reproducing research", "replicate papers", "replicating papers", "reproduce papers", "reproducing papers", "computational reproducibility", "paperbench", "core bench"]
+  idea-generation: ["idea generation", "research idea*", "hypothesis generation", "novelty"]
+  prompt-optimization: ["prompt optimi*", "prompt evolution", "promptbreeder", "dspy", "textgrad", "gepa"]
+  self-training: ["self training", "self play", "self rewarding", "self instruct", "self generated data", "self distill*", "synthetic data"]
+  multi-agent: ["multi agent*", "agent collaboration"]
+  science-domain: ["chemistry", "biology", "materials science", "physics", "drug discovery", "protein*", "genomic*"]
+
+# ---------- 数据源 ----------
+# queries 中的 topic 是“查询提示”：对 require_keyword_match=false 的数据源，
+# 命中该查询即视为属于该主题（即使正文没出现关键词）。
+sources:
+  arxiv:
+    enabled: true
+    max_results: 50          # 每个查询返回最新 N 篇
+    delay_seconds: 3.5       # arXiv 要求请求间隔 >= 3 秒
+    require_keyword_match: false
+    min_relevance: 1
+    categories: [cs.AI, cs.LG, cs.CL, cs.MA, cs.NE, cs.SE]
+    queries:                 # 不含冒号的 q 会被包装成 all:"<q>"；含冒号视为原始 arXiv 查询语法
+      - {q: "recursive self-improvement", topic: rsi}
+      - {q: "self-improving agent", topic: rsi}
+      - {q: "self-improving language model", topic: rsi}
+      - {q: "self-evolving agent", topic: rsi}
+      - {q: "Godel machine", topic: rsi}
+      - {q: "self-rewarding language model", topic: rsi}
+      - {q: "automated design of agentic systems", topic: rsi}
+      - {q: "automated AI research", topic: rsi}
+      - {q: "AI scientist", topic: autoresearch}
+      - {q: "automated scientific discovery", topic: autoresearch}
+      - {q: "research agent", topic: autoresearch}
+      - {q: "autonomous research", topic: autoresearch}
+      - {q: "machine learning engineering agent", topic: autoresearch}
+      - {q: 'all:replication AND all:benchmark AND all:agent', topic: autoresearch}
+      - {q: 'all:"hypothesis generation" AND all:LLM', topic: autoresearch}
+
+  github:
+    enabled: true
+    per_page: 50
+    min_stars: 10            # 默认附加 stars:>=N（查询中已写 stars: 时不附加）
+    delay_seconds: 2.5       # Search API 限额 30 次/分钟（带 token）
+    require_keyword_match: true   # 仓库名/描述/topics 必须命中主题关键词（README 命中不算），保证精度
+    min_relevance: 1
+    enrich_curated: true     # 用 /repos API 给精选框架/benchmark 补充 star、最近提交等
+    queries:
+      - {q: '"recursive self-improvement" in:name,description,readme', topic: rsi}
+      - {q: '"self-improving" agent in:name,description', topic: rsi}
+      - {q: '"self-evolving" agent in:name,description', topic: rsi}
+      - {q: '"godel machine" in:name,description', topic: rsi}
+      - {q: 'topic:self-improving', topic: rsi}
+      - {q: 'autoresearch in:name,description', topic: autoresearch}
+      - {q: 'autoresearch in:name,description', topic: autoresearch, sort: updated}
+      - {q: 'topic:autoresearch', topic: autoresearch}
+      - {q: '"ai scientist" in:name,description', topic: autoresearch}
+      - {q: 'topic:ai-scientist', topic: autoresearch}
+      - {q: '"research agent" in:name,description', topic: autoresearch}
+      - {q: '"scientific discovery" agent in:description', topic: autoresearch}
+      - {q: '"automated research" in:description', topic: autoresearch}
+      - {q: '"deep research" agent in:name,description stars:>=200', topic: autoresearch}
+
+  hn:
+    enabled: true
+    lookback_days: 30
+    hits_per_page: 50
+    min_points: 5
+    require_keyword_match: true   # HN 搜索较宽泛，必须标题/正文命中主题关键词
+    min_relevance: 1
+    queries:
+      - recursive self-improvement
+      - self-improving AI
+      - self-improving agent
+      - autoresearch
+      - AI scientist
+      - automated research
+      - research agent
+      - Darwin Godel Machine
+      - AlphaEvolve
+      - MLE-bench
+      - PaperBench
+
+  rss:
+    enabled: true
+    lookback_days: 60
+    max_items_per_feed: 50
+    require_keyword_match: true   # 博客内容宽泛，必须命中主题关键词
+    min_relevance: 1
+    feeds:
+      - {name: Import AI, url: "https://importai.substack.com/feed"}
+      - {name: Interconnects, url: "https://www.interconnects.ai/feed"}
+      - {name: AI Alignment Forum, url: "https://www.alignmentforum.org/feed.xml"}
+      - {name: Hugging Face Blog, url: "https://huggingface.co/blog/feed.xml"}
+      - {name: Google DeepMind Blog, url: "https://deepmind.google/blog/rss.xml"}
+      - {name: OpenAI News, url: "https://openai.com/news/rss.xml"}
+      - {name: Google Research Blog, url: "https://research.google/blog/rss/"}
+      - {name: BAIR Blog, url: "https://bair.berkeley.edu/blog/feed.xml"}
+      - {name: Lil'Log, url: "https://lilianweng.github.io/index.xml"}
+      - {name: Simon Willison, url: "https://simonwillison.net/atom/everything/"}
+      - {name: Sakana AI, url: "https://sakana.ai/feed.xml"}
+      - {name: METR, url: "https://metr.org/feed.xml"}
+
+# ---------- 数据集构建 ----------
+datasets:
+  frameworks:
+    min_stars: 100          # 自动发现的框架候选的最低 star 数
+    max_candidates: 80
+    exclude_keywords: ["awesome*", "curated list*", "paper list", "reading list", "papers list", "interview question*", "cheat sheet", "tutorial*", "course"]  # 资源清单/教程类仓库不算框架
+    categories:             # 自动候选的类别判定，按顺序取第一个命中
+      autoresearch-system: ["ai scientist*", "autoresearch", "agent laboratory", "automated research", "autonomous research", "scientific discovery", "research agent*"]
+      deep-research: ["deep research", "research report*", "web research"]
+      ml-engineering-agent: ["ml engineering", "machine learning engineering", "kaggle", "automl", "data science agent*"]
+      self-improvement: ["self improv*", "self evolving", "godel", "self modifying", "self rewarding", "recursive"]
+      evolutionary-search: ["evolutionary", "evolve*", "alphaevolve", "funsearch", "open ended*"]
+      prompt-program-optimization: ["prompt optimi*", "dspy", "textgrad", "optimiz*"]
+      agent-infra: ["agent*"]
+  benchmarks:
+    max_candidates: 150
+    focus:                  # benchmark 领域判定，按顺序取第一个命中
+      paper-replication: ["paper replication", "paper reproduction", "research replication", "replicate research", "replicating research", "reproduce research", "reproducing research", "replicate papers", "replicating papers", "reproduce papers", "reproducing papers", "computational reproducibility", "paperbench"]
+      ml-engineering: ["ml engineering", "machine learning engineering", "kaggle", "mle bench", "automl"]
+      ai-rnd: ["ai r&d", "research engineering", "re bench", "ai research"]
+      research-ideation: ["idea*", "hypothes*", "novelty", "peer review"]
+      scientific-discovery: ["scientific discovery", "chemistry", "biology", "materials", "physics", "science*", "scientific"]
+      coding: ["software engineering", "coding", "swe bench", "code"]
+      self-improvement: ["self improv*", "self evolving"]
+      general-agent: ["agent*"]
+  benchmark_tasks:
+    enabled: true
+    max_tasks: 500

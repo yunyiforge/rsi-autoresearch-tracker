@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-11-03T09:01:29Z",
+  "run_date": "2026-11-03",
+  "mode": "offline-build",
+  "counts": {
+    "items_total": 893,
+    "new_this_run": 0,
+    "new_today": 893,
+    "by_source": {
+      "arxiv": 473,
+      "github": 406,
+      "hn": 10,
+      "rss": 4
+    },
+    "by_type": {
+      "paper": 473,
+      "repo": 406,
+      "discussion": 10,
+      "article": 4
+    },
+    "by_topic": {
+      "autoresearch": 556,
+      "rsi": 384
+    },
+    "by_tag": {
+      "benchmark": 292,
+      "framework": 282,
+      "multi-agent": 103,
+      "has-code": 102,
+      "code-agent": 88,
+      "dataset": 85,
+      "idea-generation": 82,
+      "evolutionary-search": 66,
+      "safety": 54,
+      "science-domain": 38,
+      "ml-engineering": 29,
+      "survey": 23,
+      "self-training": 21,
+      "prompt-optimization": 16,
+      "paper-replication": 5
+    }
+  },
+  "frameworks": {
+    "total": 112,
+    "curated": 32,
+    "candidates": 80,
+    "by_category": {
+      "self-improvement": 45,
+      "autoresearch-system": 38,
+      "agent-infra": 10,
+      "deep-research": 5,
+      "other": 5,
+      "evolutionary-search": 4,
+      "prompt-program-optimization": 4,
+      "ml-engineering-agent": 1
+    }
+  },
+  "benchmarks": {
+    "total": 76,
+    "curated": 16,
+    "candidates": 60,
+    "by_focus": {
+      "general-agent": 16,
+      "coding": 15,
+      "research-ideation": 12,
+      "scientific-discovery": 10,
+      "ai-rnd": 7,
+      "self-improvement": 6,
+      "ml-engineering": 5,
+      "paper-replication": 5
+    }
+  },
+  "benchmark_tasks": 100,
+  "sources": {},
+  "pipeline": {
+    "collected": 0,
+    "irrelevant_filtered": 0,
+    "duplicates_removed": 0,
+    "cross_links": 7,
+    "enrich_errors": [],
+    "http_requests": 0
+  },
+  "quality": {
+    "invalid_dropped": 0,
+    "duplicate_urls_within_source": 0,
+    "dropped_examples": [],
+    "record_errors": 0,
+    "passed": true
+  }
+}

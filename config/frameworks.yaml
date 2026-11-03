@@ -1,0 +1,279 @@
+# 精选技术框架清单（人工维护的种子数据）
+# 每天运行时会通过 GitHub API 自动补充 stars / forks / 语言 / 最近提交等字段，
+# 并与自动发现的仓库合并生成 data/frameworks.json 与 reports/FRAMEWORKS.md。
+#
+# 字段：name(必填) repo(owner/name) url category topics[rsi|autoresearch] org arxiv_id year description
+# category 取值：autoresearch-system / deep-research / ml-engineering-agent / self-improvement /
+#               evolutionary-search / prompt-program-optimization / agent-infra
+
+# ---------- AutoResearch：端到端自动科研系统 ----------
+- name: autoresearch
+  repo: karpathy/autoresearch
+  category: autoresearch-system
+  topics: [autoresearch, rsi]
+  org: Andrej Karpathy
+  year: 2026
+  description: 让 AI agent 在单 GPU 上自主修改训练代码、跑实验、保留改进的极简自动科研循环
+
+- name: The AI Scientist
+  repo: SakanaAI/AI-Scientist
+  category: autoresearch-system
+  topics: [autoresearch]
+  org: Sakana AI
+  arxiv_id: "2408.06292"
+  year: 2024
+  description: 从想法生成、写代码做实验到撰写论文与自动评审的全自动科研流水线
+
+- name: The AI Scientist-v2
+  repo: SakanaAI/AI-Scientist-v2
+  category: autoresearch-system
+  topics: [autoresearch]
+  org: Sakana AI
+  arxiv_id: "2504.08066"
+  year: 2025
+  description: 基于 agentic tree search 的第二代 AI Scientist，产出过通过 workshop 评审的论文
+
+- name: Agent Laboratory
+  repo: SamuelSchmidgall/AgentLaboratory
+  category: autoresearch-system
+  topics: [autoresearch]
+  org: AMD / JHU
+  arxiv_id: "2501.04227"
+  year: 2025
+  description: 文献综述→实验→报告撰写的多 agent 科研助手，支持人类在环
+
+- name: AI-Researcher
+  repo: HKUDS/AI-Researcher
+  category: autoresearch-system
+  topics: [autoresearch]
+  org: HKU Data Intelligence Lab
+  year: 2025
+  description: 端到端自动化科研框架，覆盖文献、想法、实现、实验与论文写作
+
+- name: RD-Agent
+  repo: microsoft/RD-Agent
+  category: autoresearch-system
+  topics: [autoresearch, rsi]
+  org: Microsoft
+  year: 2024
+  description: 面向数据驱动研发（量化、Kaggle、模型研发）的自动 R&D agent 框架
+
+- name: data-to-paper
+  repo: Technion-Kishony-lab/data-to-paper
+  category: autoresearch-system
+  topics: [autoresearch]
+  org: Technion
+  year: 2024
+  description: 从数据出发、可追溯地自动完成假设→分析→论文写作的科研流程
+
+- name: PaperQA2
+  repo: Future-House/paper-qa
+  category: autoresearch-system
+  topics: [autoresearch]
+  org: FutureHouse
+  arxiv_id: "2409.13740"
+  year: 2024
+  description: 面向科学文献的高精度 RAG / 文献综述 agent
+
+# ---------- 深度研究（Deep Research）----------
+- name: STORM
+  repo: stanford-oval/storm
+  category: deep-research
+  topics: [autoresearch]
+  org: Stanford OVAL
+  arxiv_id: "2402.14207"
+  year: 2024
+  description: 多视角提问 + 检索，自动生成维基百科式长篇研究报告
+
+- name: GPT Researcher
+  repo: assafelovic/gpt-researcher
+  category: deep-research
+  topics: [autoresearch]
+  year: 2023
+  description: 开源自主研究 agent，自动检索并生成带引用的研究报告
+
+- name: Open Deep Research
+  repo: langchain-ai/open_deep_research
+  category: deep-research
+  topics: [autoresearch]
+  org: LangChain
+  year: 2025
+  description: 可配置的开源 deep research agent 参考实现
+
+- name: deep-research
+  repo: dzhng/deep-research
+  category: deep-research
+  topics: [autoresearch]
+  year: 2025
+  description: 极简的迭代式深度研究 agent 实现
+
+# ---------- ML 工程 agent ----------
+- name: AIDE
+  repo: WecoAI/aideml
+  category: ml-engineering-agent
+  topics: [autoresearch, rsi]
+  org: Weco AI
+  arxiv_id: "2502.13138"
+  year: 2024
+  description: 在代码空间做树搜索的 ML 工程 agent，MLE-bench 上的主力基线
+
+# ---------- 自我改进 / RSI ----------
+- name: Darwin Gödel Machine
+  repo: jennyzzt/dgm
+  category: self-improvement
+  topics: [rsi]
+  org: Sakana AI / UBC
+  arxiv_id: "2505.22954"
+  year: 2025
+  description: 通过开放式进化不断改写自身代码的自我改进编码 agent
+
+- name: Gödel Agent
+  repo: Arvid-pku/Godel_Agent
+  category: self-improvement
+  topics: [rsi]
+  arxiv_id: "2410.04444"
+  year: 2024
+  description: 受 Gödel machine 启发、可递归修改自身逻辑的自指 agent 框架
+
+- name: Self-Improving Coding Agent (SICA)
+  repo: MaximeRobeyns/self_improving_coding_agent
+  category: self-improvement
+  topics: [rsi]
+  org: University of Bristol
+  arxiv_id: "2504.15228"
+  year: 2025
+  description: 能编辑自身代码库以提升基准成绩的编码 agent
+
+- name: ADAS (Meta Agent Search)
+  repo: ShengranHu/ADAS
+  category: self-improvement
+  topics: [rsi]
+  org: UBC / Vector Institute
+  arxiv_id: "2408.08435"
+  year: 2024
+  description: 用 meta agent 自动设计、迭代新的 agent 系统（Automated Design of Agentic Systems）
+
+- name: STOP (Self-Taught Optimizer)
+  repo: microsoft/stop
+  category: self-improvement
+  topics: [rsi]
+  org: Microsoft Research
+  arxiv_id: "2310.02304"
+  year: 2023
+  description: 递归改进“改进器”代码本身的自我优化脚手架
+
+- name: Voyager
+  repo: MineDojo/Voyager
+  category: self-improvement
+  topics: [rsi]
+  org: NVIDIA / Caltech
+  arxiv_id: "2305.16291"
+  year: 2023
+  description: 通过自动课程与技能库持续自我扩展能力的终身学习 agent
+
+# ---------- 进化式搜索 / 开放式发现 ----------
+- name: AlphaEvolve
+  url: https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/
+  category: evolutionary-search
+  topics: [rsi, autoresearch]
+  org: Google DeepMind
+  arxiv_id: "2506.13131"
+  year: 2025
+  description: Gemini 驱动的进化式编码 agent，用于算法与数学发现（未开源）
+
+- name: OpenEvolve
+  repo: codelion/openevolve
+  category: evolutionary-search
+  topics: [rsi, autoresearch]
+  year: 2025
+  description: AlphaEvolve 的开源实现，LLM 驱动的程序进化框架
+
+- name: ShinkaEvolve
+  repo: SakanaAI/ShinkaEvolve
+  category: evolutionary-search
+  topics: [rsi, autoresearch]
+  org: Sakana AI
+  year: 2025
+  description: 样本高效的 LLM 程序进化框架，面向开放式科学发现
+
+- name: FunSearch
+  repo: google-deepmind/funsearch
+  category: evolutionary-search
+  topics: [autoresearch]
+  org: Google DeepMind
+  year: 2023
+  description: LLM + 进化搜索在数学问题上发现新构造的方法
+
+# ---------- Prompt / 程序自动优化 ----------
+- name: DSPy
+  repo: stanfordnlp/dspy
+  category: prompt-program-optimization
+  topics: [rsi]
+  org: Stanford NLP
+  arxiv_id: "2310.03714"
+  year: 2023
+  description: 声明式 LM 程序与自动 prompt/权重优化框架
+
+- name: TextGrad
+  repo: zou-group/textgrad
+  category: prompt-program-optimization
+  topics: [rsi]
+  org: Stanford
+  arxiv_id: "2406.07496"
+  year: 2024
+  description: 用文本“梯度”反向传播优化复合 AI 系统
+
+- name: GEPA
+  repo: gepa-ai/gepa
+  category: prompt-program-optimization
+  topics: [rsi]
+  arxiv_id: "2507.19457"
+  year: 2025
+  description: 基于反思与 Pareto 进化的 prompt 优化器
+
+- name: GPTSwarm
+  repo: metauto-ai/GPTSwarm
+  category: prompt-program-optimization
+  topics: [rsi]
+  arxiv_id: "2402.16823"
+  year: 2024
+  description: 把 agent 建模为可优化计算图，自动优化节点 prompt 与连接
+
+# ---------- Agent 基础设施（常用于搭建自我改进 / 自动科研循环）----------
+- name: OpenHands
+  repo: All-Hands-AI/OpenHands
+  category: agent-infra
+  topics: [rsi, autoresearch]
+  year: 2024
+  description: 开源软件工程 agent 平台，常作为自我改进编码循环的执行器
+
+- name: SWE-agent
+  repo: SWE-agent/SWE-agent
+  category: agent-infra
+  topics: [rsi]
+  org: Princeton / Stanford
+  year: 2024
+  description: 面向真实仓库修复的编码 agent 与 agent-computer interface
+
+- name: MetaGPT
+  repo: geekan/MetaGPT
+  category: agent-infra
+  topics: [autoresearch]
+  year: 2023
+  description: 多 agent 协作框架，含 Data Interpreter 等数据科学 agent
+
+- name: AutoGen
+  repo: microsoft/autogen
+  category: agent-infra
+  topics: [autoresearch]
+  org: Microsoft
+  year: 2023
+  description: 多 agent 对话与编排框架
+
+- name: smolagents
+  repo: huggingface/smolagents
+  category: agent-infra
+  topics: [autoresearch]
+  org: Hugging Face
+  year: 2024
+  description: 轻量级 code-agent 框架，官方含 open deep research 示例

@@ -1,0 +1,174 @@
+# 精选 Benchmark 清单（人工维护的种子数据）
+# 流水线会：用 GitHub API 补充仓库 star 等信息；把采集到的论文/仓库与这里的条目关联为 evidence；
+# 再与自动发现的 benchmark 候选合并，生成 data/benchmarks.jsonl / .csv 与 reports/BENCHMARKS.md。
+#
+# 字段：name(必填) focus topics org arxiv_id repo homepage year tasks metric description
+# focus 取值：paper-replication / ml-engineering / ai-rnd / research-ideation /
+#            scientific-discovery / coding / self-improvement / general-agent
+
+- name: MLE-bench
+  focus: ml-engineering
+  topics: [autoresearch, rsi]
+  org: OpenAI
+  arxiv_id: "2410.07095"
+  repo: openai/mle-bench
+  year: 2024
+  tasks: 75 个 Kaggle 竞赛
+  metric: 获得 Kaggle 奖牌的比例
+  description: 用真实 Kaggle 竞赛评测 agent 的端到端 ML 工程能力
+
+- name: RE-Bench
+  focus: ai-rnd
+  topics: [rsi]
+  org: METR
+  arxiv_id: "2411.15114"
+  year: 2024
+  tasks: 7 个开放式 ML 研究工程环境
+  metric: 相对参考解的归一化得分，并与人类专家 8 小时成绩对比
+  description: 衡量前沿模型的 AI 研发（AI R&D）自动化能力，RSI 风险评估的核心基准
+
+- name: PaperBench
+  focus: paper-replication
+  topics: [autoresearch, rsi]
+  org: OpenAI
+  arxiv_id: "2504.01848"
+  repo: openai/preparedness
+  year: 2025
+  tasks: 20 篇 ICML 2024 论文，约 8,316 个可打分子任务
+  metric: 基于层级 rubric 的复现得分（LLM judge 评分）
+  description: 从零复现前沿 AI 论文（理解、写代码、跑实验）
+
+- name: MLAgentBench
+  focus: ml-engineering
+  topics: [autoresearch]
+  org: Stanford
+  arxiv_id: "2310.03302"
+  repo: snap-stanford/MLAgentBench
+  year: 2023
+  tasks: 13 个 ML 实验任务
+  metric: 相对基线提升 ≥10% 的成功率
+  description: 评测 agent 进行 ML 实验（改模型、调参、跑训练）的能力
+
+- name: MLGym
+  focus: ml-engineering
+  topics: [autoresearch]
+  org: Meta
+  arxiv_id: "2502.14499"
+  repo: facebookresearch/MLGym
+  year: 2025
+  tasks: 13 个跨领域 AI 研究任务
+  metric: performance profile / AUP
+  description: 面向 AI 研究 agent 的 Gym 式环境与基准
+
+- name: MLRC-Bench
+  focus: ai-rnd
+  topics: [autoresearch]
+  arxiv_id: "2504.09702"
+  year: 2025
+  metric: 相对基线与人类最佳方案的提升
+  description: 用 ML 研究竞赛题评测 agent 提出并实现新方法的能力
+
+- name: CORE-Bench
+  focus: paper-replication
+  topics: [autoresearch]
+  org: Princeton
+  arxiv_id: "2409.11363"
+  repo: siegelz/core-bench
+  year: 2024
+  tasks: 来自 90 篇论文的 270 个任务
+  metric: 准确率
+  description: 计算可复现性基准：给定论文代码仓库复现结果
+
+- name: SUPER
+  focus: paper-replication
+  topics: [autoresearch]
+  org: AI2
+  arxiv_id: "2409.07440"
+  repo: allenai/super-benchmark
+  year: 2024
+  tasks: 45 个专家问题 + 152 个子问题 + 604 个自动生成问题
+  metric: 任务成功率
+  description: 评测 agent 在研究代码仓库中搭建环境并执行实验
+
+- name: ScienceAgentBench
+  focus: scientific-discovery
+  topics: [autoresearch]
+  org: OSU NLP
+  arxiv_id: "2410.05080"
+  repo: OSU-NLP-Group/ScienceAgentBench
+  year: 2024
+  tasks: 来自 44 篇论文的 102 个任务
+  metric: 成功率 / CodeBERTScore
+  description: 数据驱动科学发现任务上的语言 agent 评测
+
+- name: DiscoveryWorld
+  focus: scientific-discovery
+  topics: [autoresearch]
+  org: AI2
+  arxiv_id: "2406.06769"
+  repo: allenai/discoveryworld
+  year: 2024
+  tasks: 120 个虚拟科学发现任务
+  metric: 任务完成度 / 解释性知识得分
+  description: 虚拟环境中的端到端科学发现 agent 评测
+
+- name: LAB-Bench
+  focus: scientific-discovery
+  topics: [autoresearch]
+  org: FutureHouse
+  arxiv_id: "2407.10362"
+  repo: Future-House/LAB-Bench
+  year: 2024
+  tasks: 2,400+ 道生物学研究实务题
+  metric: 准确率 / 精确率
+  description: 生物学研究实际工作（文献、序列、实验方案）能力评测
+
+- name: BixBench
+  focus: scientific-discovery
+  topics: [autoresearch]
+  org: FutureHouse
+  arxiv_id: "2503.00096"
+  repo: Future-House/BixBench
+  year: 2025
+  metric: 开放式答案准确率
+  description: 计算生物学数据分析场景下的 agent 评测
+
+- name: SciCode
+  focus: scientific-discovery
+  topics: [autoresearch]
+  arxiv_id: "2407.13168"
+  repo: scicode-bench/SciCode
+  year: 2024
+  tasks: 80 个主问题 / 338 个子问题
+  metric: 通过率
+  description: 科学家编写的科研代码生成基准
+
+- name: SWE-bench
+  focus: coding
+  topics: [rsi]
+  org: Princeton
+  arxiv_id: "2310.06770"
+  repo: SWE-bench/SWE-bench
+  year: 2023
+  tasks: 2,294 个 GitHub issue（Verified 子集 500）
+  metric: 解决率 (% Resolved)
+  description: 真实仓库 issue 修复；DGM、SICA 等自我改进编码 agent 的主要评测场
+
+- name: HCAST
+  focus: general-agent
+  topics: [rsi]
+  org: METR
+  arxiv_id: "2503.17354"
+  year: 2025
+  tasks: 189 个软件/ML/网络安全任务
+  metric: 按人类完成时长校准的成功率
+  description: 人类时长校准的自主能力任务集
+
+- name: METR Time Horizon
+  focus: ai-rnd
+  topics: [rsi]
+  org: METR
+  arxiv_id: "2503.14499"
+  year: 2025
+  metric: 50% 成功率对应的人类任务时长（time horizon）
+  description: 追踪 AI 可自主完成任务时长的指数增长趋势，常用于 RSI 时间线估计

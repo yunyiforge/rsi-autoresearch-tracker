@@ -1,0 +1,2997 @@
+[
+  {
+    "id": "fw:autoresearch",
+    "name": "autoresearch",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch",
+      "rsi"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Andrej Karpathy",
+    "repo": "karpathy/autoresearch",
+    "url": "https://github.com/karpathy/autoresearch",
+    "arxiv_id": null,
+    "year": 2026,
+    "stars": 99132,
+    "forks": 13681,
+    "language": "Python",
+    "license": null,
+    "last_push": "2026-03-26T00:07:37Z",
+    "repo_status": "ok",
+    "description": "让 AI agent 在单 GPU 上自主修改训练代码、跑实验、保留改进的极简自动科研循环",
+    "evidence": [
+      "github:karpathy/autoresearch"
+    ],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:the-ai-scientist",
+    "name": "The AI Scientist",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Sakana AI",
+    "repo": "SakanaAI/AI-Scientist",
+    "url": "https://github.com/SakanaAI/AI-Scientist",
+    "arxiv_id": "2408.06292",
+    "year": 2024,
+    "stars": 14928,
+    "forks": 2087,
+    "language": "Jupyter Notebook",
+    "license": "NOASSERTION",
+    "last_push": "2025-12-19T07:46:21Z",
+    "repo_status": "ok",
+    "description": "从想法生成、写代码做实验到撰写论文与自动评审的全自动科研流水线",
+    "evidence": [
+      "github:sakanaai/ai-scientist"
+    ],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:the-ai-scientist-v2",
+    "name": "The AI Scientist-v2",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Sakana AI",
+    "repo": "SakanaAI/AI-Scientist-v2",
+    "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+    "arxiv_id": "2504.08066",
+    "year": 2025,
+    "stars": 7433,
+    "forks": 1012,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_push": "2025-12-19T07:46:32Z",
+    "repo_status": "ok",
+    "description": "基于 agentic tree search 的第二代 AI Scientist，产出过通过 workshop 评审的论文",
+    "evidence": [
+      "github:sakanaai/ai-scientist-v2"
+    ],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:agent-laboratory",
+    "name": "Agent Laboratory",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "AMD / JHU",
+    "repo": "SamuelSchmidgall/AgentLaboratory",
+    "url": "https://github.com/SamuelSchmidgall/AgentLaboratory",
+    "arxiv_id": "2501.04227",
+    "year": 2025,
+    "stars": 5916,
+    "forks": 806,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2025-08-20T21:46:43Z",
+    "repo_status": "ok",
+    "description": "文献综述→实验→报告撰写的多 agent 科研助手，支持人类在环",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:ai-researcher",
+    "name": "AI-Researcher",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "HKU Data Intelligence Lab",
+    "repo": "HKUDS/AI-Researcher",
+    "url": "https://github.com/HKUDS/AI-Researcher",
+    "arxiv_id": null,
+    "year": 2025,
+    "stars": 5866,
+    "forks": 730,
+    "language": "Python",
+    "license": null,
+    "last_push": "2025-10-16T06:47:34Z",
+    "repo_status": "ok",
+    "description": "端到端自动化科研框架，覆盖文献、想法、实现、实验与论文写作",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:rd-agent",
+    "name": "RD-Agent",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch",
+      "rsi"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Microsoft",
+    "repo": "microsoft/RD-Agent",
+    "url": "https://github.com/microsoft/RD-Agent",
+    "arxiv_id": null,
+    "year": 2024,
+    "stars": 15207,
+    "forks": 2028,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-10-21T16:01:22Z",
+    "repo_status": "ok",
+    "description": "面向数据驱动研发（量化、Kaggle、模型研发）的自动 R&D agent 框架",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:data-to-paper",
+    "name": "data-to-paper",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Technion",
+    "repo": "Technion-Kishony-lab/data-to-paper",
+    "url": "https://github.com/Technion-Kishony-lab/data-to-paper",
+    "arxiv_id": null,
+    "year": 2024,
+    "stars": 836,
+    "forks": 95,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2025-07-19T15:01:19Z",
+    "repo_status": "ok",
+    "description": "从数据出发、可追溯地自动完成假设→分析→论文写作的科研流程",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:paperqa2",
+    "name": "PaperQA2",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "FutureHouse",
+    "repo": "Future-House/paper-qa",
+    "url": "https://github.com/Future-House/paper-qa",
+    "arxiv_id": "2409.13740",
+    "year": 2024,
+    "stars": 9538,
+    "forks": 949,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-10-26T17:35:47Z",
+    "repo_status": "ok",
+    "description": "面向科学文献的高精度 RAG / 文献综述 agent",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:storm",
+    "name": "STORM",
+    "category": "deep-research",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Stanford OVAL",
+    "repo": "stanford-oval/storm",
+    "url": "https://github.com/stanford-oval/storm",
+    "arxiv_id": "2402.14207",
+    "year": 2024,
+    "stars": 31781,
+    "forks": 2999,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2025-09-30T18:07:21Z",
+    "repo_status": "ok",
+    "description": "多视角提问 + 检索，自动生成维基百科式长篇研究报告",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:gpt-researcher",
+    "name": "GPT Researcher",
+    "category": "deep-research",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": null,
+    "repo": "assafelovic/gpt-researcher",
+    "url": "https://github.com/assafelovic/gpt-researcher",
+    "arxiv_id": null,
+    "year": 2023,
+    "stars": 30455,
+    "forks": 4167,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-10-10T22:03:53Z",
+    "repo_status": "ok",
+    "description": "开源自主研究 agent，自动检索并生成带引用的研究报告",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:open-deep-research",
+    "name": "Open Deep Research",
+    "category": "deep-research",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "LangChain",
+    "repo": "langchain-ai/open_deep_research",
+    "url": "https://github.com/langchain-ai/open_deep_research",
+    "arxiv_id": null,
+    "year": 2025,
+    "stars": 12681,
+    "forks": 1861,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-08-10T18:13:37Z",
+    "repo_status": "archived",
+    "description": "可配置的开源 deep research agent 参考实现",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:deep-research",
+    "name": "deep-research",
+    "category": "deep-research",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": null,
+    "repo": "dzhng/deep-research",
+    "url": "https://github.com/dzhng/deep-research",
+    "arxiv_id": null,
+    "year": 2025,
+    "stars": 19871,
+    "forks": 2008,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_push": "2026-04-11T23:58:25Z",
+    "repo_status": "ok",
+    "description": "极简的迭代式深度研究 agent 实现",
+    "evidence": [
+      "github:dzhng/deep-research"
+    ],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:aide",
+    "name": "AIDE",
+    "category": "ml-engineering-agent",
+    "topics": [
+      "autoresearch",
+      "rsi"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Weco AI",
+    "repo": "WecoAI/aideml",
+    "url": "https://github.com/WecoAI/aideml",
+    "arxiv_id": "2502.13138",
+    "year": 2024,
+    "stars": 1607,
+    "forks": 236,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-10-16T14:33:42Z",
+    "repo_status": "ok",
+    "description": "在代码空间做树搜索的 ML 工程 agent，MLE-bench 上的主力基线",
+    "evidence": [
+      "github:wecoai/aideml",
+      "arxiv:2502.13138"
+    ],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:darwin-godel-machine",
+    "name": "Darwin Gödel Machine",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Sakana AI / UBC",
+    "repo": "jennyzzt/dgm",
+    "url": "https://github.com/jennyzzt/dgm",
+    "arxiv_id": "2505.22954",
+    "year": 2025,
+    "stars": 2479,
+    "forks": 459,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2025-08-13T10:40:14Z",
+    "repo_status": "ok",
+    "description": "通过开放式进化不断改写自身代码的自我改进编码 agent",
+    "evidence": [
+      "github:jennyzzt/dgm",
+      "arxiv:2505.22954"
+    ],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:godel-agent",
+    "name": "Gödel Agent",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": null,
+    "repo": "Arvid-pku/Godel_Agent",
+    "url": "https://github.com/Arvid-pku/Godel_Agent",
+    "arxiv_id": "2410.04444",
+    "year": 2024,
+    "stars": 239,
+    "forks": 54,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2025-09-17T22:21:44Z",
+    "repo_status": "ok",
+    "description": "受 Gödel machine 启发、可递归修改自身逻辑的自指 agent 框架",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:self-improving-coding-agent-sica",
+    "name": "Self-Improving Coding Agent (SICA)",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "University of Bristol",
+    "repo": "MaximeRobeyns/self_improving_coding_agent",
+    "url": "https://github.com/MaximeRobeyns/self_improving_coding_agent",
+    "arxiv_id": "2504.15228",
+    "year": 2025,
+    "stars": 414,
+    "forks": 71,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2025-04-23T23:28:42Z",
+    "repo_status": "ok",
+    "description": "能编辑自身代码库以提升基准成绩的编码 agent",
+    "evidence": [
+      "github:maximerobeyns/self_improving_coding_agent"
+    ],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:adas-meta-agent-search",
+    "name": "ADAS (Meta Agent Search)",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "UBC / Vector Institute",
+    "repo": "ShengranHu/ADAS",
+    "url": "https://github.com/ShengranHu/ADAS",
+    "arxiv_id": "2408.08435",
+    "year": 2024,
+    "stars": 1659,
+    "forks": 241,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2025-01-28T06:37:51Z",
+    "repo_status": "ok",
+    "description": "用 meta agent 自动设计、迭代新的 agent 系统（Automated Design of Agentic Systems）",
+    "evidence": [
+      "arxiv:2408.08435"
+    ],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:stop-self-taught-optimizer",
+    "name": "STOP (Self-Taught Optimizer)",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Microsoft Research",
+    "repo": "microsoft/stop",
+    "url": "https://github.com/microsoft/stop",
+    "arxiv_id": "2310.02304",
+    "year": 2023,
+    "stars": 57,
+    "forks": 7,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2024-01-01T20:28:46Z",
+    "repo_status": "ok",
+    "description": "递归改进“改进器”代码本身的自我优化脚手架",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:voyager",
+    "name": "Voyager",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "NVIDIA / Caltech",
+    "repo": "MineDojo/Voyager",
+    "url": "https://github.com/MineDojo/Voyager",
+    "arxiv_id": "2305.16291",
+    "year": 2023,
+    "stars": 7310,
+    "forks": 707,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_push": "2024-04-03T18:51:36Z",
+    "repo_status": "ok",
+    "description": "通过自动课程与技能库持续自我扩展能力的终身学习 agent",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:alphaevolve",
+    "name": "AlphaEvolve",
+    "category": "evolutionary-search",
+    "topics": [
+      "rsi",
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Google DeepMind",
+    "repo": null,
+    "url": "https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+    "arxiv_id": "2506.13131",
+    "year": 2025,
+    "stars": null,
+    "forks": null,
+    "language": null,
+    "license": null,
+    "last_push": null,
+    "repo_status": null,
+    "description": "Gemini 驱动的进化式编码 agent，用于算法与数学发现（未开源）",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:openevolve",
+    "name": "OpenEvolve",
+    "category": "evolutionary-search",
+    "topics": [
+      "rsi",
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": null,
+    "repo": "codelion/openevolve",
+    "url": "https://github.com/codelion/openevolve",
+    "arxiv_id": null,
+    "year": 2025,
+    "stars": 7696,
+    "forks": 1206,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-02T06:35:07Z",
+    "repo_status": "ok",
+    "description": "AlphaEvolve 的开源实现，LLM 驱动的程序进化框架",
+    "evidence": [],
+    "repo_moved_to": "algorithmicsuperintelligence/openevolve",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:shinkaevolve",
+    "name": "ShinkaEvolve",
+    "category": "evolutionary-search",
+    "topics": [
+      "rsi",
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Sakana AI",
+    "repo": "SakanaAI/ShinkaEvolve",
+    "url": "https://github.com/SakanaAI/ShinkaEvolve",
+    "arxiv_id": null,
+    "year": 2025,
+    "stars": 1493,
+    "forks": 296,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-10-05T04:18:29Z",
+    "repo_status": "ok",
+    "description": "样本高效的 LLM 程序进化框架，面向开放式科学发现",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:funsearch",
+    "name": "FunSearch",
+    "category": "evolutionary-search",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Google DeepMind",
+    "repo": "google-deepmind/funsearch",
+    "url": "https://github.com/google-deepmind/funsearch",
+    "arxiv_id": null,
+    "year": 2023,
+    "stars": 1140,
+    "forks": 182,
+    "language": "Jupyter Notebook",
+    "license": "Apache-2.0",
+    "last_push": "2024-02-05T10:32:18Z",
+    "repo_status": "ok",
+    "description": "LLM + 进化搜索在数学问题上发现新构造的方法",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:dspy",
+    "name": "DSPy",
+    "category": "prompt-program-optimization",
+    "topics": [
+      "rsi"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Stanford NLP",
+    "repo": "stanfordnlp/dspy",
+    "url": "https://github.com/stanfordnlp/dspy",
+    "arxiv_id": "2310.03714",
+    "year": 2023,
+    "stars": 38898,
+    "forks": 3480,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-11-02T21:05:45Z",
+    "repo_status": "ok",
+    "description": "声明式 LM 程序与自动 prompt/权重优化框架",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:textgrad",
+    "name": "TextGrad",
+    "category": "prompt-program-optimization",
+    "topics": [
+      "rsi"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Stanford",
+    "repo": "zou-group/textgrad",
+    "url": "https://github.com/zou-group/textgrad",
+    "arxiv_id": "2406.07496",
+    "year": 2024,
+    "stars": 3784,
+    "forks": 295,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2025-07-25T14:30:39Z",
+    "repo_status": "ok",
+    "description": "用文本“梯度”反向传播优化复合 AI 系统",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:gepa",
+    "name": "GEPA",
+    "category": "prompt-program-optimization",
+    "topics": [
+      "rsi"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": null,
+    "repo": "gepa-ai/gepa",
+    "url": "https://github.com/gepa-ai/gepa",
+    "arxiv_id": "2507.19457",
+    "year": 2025,
+    "stars": 7255,
+    "forks": 604,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_push": "2026-11-02T12:46:41Z",
+    "repo_status": "ok",
+    "description": "基于反思与 Pareto 进化的 prompt 优化器",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:gptswarm",
+    "name": "GPTSwarm",
+    "category": "prompt-program-optimization",
+    "topics": [
+      "rsi"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": null,
+    "repo": "metauto-ai/GPTSwarm",
+    "url": "https://github.com/metauto-ai/GPTSwarm",
+    "arxiv_id": "2402.16823",
+    "year": 2024,
+    "stars": 1066,
+    "forks": 108,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-02-05T10:39:09Z",
+    "repo_status": "ok",
+    "description": "把 agent 建模为可优化计算图，自动优化节点 prompt 与连接",
+    "evidence": [
+      "github:metauto-ai/gptswarm"
+    ],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:openhands",
+    "name": "OpenHands",
+    "category": "agent-infra",
+    "topics": [
+      "rsi",
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": null,
+    "repo": "All-Hands-AI/OpenHands",
+    "url": "https://github.com/All-Hands-AI/OpenHands",
+    "arxiv_id": null,
+    "year": 2024,
+    "stars": 92546,
+    "forks": 12342,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_push": "2026-11-03T06:17:23Z",
+    "repo_status": "ok",
+    "description": "开源软件工程 agent 平台，常作为自我改进编码循环的执行器",
+    "evidence": [],
+    "repo_moved_to": "OpenHands/OpenHands",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:swe-agent",
+    "name": "SWE-agent",
+    "category": "agent-infra",
+    "topics": [
+      "rsi"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Princeton / Stanford",
+    "repo": "SWE-agent/SWE-agent",
+    "url": "https://github.com/SWE-agent/SWE-agent",
+    "arxiv_id": null,
+    "year": 2024,
+    "stars": 20712,
+    "forks": 2264,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-11-02T23:40:08Z",
+    "repo_status": "ok",
+    "description": "面向真实仓库修复的编码 agent 与 agent-computer interface",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:metagpt",
+    "name": "MetaGPT",
+    "category": "agent-infra",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": null,
+    "repo": "geekan/MetaGPT",
+    "url": "https://github.com/geekan/MetaGPT",
+    "arxiv_id": null,
+    "year": 2023,
+    "stars": 71144,
+    "forks": 9091,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-01-21T10:12:33Z",
+    "repo_status": "ok",
+    "description": "多 agent 协作框架，含 Data Interpreter 等数据科学 agent",
+    "evidence": [],
+    "repo_moved_to": "FoundationAgents/MetaGPT",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:autogen",
+    "name": "AutoGen",
+    "category": "agent-infra",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Microsoft",
+    "repo": "microsoft/autogen",
+    "url": "https://github.com/microsoft/autogen",
+    "arxiv_id": null,
+    "year": 2023,
+    "stars": 61685,
+    "forks": 9357,
+    "language": "Python",
+    "license": "CC-BY-4.0",
+    "last_push": "2026-10-28T14:45:27Z",
+    "repo_status": "ok",
+    "description": "多 agent 对话与编排框架",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:smolagents",
+    "name": "smolagents",
+    "category": "agent-infra",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "curated",
+    "source": "curated",
+    "org": "Hugging Face",
+    "repo": "huggingface/smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "arxiv_id": null,
+    "year": 2024,
+    "stars": 30198,
+    "forks": 3189,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-10-29T12:52:33Z",
+    "repo_status": "ok",
+    "description": "轻量级 code-agent 框架，官方含 open deep research 示例",
+    "evidence": [],
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:k-dense-ai-scientific-agent-skills",
+    "name": "scientific-agent-skills",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "K-Dense-AI",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigra…",
+    "evidence": [
+      "github:k-dense-ai/scientific-agent-skills"
+    ],
+    "stars": 55898,
+    "forks": 4919,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-11-02T09:23:27Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:volcengine-openviking",
+    "name": "OpenViking",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "volcengine",
+    "repo": "volcengine/OpenViking",
+    "url": "https://github.com/volcengine/OpenViking",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+    "evidence": [
+      "github:volcengine/openviking"
+    ],
+    "stars": 41422,
+    "forks": 3372,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "last_push": "2026-11-03T08:39:01Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:letta-ai-letta",
+    "name": "letta",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "letta-ai",
+    "repo": "letta-ai/letta",
+    "url": "https://github.com/letta-ai/letta",
+    "arxiv_id": null,
+    "year": 2023,
+    "description": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+    "evidence": [
+      "github:letta-ai/letta"
+    ],
+    "stars": 25324,
+    "forks": 2665,
+    "language": null,
+    "license": "Apache-2.0",
+    "last_push": "2026-10-18T22:28:04Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:primeintellect-ai-prime-agent",
+    "name": "prime-agent",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "PrimeIntellect-ai",
+    "repo": "PrimeIntellect-ai/prime-agent",
+    "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+    "evidence": [
+      "github:primeintellect-ai/prime-agent"
+    ],
+    "stars": 22549,
+    "forks": 2493,
+    "language": "Rust",
+    "license": "NOASSERTION",
+    "last_push": "2026-11-03T02:02:06Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:alibaba-nlp-deepresearch",
+    "name": "DeepResearch",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "Alibaba-NLP",
+    "repo": "Alibaba-NLP/DeepResearch",
+    "url": "https://github.com/Alibaba-NLP/DeepResearch",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "Tongyi Deep Research, the Leading Open-source Deep Research Agent",
+    "evidence": [
+      "github:alibaba-nlp/deepresearch"
+    ],
+    "stars": 20096,
+    "forks": 1530,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-02-27T13:12:11Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:aiming-lab-autoresearchclaw",
+    "name": "AutoResearchClaw",
+    "category": "self-improvement",
+    "topics": [
+      "autoresearch",
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "aiming-lab",
+    "repo": "aiming-lab/AutoResearchClaw",
+    "url": "https://github.com/aiming-lab/AutoResearchClaw",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞",
+    "evidence": [
+      "github:aiming-lab/autoresearchclaw"
+    ],
+    "stars": 14810,
+    "forks": 1715,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-08-19T03:35:13Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:lsdefine-genericagent",
+    "name": "GenericAgent",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "lsdefine",
+    "repo": "lsdefine/GenericAgent",
+    "url": "https://github.com/lsdefine/GenericAgent",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+    "evidence": [
+      "github:lsdefine/genericagent"
+    ],
+    "stars": 14385,
+    "forks": 1664,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-11-03T08:46:08Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:orchestra-research-ai-research-skills",
+    "name": "AI-Research-SKILLs",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "Orchestra-Research",
+    "repo": "Orchestra-Research/AI-Research-SKILLs",
+    "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent with full horsepower. Maintained by Orchestra Research.",
+    "evidence": [
+      "github:orchestra-research/ai-research-skills"
+    ],
+    "stars": 14224,
+    "forks": 992,
+    "language": "TeX",
+    "license": "MIT",
+    "last_push": "2026-10-11T02:56:34Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:evermind-ai-everos",
+    "name": "EverOS",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "EverMind-AI",
+    "repo": "EverMind-AI/EverOS",
+    "url": "https://github.com/EverMind-AI/EverOS",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.",
+    "evidence": [
+      "github:evermind-ai/everos"
+    ],
+    "stars": 13794,
+    "forks": 962,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-02T17:48:42Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:memtensor-memos",
+    "name": "MemOS",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "MemTensor",
+    "repo": "MemTensor/MemOS",
+    "url": "https://github.com/MemTensor/MemOS",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support.",
+    "evidence": [
+      "github:memtensor/memos"
+    ],
+    "stars": 12235,
+    "forks": 1102,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-02T13:41:21Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:aden-hive-hive",
+    "name": "hive",
+    "category": "agent-infra",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "aden-hive",
+    "repo": "aden-hive/hive",
+    "url": "https://github.com/aden-hive/hive",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Multi-Agent Harness for Production AI",
+    "evidence": [
+      "github:aden-hive/hive"
+    ],
+    "stars": 11139,
+    "forks": 5640,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-02T10:07:20Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:companion-inc-feynman",
+    "name": "feynman",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "Companion-Inc",
+    "repo": "Companion-Inc/feynman",
+    "url": "https://github.com/Companion-Inc/feynman",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "The open source AI research agent.",
+    "evidence": [
+      "github:companion-inc/feynman"
+    ],
+    "stars": 10063,
+    "forks": 1107,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_push": "2026-10-31T14:05:32Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:mervinpraison-praisonai",
+    "name": "PraisonAI",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "MervinPraison",
+    "repo": "MervinPraison/PraisonAI",
+    "url": "https://github.com/MervinPraison/PraisonAI",
+    "arxiv_id": null,
+    "year": 2024,
+    "description": "PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG, and support for 100+ LLMs.",
+    "evidence": [
+      "github:mervinpraison/praisonai"
+    ],
+    "stars": 9318,
+    "forks": 1502,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-11-03T08:53:49Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:evomap-evolver",
+    "name": "evolver",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "EvoMap",
+    "repo": "EvoMap/evolver",
+    "url": "https://github.com/EvoMap/evolver",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai",
+    "evidence": [
+      "github:evomap/evolver"
+    ],
+    "stars": 8715,
+    "forks": 848,
+    "language": "JavaScript",
+    "license": "GPL-3.0",
+    "last_push": "2026-11-01T09:57:28Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:davebcn87-pi-autoresearch",
+    "name": "pi-autoresearch",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "davebcn87",
+    "repo": "davebcn87/pi-autoresearch",
+    "url": "https://github.com/davebcn87/pi-autoresearch",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Autonomous experiment loop extension for pi",
+    "evidence": [
+      "github:davebcn87/pi-autoresearch"
+    ],
+    "stars": 8210,
+    "forks": 470,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_push": "2026-10-07T14:17:37Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:alphaxiv-openresearch",
+    "name": "OpenResearch",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "alphaXiv",
+    "repo": "alphaXiv/OpenResearch",
+    "url": "https://github.com/alphaXiv/OpenResearch",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Turn your coding agents into research agents",
+    "evidence": [
+      "github:alphaxiv/openresearch"
+    ],
+    "stars": 7795,
+    "forks": 523,
+    "language": "Rust",
+    "license": "MIT",
+    "last_push": "2026-11-03T08:19:48Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:human-agent-society-reef",
+    "name": "reef",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "Human-Agent-Society",
+    "repo": "Human-Agent-Society/reef",
+    "url": "https://github.com/Human-Agent-Society/reef",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Infrastructure for continually self‑improving agents",
+    "evidence": [
+      "github:human-agent-society/reef"
+    ],
+    "stars": 7789,
+    "forks": 730,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-03T08:50:43Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:dwzhu-pku-paperbanana",
+    "name": "PaperBanana",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "dwzhu-pku",
+    "repo": "dwzhu-pku/PaperBanana",
+    "url": "https://github.com/dwzhu-pku/PaperBanana",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "PaperBanana: Automating Academic Illustration For AI Scientists",
+    "evidence": [
+      "github:dwzhu-pku/paperbanana"
+    ],
+    "stars": 7548,
+    "forks": 570,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-10-24T09:32:54Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:uditgoenka-autoresearch",
+    "name": "autoresearch",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "uditgoenka",
+    "repo": "uditgoenka/autoresearch",
+    "url": "https://github.com/uditgoenka/autoresearch",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Claude Autoresearch Skill — Autonomous goal-directed iteration for Claude Code. Inspired by Karpathy's autoresearch. Modify → Verify → Keep/Discard → Repeat forever.",
+    "evidence": [
+      "github:uditgoenka/autoresearch"
+    ],
+    "stars": 6791,
+    "forks": 493,
+    "language": "Shell",
+    "license": "MIT",
+    "last_push": "2026-10-31T13:56:11Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:alchaincyf-darwin-skill",
+    "name": "darwin-skill",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "alchaincyf",
+    "repo": "alchaincyf/darwin-skill",
+    "url": "https://github.com/alchaincyf/darwin-skill",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert.",
+    "evidence": [
+      "github:alchaincyf/darwin-skill"
+    ],
+    "stars": 6773,
+    "forks": 699,
+    "language": "HTML",
+    "license": "MIT",
+    "last_push": "2026-09-18T13:16:41Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:evermind-ai-raven",
+    "name": "Raven",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "EverMind-AI",
+    "repo": "EverMind-AI/Raven",
+    "url": "https://github.com/EverMind-AI/Raven",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "The Harness of Harnesses • Super Agent: a trusted, persistent, self-evolving multi-agent ecosystem for all-domain collaboration.",
+    "evidence": [
+      "github:evermind-ai/raven"
+    ],
+    "stars": 6007,
+    "forks": 233,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-03T08:46:50Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:galaxy-dawn-claude-scholar",
+    "name": "claude-scholar",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "Galaxy-Dawn",
+    "repo": "Galaxy-Dawn/claude-scholar",
+    "url": "https://github.com/Galaxy-Dawn/claude-scholar",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Semi-automated research assistant for academic research and software development. Supports Claude Code, Codex CLI, Kimi Code CLI, and OpenCode across ideation, coding, experiments, writing, and publication.",
+    "evidence": [
+      "github:galaxy-dawn/claude-scholar"
+    ],
+    "stars": 5972,
+    "forks": 468,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-10-19T10:08:11Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:aiwaves-cn-agents",
+    "name": "agents",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "aiwaves-cn",
+    "repo": "aiwaves-cn/agents",
+    "url": "https://github.com/aiwaves-cn/agents",
+    "arxiv_id": null,
+    "year": 2023,
+    "description": "An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents",
+    "evidence": [
+      "github:aiwaves-cn/agents"
+    ],
+    "stars": 5968,
+    "forks": 479,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2024-09-26T03:12:53Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:evoscientist-evoscientist",
+    "name": "EvoScientist",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch",
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "EvoScientist",
+    "repo": "EvoScientist/EvoScientist",
+    "url": "https://github.com/EvoScientist/EvoScientist",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "🔬 Harness Vibe Research with Self-evolving AI Scientists",
+    "evidence": [
+      "github:evoscientist/evoscientist"
+    ],
+    "stars": 4932,
+    "forks": 348,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-03T08:51:08Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:ruc-datalab-deepanalyze",
+    "name": "DeepAnalyze",
+    "category": "agent-infra",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "ruc-datalab",
+    "repo": "ruc-datalab/DeepAnalyze",
+    "url": "https://github.com/ruc-datalab/DeepAnalyze",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！",
+    "evidence": [
+      "github:ruc-datalab/deepanalyze"
+    ],
+    "stars": 4775,
+    "forks": 750,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-11-02T13:47:42Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:jordan-gibbs-hyperresearch",
+    "name": "hyperresearch",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "jordan-gibbs",
+    "repo": "jordan-gibbs/hyperresearch",
+    "url": "https://github.com/jordan-gibbs/hyperresearch",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Convert Claude Code or Codex into the most intelligent Deep Research Agent. Collect, search, and synthesize web research into a persistent, searchable wiki that builds on itself. Hosted API + MCP: hyperresearch.ai",
+    "evidence": [
+      "github:jordan-gibbs/hyperresearch"
+    ],
+    "stars": 4353,
+    "forks": 440,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-11-01T18:57:21Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:letta-ai-letta-code",
+    "name": "letta-code",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "letta-ai",
+    "repo": "letta-ai/letta-code",
+    "url": "https://github.com/letta-ai/letta-code",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "Agents that self-improve with experience",
+    "evidence": [
+      "github:letta-ai/letta-code"
+    ],
+    "stars": 3768,
+    "forks": 465,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-03T07:07:21Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:yilewang-llm-for-zotero",
+    "name": "llm-for-zotero",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "yilewang",
+    "repo": "yilewang/llm-for-zotero",
+    "url": "https://github.com/yilewang/llm-for-zotero",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "An open-source research agent system for your Zotero library.",
+    "evidence": [
+      "github:yilewang/llm-for-zotero"
+    ],
+    "stars": 3488,
+    "forks": 214,
+    "language": "TypeScript",
+    "license": "AGPL-3.0",
+    "last_push": "2026-11-02T16:40:49Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:anative-lab-evoagentx",
+    "name": "EvoAgentX",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "ANative-Lab",
+    "repo": "ANative-Lab/EvoAgentX",
+    "url": "https://github.com/ANative-Lab/EvoAgentX",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "🚀 EvoAgentX: Building a Self-Evolving Ecosystem of AI Agents",
+    "evidence": [
+      "github:anative-lab/evoagentx"
+    ],
+    "stars": 3414,
+    "forks": 323,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_push": "2026-10-31T01:50:36Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:sentrux-sentrux",
+    "name": "sentrux",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "sentrux",
+    "repo": "sentrux/sentrux",
+    "url": "https://github.com/sentrux/sentrux",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Real-time architectural sensor that helps AI agents close the feedback loop, enabling recursive self-improvement of code quality. Pure Rust.",
+    "evidence": [
+      "github:sentrux/sentrux"
+    ],
+    "stars": 3334,
+    "forks": 295,
+    "language": "Rust",
+    "license": "MIT",
+    "last_push": "2026-03-19T02:23:12Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:asymptote-labs-agent-beacon",
+    "name": "agent-beacon",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "Asymptote-Labs",
+    "repo": "Asymptote-Labs/agent-beacon",
+    "url": "https://github.com/Asymptote-Labs/agent-beacon",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
+    "evidence": [
+      "github:asymptote-labs/agent-beacon"
+    ],
+    "stars": 3163,
+    "forks": 279,
+    "language": "Go",
+    "license": "MIT",
+    "last_push": "2026-11-03T06:29:07Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:prism-shadow-penguin-harness",
+    "name": "penguin-harness",
+    "category": "other",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "Prism-Shadow",
+    "repo": "Prism-Shadow/penguin-harness",
+    "url": "https://github.com/Prism-Shadow/penguin-harness",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "🐧 Unified and Stable RSI Platform",
+    "evidence": [
+      "github:prism-shadow/penguin-harness"
+    ],
+    "stars": 3120,
+    "forks": 334,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-03T08:54:06Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:leo-lilinxiao-codex-autoresearch",
+    "name": "codex-autoresearch",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "leo-lilinxiao",
+    "repo": "leo-lilinxiao/codex-autoresearch",
+    "url": "https://github.com/leo-lilinxiao/codex-autoresearch",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Codex Autoresearch Skill — A self-directed iterative system for Codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. Inspired by Karpathy’s autoresearch concept.",
+    "evidence": [
+      "github:leo-lilinxiao/codex-autoresearch"
+    ],
+    "stars": 3110,
+    "forks": 130,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-09-12T14:07:51Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:evomap-autoresearch",
+    "name": "AutoResearch",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "EvoMap",
+    "repo": "EvoMap/AutoResearch",
+    "url": "https://github.com/EvoMap/AutoResearch",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "AI/ML research agents from idea to paper-ready evidence. An EvoMap open-source project.",
+    "evidence": [
+      "github:evomap/autoresearch"
+    ],
+    "stars": 3091,
+    "forks": 278,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-09-16T08:13:08Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:opennswm-lab-faros",
+    "name": "FAROS",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "OpenNSWM-Lab",
+    "repo": "OpenNSWM-Lab/FAROS",
+    "url": "https://github.com/OpenNSWM-Lab/FAROS",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "A blueprint-driven AutoResearch runtime for orchestrating AI research workflows from idea generation and experiments to paper writing and peer review.",
+    "evidence": [
+      "github:opennswm-lab/faros"
+    ],
+    "stars": 3045,
+    "forks": 388,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-10-21T12:30:47Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:phyagentos-phyagentos-core",
+    "name": "PhyAgentOS-core",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "PhyAgentOS",
+    "repo": "PhyAgentOS/PhyAgentOS-core",
+    "url": "https://github.com/PhyAgentOS/PhyAgentOS-core",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "PhyAgentOS is a Recursive Self-Improving (RSI) physical agent operating system that enables agents to recursively self-improve through agentic workflows.",
+    "evidence": [
+      "github:phyagentos/phyagentos-core"
+    ],
+    "stars": 2996,
+    "forks": 135,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-10-30T07:09:48Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:openags-paper-search-mcp",
+    "name": "paper-search-mcp",
+    "category": "other",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "openags",
+    "repo": "openags/paper-search-mcp",
+    "url": "https://github.com/openags/paper-search-mcp",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "MCP, CLI, Skills for searching and downloading academic papers from multiple sources like arXiv, PubMed, bioRxiv, etc.",
+    "evidence": [
+      "github:openags/paper-search-mcp"
+    ],
+    "stars": 2982,
+    "forks": 306,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-10-02T06:16:38Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:sahibzada-allahyar-formal-verification-rsi",
+    "name": "Formal-Verification-RSI",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "sahibzada-allahyar",
+    "repo": "sahibzada-allahyar/Formal-Verification-RSI",
+    "url": "https://github.com/sahibzada-allahyar/Formal-Verification-RSI",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "Formal verification for AI: a Lean 4 + Dafny proof checker that catches fake AI proofs (reward hacking), and verified recursive self-improvement (RSI) for coding agents. AI for math, physics and software engineering.",
+    "evidence": [
+      "github:sahibzada-allahyar/formal-verification-rsi"
+    ],
+    "stars": 2872,
+    "forks": 127,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-10-22T19:27:09Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:facebookresearch-hyperagents",
+    "name": "HyperAgents",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "facebookresearch",
+    "repo": "facebookresearch/HyperAgents",
+    "url": "https://github.com/facebookresearch/HyperAgents",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Self-referential self-improving agents that can optimize for any computable task",
+    "evidence": [
+      "github:facebookresearch/hyperagents"
+    ],
+    "stars": 2860,
+    "forks": 370,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_push": "2026-07-31T16:56:22Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:yeqing17-2026-omniagent",
+    "name": "OmniAgent",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "YeQing17-2026",
+    "repo": "YeQing17-2026/OmniAgent",
+    "url": "https://github.com/YeQing17-2026/OmniAgent",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "An agent capable of self-evolving and dynamically hardening security",
+    "evidence": [
+      "github:yeqing17-2026/omniagent"
+    ],
+    "stars": 2585,
+    "forks": 391,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_push": "2026-07-27T07:54:11Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:chrisworsey55-atlas-gic",
+    "name": "atlas-gic",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch",
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "chrisworsey55",
+    "repo": "chrisworsey55/atlas-gic",
+    "url": "https://github.com/chrisworsey55/atlas-gic",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "ATLAS by General Intelligence Capital — Self-improving AI trading agents using Karpathy-style autoresearch",
+    "evidence": [
+      "github:chrisworsey55/atlas-gic"
+    ],
+    "stars": 2367,
+    "forks": 421,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_push": "2026-09-22T11:51:44Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:guy-hartstein-company-research-agent",
+    "name": "company-research-agent",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "guy-hartstein",
+    "repo": "guy-hartstein/company-research-agent",
+    "url": "https://github.com/guy-hartstein/company-research-agent",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "An agentic company research tool powered by LangGraph and Tavily that conducts deep diligence on companies using a multi-agent framework. It leverages OpenRouter on the backend for rapid inference with any leading model.",
+    "evidence": [
+      "github:guy-hartstein/company-research-agent"
+    ],
+    "stars": 2312,
+    "forks": 318,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-10-26T14:22:46Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:anotiawang-deep-research-web-ui",
+    "name": "deep-research-web-ui",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "AnotiaWang",
+    "repo": "AnotiaWang/deep-research-web-ui",
+    "url": "https://github.com/AnotiaWang/deep-research-web-ui",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "AI deep-research agent that turns any question into a cited report: plans searches, reads real sources, verifies evidence. Self-hosted, multi-provider, Docker-ready.",
+    "evidence": [
+      "github:anotiawang/deep-research-web-ui"
+    ],
+    "stars": 2224,
+    "forks": 305,
+    "language": "TypeScript",
+    "license": null,
+    "last_push": "2026-10-26T09:22:58Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:hyperspaceai-agi",
+    "name": "agi",
+    "category": "agent-infra",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "hyperspaceai",
+    "repo": "hyperspaceai/agi",
+    "url": "https://github.com/hyperspaceai/agi",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "The first distributed AGI system. Thousands of autonomous AI agents collaboratively train models, share experiments via P2P gossip, and push breakthroughs here. Fully peer-to-peer. Join from your browser or CLI.",
+    "evidence": [
+      "github:hyperspaceai/agi"
+    ],
+    "stars": 2075,
+    "forks": 247,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_push": "2026-10-17T14:34:45Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:trevin-creator-autoresearch-mlx",
+    "name": "autoresearch-mlx",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "trevin-creator",
+    "repo": "trevin-creator/autoresearch-mlx",
+    "url": "https://github.com/trevin-creator/autoresearch-mlx",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Apple Silicon (MLX) port of Karpathy's autoresearch — autonomous AI research loops on Mac, no PyTorch required.",
+    "evidence": [
+      "github:trevin-creator/autoresearch-mlx"
+    ],
+    "stars": 1888,
+    "forks": 368,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-07-02T13:49:49Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:os-copilot-os-copilot",
+    "name": "OS-Copilot",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "OS-Copilot",
+    "repo": "OS-Copilot/OS-Copilot",
+    "url": "https://github.com/OS-Copilot/OS-Copilot",
+    "arxiv_id": null,
+    "year": 2024,
+    "description": "An self-improving embodied conversational agent seamlessly integrated into the operating system to automate our daily tasks.",
+    "evidence": [
+      "github:os-copilot/os-copilot"
+    ],
+    "stars": 1798,
+    "forks": 203,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2024-09-09T02:11:13Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:mims-harvard-tooluniverse",
+    "name": "ToolUniverse",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "mims-harvard",
+    "repo": "mims-harvard/ToolUniverse",
+    "url": "https://github.com/mims-harvard/ToolUniverse",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "Democratizing AI scientists with ToolUniverse",
+    "evidence": [
+      "github:mims-harvard/tooluniverse"
+    ],
+    "stars": 1773,
+    "forks": 268,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-03T06:41:13Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:tokenrhythm-neohorse",
+    "name": "NeoHorse",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "TokenRhythm",
+    "repo": "TokenRhythm/NeoHorse",
+    "url": "https://github.com/TokenRhythm/NeoHorse",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness.",
+    "evidence": [
+      "github:tokenrhythm/neohorse"
+    ],
+    "stars": 1694,
+    "forks": 24,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-09-26T04:42:21Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:rightnow-ai-autokernel",
+    "name": "autokernel",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "RightNow-AI",
+    "repo": "RightNow-AI/autokernel",
+    "url": "https://github.com/RightNow-AI/autokernel",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Autoresearch for GPU kernels. Give it any PyTorch model, go to sleep, wake up to optimized Triton kernels.",
+    "evidence": [
+      "github:rightnow-ai/autokernel"
+    ],
+    "stars": 1618,
+    "forks": 164,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-10-23T02:35:40Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:modelscope-agentevolver",
+    "name": "AgentEvolver",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "modelscope",
+    "repo": "modelscope/AgentEvolver",
+    "url": "https://github.com/modelscope/AgentEvolver",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "AgentEvolver: Towards Efficient Self-Evolving Agent System",
+    "evidence": [
+      "github:modelscope/agentevolver"
+    ],
+    "stars": 1590,
+    "forks": 173,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-04-01T08:47:19Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:hexdocom-lemonai",
+    "name": "lemonai",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "hexdocom",
+    "repo": "hexdocom/lemonai",
+    "url": "https://github.com/hexdocom/lemonai",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "Lemon AI is the first Full-stack Open-source Self-Evolving General AI Agent, offering a fully local alternative to Agentic platforms like Manus & Genspark AI.🔔 Official updates X(twitter) @LemonAI_cc",
+    "evidence": [
+      "github:hexdocom/lemonai"
+    ],
+    "stars": 1573,
+    "forks": 317,
+    "language": "JavaScript",
+    "license": "NOASSERTION",
+    "last_push": "2026-02-03T10:39:31Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:zhengkid-dream-rsi",
+    "name": "Dream-RSI",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "zhengkid",
+    "repo": "zhengkid/Dream-RSI",
+    "url": "https://github.com/zhengkid/Dream-RSI",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "The offical repo for \"Dream-RSI: Recursive Self-Improvement through Evolving Worlds\"",
+    "evidence": [
+      "github:zhengkid/dream-rsi"
+    ],
+    "stars": 1547,
+    "forks": 136,
+    "language": null,
+    "license": null,
+    "last_push": "2026-10-23T18:30:23Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:ghostwright-phantom",
+    "name": "phantom",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "ghostwright",
+    "repo": "ghostwright/phantom",
+    "url": "https://github.com/ghostwright/phantom",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "An AI co-worker with its own computer. Self-evolving, persistent memory, MCP server, secure credential collection, email identity. Built on the Claude Agent SDK.",
+    "evidence": [
+      "github:ghostwright/phantom"
+    ],
+    "stars": 1487,
+    "forks": 192,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "last_push": "2026-06-16T21:26:09Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:internscience-internagent",
+    "name": "InternAgent",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "InternScience",
+    "repo": "InternScience/InternAgent",
+    "url": "https://github.com/InternScience/InternAgent",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery",
+    "evidence": [
+      "github:internscience/internagent"
+    ],
+    "stars": 1465,
+    "forks": 136,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_push": "2026-07-29T07:46:45Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:dzhng-skills",
+    "name": "skills",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "dzhng",
+    "repo": "dzhng/skills",
+    "url": "https://github.com/dzhng/skills",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Reusable AI agent skills for software factories: explore ideas, write specs, implement, review, and run autonomous research. Works with Claude Code, Codex, and other skill-compatible agents.",
+    "evidence": [
+      "github:dzhng/skills"
+    ],
+    "stars": 1397,
+    "forks": 85,
+    "language": "HTML",
+    "license": "MIT",
+    "last_push": "2026-11-01T11:21:23Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:charlesq9-self-evolving-agents",
+    "name": "Self-Evolving-Agents",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "CharlesQ9",
+    "repo": "CharlesQ9/Self-Evolving-Agents",
+    "url": "https://github.com/CharlesQ9/Self-Evolving-Agents",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "",
+    "evidence": [
+      "github:charlesq9/self-evolving-agents"
+    ],
+    "stars": 1345,
+    "forks": 108,
+    "language": null,
+    "license": "Apache-2.0",
+    "last_push": "2025-10-15T08:17:14Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:huytieu-cog-second-brain",
+    "name": "COG-second-brain",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "huytieu",
+    "repo": "huytieu/COG-second-brain",
+    "url": "https://github.com/huytieu/COG-second-brain",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "Self-evolving second brain with 35 AI skills, 10 agents, and people CRM. Closed-loop harness: a V-model verification lifecycle where the worker never grades its own homework. Plus paired anti-slop design skills for marketing and product UI. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.",
+    "evidence": [
+      "github:huytieu/cog-second-brain"
+    ],
+    "stars": 1338,
+    "forks": 164,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-10-23T02:52:56Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:openraiser-nanoresearch",
+    "name": "NanoResearch",
+    "category": "other",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "OpenRaiser",
+    "repo": "OpenRaiser/NanoResearch",
+    "url": "https://github.com/OpenRaiser/NanoResearch",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "🦞+🔬 NanoResearch: The Autonomous AI Research Assistant",
+    "evidence": [
+      "github:openraiser/nanoresearch"
+    ],
+    "stars": 1338,
+    "forks": 91,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-10-09T06:06:51Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:greyhaven-ai-autocontext",
+    "name": "autocontext",
+    "category": "self-improvement",
+    "topics": [
+      "autoresearch",
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "greyhaven-ai",
+    "repo": "greyhaven-ai/autocontext",
+    "url": "https://github.com/greyhaven-ai/autocontext",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "a recursive self-improving harness designed to help your agents (and future iterations of those agents) succeed on any task",
+    "evidence": [
+      "github:greyhaven-ai/autocontext"
+    ],
+    "stars": 1317,
+    "forks": 116,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-03T04:13:12Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:aiming-lab-agent0",
+    "name": "Agent0",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "aiming-lab",
+    "repo": "aiming-lab/Agent0",
+    "url": "https://github.com/aiming-lab/Agent0",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "[ICML'26 & COLM'26] Agent0 Series: Self-Evolving Agents from Zero Data",
+    "evidence": [
+      "github:aiming-lab/agent0"
+    ],
+    "stars": 1284,
+    "forks": 150,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-07-10T07:54:20Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:zhangzhengeric-sage",
+    "name": "Sage",
+    "category": "agent-infra",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "ZHangZHengEric",
+    "repo": "ZHangZHengEric/Sage",
+    "url": "https://github.com/ZHangZHengEric/Sage",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "An RSI Agent Harness for running, evaluating, and evolving agents—with tools, skills, MCP, stateful execution, and multi-agent workflows.",
+    "evidence": [
+      "github:zhangzhengeric/sage"
+    ],
+    "stars": 1220,
+    "forks": 113,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-11-03T08:32:58Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:openlair-dr-claw",
+    "name": "dr-claw",
+    "category": "other",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "OpenLAIR",
+    "repo": "OpenLAIR/dr-claw",
+    "url": "https://github.com/OpenLAIR/dr-claw",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "A Super AI Lab with massive AI Doctors as Assistants. Best IDE for Research via AI Power.",
+    "evidence": [
+      "github:openlair/dr-claw"
+    ],
+    "stars": 1192,
+    "forks": 140,
+    "language": "JavaScript",
+    "license": "NOASSERTION",
+    "last_push": "2026-10-26T21:41:08Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:mattprusak-autoresearch-genealogy",
+    "name": "autoresearch-genealogy",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "mattprusak",
+    "repo": "mattprusak/autoresearch-genealogy",
+    "url": "https://github.com/mattprusak/autoresearch-genealogy",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Structured prompts, vault templates, and archive guides for AI-assisted genealogy research. Built for Claude Code.",
+    "evidence": [
+      "github:mattprusak/autoresearch-genealogy"
+    ],
+    "stars": 1189,
+    "forks": 122,
+    "language": "Ruby",
+    "license": "MIT",
+    "last_push": "2026-06-30T03:46:55Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:polyuiislab-infiagent",
+    "name": "infiAgent",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "polyuiislab",
+    "repo": "polyuiislab/infiAgent",
+    "url": "https://github.com/polyuiislab/infiAgent",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "Build your own Cowork, AI Scientist and other SoTA Agents just by editing config files. Support anthropic skills. An infinite-horizon agent framework designed for long-running, complex tasks.",
+    "evidence": [
+      "github:polyuiislab/infiagent"
+    ],
+    "stars": 1189,
+    "forks": 48,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "last_push": "2026-07-11T17:43:37Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:withkynam-vibecode-pro-max-kit",
+    "name": "vibecode-pro-max-kit",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "withkynam",
+    "repo": "withkynam/vibecode-pro-max-kit",
+    "url": "https://github.com/withkynam/vibecode-pro-max-kit",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Your AI forgets. This remembers. Spec-driven coding harness for vibecoders, product owners, CEOs and real builders — self-improving context memory, 15 agents, 33 skills working with /goal, agent-team, & workflow on autopilot loops with 0 need for human gate. Kills context rot, ships features, not s…",
+    "evidence": [
+      "github:withkynam/vibecode-pro-max-kit"
+    ],
+    "stars": 1165,
+    "forks": 233,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_push": "2026-06-21T08:31:44Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:rashakil-ds-roadmap-docs",
+    "name": "Roadmap-Docs",
+    "category": "other",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "rashakil-ds",
+    "repo": "rashakil-ds/Roadmap-Docs",
+    "url": "https://github.com/rashakil-ds/Roadmap-Docs",
+    "arxiv_id": null,
+    "year": 2024,
+    "description": "Best Data Science, Data Analytics, AI, and SDE roadmaps. This repository is continually updated based on the top job postings on LinkedIn and Indeed in the data science and AI domain.",
+    "evidence": [
+      "github:rashakil-ds/roadmap-docs"
+    ],
+    "stars": 1152,
+    "forks": 531,
+    "language": null,
+    "license": null,
+    "last_push": "2026-10-21T18:28:53Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:ruc-nlpir-arbor",
+    "name": "Arbor",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "RUC-NLPIR",
+    "repo": "RUC-NLPIR/Arbor",
+    "url": "https://github.com/RUC-NLPIR/Arbor",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "A generalist autonomous research agent — runs experiments, researches, and iteratively optimizes, autonomously.",
+    "evidence": [
+      "github:ruc-nlpir/arbor"
+    ],
+    "stars": 1140,
+    "forks": 129,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-03T05:57:10Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:xiangyue-zhang-auto-deep-researcher-24x7",
+    "name": "auto-deep-researcher-24x7",
+    "category": "agent-infra",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "Xiangyue-Zhang",
+    "repo": "Xiangyue-Zhang/auto-deep-researcher-24x7",
+    "url": "https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "🔥 An autonomous AI agent that runs your deep learning experiments 24/7 while you sleep. Zero-cost monitoring, Leader-Worker architecture, constant-size memory.",
+    "evidence": [
+      "github:xiangyue-zhang/auto-deep-researcher-24x7"
+    ],
+    "stars": 1139,
+    "forks": 95,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-06-03T03:18:50Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:ruc-datalab-evoontology",
+    "name": "EvoOntology",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "ruc-datalab",
+    "repo": "ruc-datalab/EvoOntology",
+    "url": "https://github.com/ruc-datalab/EvoOntology",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化本体层",
+    "evidence": [
+      "github:ruc-datalab/evoontology"
+    ],
+    "stars": 1126,
+    "forks": 97,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-10-09T15:55:00Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:human-agent-society-coral",
+    "name": "CORAL",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch",
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "Human-Agent-Society",
+    "repo": "Human-Agent-Society/CORAL",
+    "url": "https://github.com/Human-Agent-Society/CORAL",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Open-source autoresearch powered by autonomous coding agents. Run Claude Code, OpenCode, and Codex with grading, shared knowledge, and multi-agent evolution. Accepted at COLM 2026.",
+    "evidence": [
+      "github:human-agent-society/coral"
+    ],
+    "stars": 1117,
+    "forks": 143,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_push": "2026-10-19T05:19:16Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:gen-verse-rsi-anything",
+    "name": "RSI-Anything",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "Gen-Verse",
+    "repo": "Gen-Verse/RSI-Anything",
+    "url": "https://github.com/Gen-Verse/RSI-Anything",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+    "evidence": [
+      "github:gen-verse/rsi-anything"
+    ],
+    "stars": 1105,
+    "forks": 115,
+    "language": "HTML",
+    "license": "Apache-2.0",
+    "last_push": "2026-10-13T10:00:45Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:opencrabs-opencrabs",
+    "name": "opencrabs",
+    "category": "deep-research",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "opencrabs",
+    "repo": "opencrabs/opencrabs",
+    "url": "https://github.com/opencrabs/opencrabs",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "The all-in-one AI agent. Build mobile apps, frontend, backend, manages files, deep research, schedule tasks and events. Self-improving, self-healing, fully autonomous. TUI, CLI and Daemon. Connect to your favorite channels. Zero Telemetry.",
+    "evidence": [
+      "github:opencrabs/opencrabs"
+    ],
+    "stars": 1024,
+    "forks": 106,
+    "language": "Rust",
+    "license": "MIT",
+    "last_push": "2026-11-03T08:43:16Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:wangziqi06-724-office",
+    "name": "724-office",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "wangziqi06",
+    "repo": "wangziqi06/724-office",
+    "url": "https://github.com/wangziqi06/724-office",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "7/24 Office — Self-evolving AI Agent system. 36 tools, 10,000 lines pure Python, modular architecture, MCP plugins, three-layer memory, nudge system, AI mirror, 24/7 production.",
+    "evidence": [
+      "github:wangziqi06/724-office"
+    ],
+    "stars": 1021,
+    "forks": 171,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_push": "2026-07-31T07:53:16Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:xvirobotics-metabot",
+    "name": "metabot",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "xvirobotics",
+    "repo": "xvirobotics/metabot",
+    "url": "https://github.com/xvirobotics/metabot",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "构建受监督的、自我进化的 Agent 组织的基础设施 | Infrastructure for supervised, self-improving agent organization. 飞书/Telegram 手机端运行 Claude Code 或 Kimi Code（双引擎，两家原生订阅直接用），共享记忆、Agent 工厂、定时任务、通信总线。",
+    "evidence": [
+      "github:xvirobotics/metabot"
+    ],
+    "stars": 1001,
+    "forks": 168,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_push": "2026-10-26T00:13:56Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:olelehmann1337-autoresearch-skill",
+    "name": "autoresearch-skill",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "olelehmann1337",
+    "repo": "olelehmann1337/autoresearch-skill",
+    "url": "https://github.com/olelehmann1337/autoresearch-skill",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "",
+    "evidence": [
+      "github:olelehmann1337/autoresearch-skill"
+    ],
+    "stars": 979,
+    "forks": 120,
+    "language": null,
+    "license": null,
+    "last_push": "2026-03-18T07:36:13Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:kulaxyz-self-learning-skills",
+    "name": "self-learning-skills",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "Kulaxyz",
+    "repo": "Kulaxyz/self-learning-skills",
+    "url": "https://github.com/Kulaxyz/self-learning-skills",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.",
+    "evidence": [
+      "github:kulaxyz/self-learning-skills"
+    ],
+    "stars": 971,
+    "forks": 46,
+    "language": null,
+    "license": "MIT",
+    "last_push": "2026-09-14T17:06:52Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:mikekelly-agentk",
+    "name": "AgentK",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "mikekelly",
+    "repo": "mikekelly/AgentK",
+    "url": "https://github.com/mikekelly/AgentK",
+    "arxiv_id": null,
+    "year": 2024,
+    "description": "An autoagentic AGI that is self-evolving and modular.",
+    "evidence": [
+      "github:mikekelly/agentk"
+    ],
+    "stars": 971,
+    "forks": 148,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2024-09-04T07:53:48Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:zamalali-deepgit",
+    "name": "DeepGit",
+    "category": "autoresearch-system",
+    "topics": [
+      "autoresearch"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "zamalali",
+    "repo": "zamalali/DeepGit",
+    "url": "https://github.com/zamalali/DeepGit",
+    "arxiv_id": null,
+    "year": 2024,
+    "description": "Deep research agent to help you find the best GitHub repositories 🕵️!",
+    "evidence": [
+      "github:zamalali/deepgit"
+    ],
+    "stars": 926,
+    "forks": 98,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-08-30T09:46:12Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:vostride-agent-qa",
+    "name": "agent-qa",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "vostride",
+    "repo": "vostride/agent-qa",
+    "url": "https://github.com/vostride/agent-qa",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Open-source self-improving QA agent for software teams. A test harness with memory. Write tests in natural language for web and mobile. agent-qa learns from every run, adapts to UI changes, and catches regressions before you ship.",
+    "evidence": [
+      "github:vostride/agent-qa"
+    ],
+    "stars": 920,
+    "forks": 24,
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "last_push": "2026-11-03T07:54:59Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  },
+  {
+    "id": "fw:openmemind-memind",
+    "name": "memind",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "openmemind",
+    "repo": "openmemind/memind",
+    "url": "https://github.com/openmemind/memind",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Self-evolving cognitive memory and context engine for AI agents in Java. Empowering 24/7 proactive agents like OpenClaw with understanding and SOTA performance.",
+    "evidence": [
+      "github:openmemind/memind"
+    ],
+    "stars": 902,
+    "forks": 94,
+    "language": "Java",
+    "license": "Apache-2.0",
+    "last_push": "2026-08-13T08:41:16Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-03T09:01:29Z"
+  }
+]
