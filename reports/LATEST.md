@@ -1,6 +1,6 @@
 # RSI & AutoResearch 每日追踪 · 2026-11-03
 
-> 自动生成于 2026-11-03T09:11:21Z（UTC）。累计 **893** 条数据，今日新增 **893** 条；框架 112 个，benchmark 76 个，复现任务候选 100 个。
+> 自动生成于 2026-11-03T09:13:48Z（UTC）。累计 **893** 条数据，今日新增 **893** 条；框架 112 个，benchmark 76 个，复现任务候选 100 个。
 
 ## 运行概况
 
@@ -58,7 +58,7 @@
 
 | 仓库 | ⭐ | 描述 | 标签 |
 |---|---:|---|---|
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,134 | AI agents running research on single-GPU nanochat training automatically | `AutoResearch` |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,135 | AI agents running research on single-GPU nanochat training automatically | `AutoResearch` |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,899 | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use val | `AutoResearch` `#framework` `#science-domain` |
 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,422 | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills. | `RSI` |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | 25,324 | Platform for stateful agents: AI with advanced memory that can learn and self-improve over time. | `RSI` `#framework` |
@@ -69,7 +69,7 @@
 | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 14,810 | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 | `AutoResearch` `RSI` `#multi-agent` |
 | [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 14,385 | Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption | `RSI` |
 | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | 14,225 | Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemi | `AutoResearch` `#framework` |
-| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,794 | One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows. | `RSI` |
+| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,795 | One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows. | `RSI` |
 | [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 12,234 | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token saving | `RSI` |
 | [aden-hive/hive](https://github.com/aden-hive/hive) | 11,139 | Multi-Agent Harness for Production AI | `RSI` `#framework` `#multi-agent` |
 | [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman) | 10,063 | The open source AI research agent. | `AutoResearch` `#code-agent` |
@@ -88,7 +88,7 @@
 | [Galaxy-Dawn/claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 5,972 | Semi-automated research assistant for academic research and software development. Supports Claude Code, Codex CLI, Kimi Code CLI, and OpenCo | `AutoResearch` |
 | [aiwaves-cn/agents](https://github.com/aiwaves-cn/agents) | 5,968 | An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents | `RSI` `#framework` |
 | [EvoScientist/EvoScientist](https://github.com/EvoScientist/EvoScientist) | 4,932 | 🔬 Harness Vibe Research with Self-evolving AI Scientists | `AutoResearch` `RSI` `#multi-agent` |
-| [ruc-datalab/DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) | 4,775 | DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！ | `AutoResearch` |
+| [ruc-datalab/DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) | 4,776 | DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！ | `AutoResearch` |
 | [jordan-gibbs/hyperresearch](https://github.com/jordan-gibbs/hyperresearch) | 4,353 | Convert Claude Code or Codex into the most intelligent Deep Research Agent. Collect, search, and synthesize web research into a persistent,  | `AutoResearch` |
 | [synthetic-sciences/openscience](https://github.com/synthetic-sciences/openscience) | 4,331 | The open-source AI workbench for scientific research | `AutoResearch` `#benchmark` `#ml-engineering` |
 | [foryourhealth111-pixel/Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | 3,788 | Intelligent Skill routing and workflow orchestration for AI agents — +21.12 pp reward, −29.6% tokens on SkillsBench with DeepSeekV4Flash-VE. | `AutoResearch` `#benchmark` `#framework` `#multi-agent` |
@@ -120,7 +120,7 @@
 
 | 仓库 | ⭐ | 主题 |
 |---|---:|---|
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,134 | `AutoResearch` |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,135 | `AutoResearch` |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,899 | `AutoResearch` `#framework` `#science-domain` |
 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,422 | `RSI` |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | 25,324 | `RSI` `#framework` |
@@ -131,7 +131,7 @@
 | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 14,810 | `AutoResearch` `RSI` `#multi-agent` |
 | [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 14,385 | `RSI` |
 | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | 14,225 | `AutoResearch` `#framework` |
-| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,794 | `RSI` |
+| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,795 | `RSI` |
 | [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 12,234 | `RSI` |
 | [aden-hive/hive](https://github.com/aden-hive/hive) | 11,139 | `RSI` `#framework` `#multi-agent` |
 | [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman) | 10,063 | `AutoResearch` `#code-agent` |

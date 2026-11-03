@@ -1,6 +1,6 @@
 # RSI & AutoResearch 技术框架清单
 
-> 自动生成于 2026-11-03T09:11:21Z（UTC）。精选 32 个（`config/frameworks.yaml`）+ 自动发现候选 80 个。Star 数据每日刷新。
+> 自动生成于 2026-11-03T09:13:48Z（UTC）。精选 32 个（`config/frameworks.yaml`）+ 自动发现候选 80 个。Star 数据每日刷新。
 
 ## agent-infra
 
@@ -16,8 +16,8 @@
 
 | 框架 | 机构 | ⭐ | 最近提交 | 论文 | 说明 |
 |---|---|---:|---|---|---|
-| [autoresearch](https://github.com/karpathy/autoresearch) | Andrej Karpathy | 99,134 | 2026-03-26 |  | 让 AI agent 在单 GPU 上自主修改训练代码、跑实验、保留改进的极简自动科研循环 |
-| [RD-Agent](https://github.com/microsoft/RD-Agent) | Microsoft | 15,207 | 2026-10-21 |  | 面向数据驱动研发（量化、Kaggle、模型研发）的自动 R&D agent 框架 |
+| [autoresearch](https://github.com/karpathy/autoresearch) | Andrej Karpathy | 99,135 | 2026-03-26 |  | 让 AI agent 在单 GPU 上自主修改训练代码、跑实验、保留改进的极简自动科研循环 |
+| [RD-Agent](https://github.com/microsoft/RD-Agent) | Microsoft | 15,206 | 2026-10-21 |  | 面向数据驱动研发（量化、Kaggle、模型研发）的自动 R&D agent 框架 |
 | [The AI Scientist](https://github.com/SakanaAI/AI-Scientist) | Sakana AI | 14,928 | 2025-12-19 | [arXiv](https://arxiv.org/abs/2408.06292) | 从想法生成、写代码做实验到撰写论文与自动评审的全自动科研流水线 |
 | [PaperQA2](https://github.com/Future-House/paper-qa) | FutureHouse | 9,538 | 2026-10-26 | [arXiv](https://arxiv.org/abs/2409.13740) | 面向科学文献的高精度 RAG / 文献综述 agent |
 | [The AI Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | Sakana AI | 7,433 | 2025-12-19 | [arXiv](https://arxiv.org/abs/2504.08066) | 基于 agentic tree search 的第二代 AI Scientist，产出过通过 workshop 评审的论文 |
@@ -83,7 +83,7 @@
 | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | self-improvement | 14,810 | `AutoResearch` `RSI` | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 |
 | [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | self-improvement | 14,385 | `RSI` | Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption |
 | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | autoresearch-system | 14,225 | `AutoResearch` | Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemi |
-| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | self-improvement | 13,794 | `RSI` | One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows. |
+| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | self-improvement | 13,795 | `RSI` | One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows. |
 | [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | self-improvement | 12,234 | `RSI` | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token saving |
 | [aden-hive/hive](https://github.com/aden-hive/hive) | agent-infra | 11,139 | `RSI` | Multi-Agent Harness for Production AI |
 | [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman) | autoresearch-system | 10,063 | `AutoResearch` | The open source AI research agent. |
@@ -99,7 +99,7 @@
 | [Galaxy-Dawn/claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | autoresearch-system | 5,972 | `AutoResearch` | Semi-automated research assistant for academic research and software development. Supports Claude Code, Codex CLI, Kimi Code CLI, and OpenCo |
 | [aiwaves-cn/agents](https://github.com/aiwaves-cn/agents) | self-improvement | 5,968 | `RSI` | An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents |
 | [EvoScientist/EvoScientist](https://github.com/EvoScientist/EvoScientist) | autoresearch-system | 4,932 | `AutoResearch` `RSI` | 🔬 Harness Vibe Research with Self-evolving AI Scientists |
-| [ruc-datalab/DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) | agent-infra | 4,775 | `AutoResearch` | DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！ |
+| [ruc-datalab/DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) | agent-infra | 4,776 | `AutoResearch` | DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！ |
 | [jordan-gibbs/hyperresearch](https://github.com/jordan-gibbs/hyperresearch) | autoresearch-system | 4,353 | `AutoResearch` | Convert Claude Code or Codex into the most intelligent Deep Research Agent. Collect, search, and synthesize web research into a persistent,  |
 | [letta-ai/letta-code](https://github.com/letta-ai/letta-code) | self-improvement | 3,768 | `RSI` | Agents that self-improve with experience |
 | [yilewang/llm-for-zotero](https://github.com/yilewang/llm-for-zotero) | autoresearch-system | 3,489 | `AutoResearch` | An open-source research agent system for your Zotero library. |

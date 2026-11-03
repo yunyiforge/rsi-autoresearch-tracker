@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T09:11:21Z",
+  "generated_at": "2026-11-03T09:13:48Z",
   "run_date": "2026-11-03",
   "mode": "collect",
   "counts": {
@@ -76,19 +76,19 @@
       "status": "ok",
       "fetched": 500,
       "errors": [],
-      "seconds": 49.6
+      "seconds": 50.3
     },
     "github": {
       "status": "ok",
       "fetched": 601,
       "errors": [],
-      "seconds": 52.8
+      "seconds": 56.2
     },
     "hn": {
       "status": "ok",
       "fetched": 39,
       "errors": [],
-      "seconds": 6.7
+      "seconds": 7.5
     },
     "rss": {
       "status": "partial",
@@ -96,7 +96,7 @@
       "errors": [
         "Import AI: HTTP 403 for https://importai.substack.com/feed"
       ],
-      "seconds": 2.8
+      "seconds": 2.5
     }
   },
   "pipeline": {
