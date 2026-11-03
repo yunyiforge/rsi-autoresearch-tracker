@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T09:26:17Z",
+  "generated_at": "2026-11-03T09:41:58Z",
   "run_date": "2026-11-03",
   "mode": "collect",
   "counts": {
@@ -76,30 +76,30 @@
       "status": "ok",
       "fetched": 500,
       "errors": [],
-      "seconds": 49.5
+      "seconds": 51.3
     },
     "github": {
       "status": "ok",
       "fetched": 601,
       "errors": [],
-      "seconds": 54.3
+      "seconds": 53.8
     },
     "hn": {
       "status": "ok",
-      "fetched": 36,
+      "fetched": 40,
       "errors": [],
-      "seconds": 6.7
+      "seconds": 6.0
     },
     "rss": {
       "status": "ok",
       "fetched": 204,
       "errors": [],
-      "seconds": 2.5
+      "seconds": 2.4
     }
   },
   "pipeline": {
-    "collected": 1341,
-    "irrelevant_filtered": 308,
+    "collected": 1345,
+    "irrelevant_filtered": 312,
     "duplicates_removed": 0,
     "cross_links": 7,
     "enrich_errors": [],
