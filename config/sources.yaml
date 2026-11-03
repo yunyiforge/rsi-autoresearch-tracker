@@ -182,8 +182,12 @@ sources:
     max_items_per_feed: 50
     require_keyword_match: true   # 博客内容宽泛，必须命中主题关键词
     min_relevance: 1
+    # 每个 feed 可选 fallback_urls：主地址失败时依次尝试；全部失败只记录警告，不影响其他源和整个 workflow
+    # 可选 full_content: true：用全文（content:encoded / Atom content）中命中主题关键词的句子作为摘要并参与匹配
     feeds:
-      - {name: Import AI, url: "https://importai.substack.com/feed"}
+      # Substack 会对 GitHub runner 等数据中心 IP 返回 403，主用 Jack Clark 的 WordPress 镜像，Substack 作备用
+      # full_content: feed 摘要是固定开场白，改用全文中命中主题关键词的句子作为摘要
+      - {name: Import AI, url: "https://jack-clark.net/feed/", fallback_urls: ["https://importai.substack.com/feed"], full_content: true}
       - {name: Interconnects, url: "https://www.interconnects.ai/feed"}
       - {name: AI Alignment Forum, url: "https://www.alignmentforum.org/feed.xml"}
       - {name: Hugging Face Blog, url: "https://huggingface.co/blog/feed.xml"}

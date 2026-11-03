@@ -10,9 +10,10 @@ from . import datasets, quality, reports, store as st
 from .classify import Classifier
 from .config import load_config
 from .http import HttpClient
+from .models import SUMMARY_LIMIT
 from .sources import COLLECTORS
 from .sources.github import fetch_repo
-from .textutil import utc_now_iso
+from .textutil import truncate, utc_now_iso
 
 
 def log(msg: str) -> None:
@@ -25,6 +26,7 @@ class PipelineError(RuntimeError):
 
 def _collect(cfg: dict, client: HttpClient, only: set[str]) -> tuple[list[dict], dict]:
     collected, health = [], {}
+    classifier = Classifier(cfg)
     for name, collect in COLLECTORS.items():
         scfg = cfg["sources"].get(name) or {}
         if only and name not in only:
@@ -41,6 +43,11 @@ def _collect(cfg: dict, client: HttpClient, only: set[str]) -> tuple[list[dict],
         status = "ok" if not res["errors"] else ("partial" if res["items"] else "failed")
         health[name] = {"status": status, "fetched": len(res["items"]), "errors": res["errors"][:10],
                         "seconds": round(time.time() - t0, 1)}
+        for it in res["items"]:
+            content = it.pop("_content", None)
+            excerpt = classifier.relevant_excerpt(content, SUMMARY_LIMIT) if content else ""
+            if excerpt:
+                it["summary"] = truncate(excerpt, SUMMARY_LIMIT)
         collected.extend(res["items"])
     return collected, health
 

@@ -110,7 +110,7 @@ python -m unittest discover -s tests
 
 - 关键词 / 主题：`config/sources.yaml → topics`（支持整词、`前缀*`、`re:正则`）
 - 排除噪声：`exclude_keywords`、`datasets.frameworks.exclude_keywords`
-- 查询与博客：`sources.<arxiv|github|hn|rss>`
+- 查询与博客：`sources.<arxiv|github|hn|rss>`（RSS feed 可配 `fallback_urls` 备用地址、`full_content: true` 用全文命中句做摘要；单个 feed 失败只记警告，不会让 workflow 失败）
 - 标签、框架类别、benchmark 领域：`tags`、`datasets.*`
 - 精选清单：`config/frameworks.yaml`、`config/benchmarks.yaml`
 

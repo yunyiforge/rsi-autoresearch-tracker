@@ -131,6 +131,55 @@ class ParserTest(unittest.TestCase):
         rel = rss.parse_feed(ATOM_XML.replace(b"https://blog.example.org/rsi", b"/posts/rsi/"), base_url="https://sakana.ai/feed.xml")
         self.assertEqual(rel[0]["link"], "https://sakana.ai/posts/rsi/")
 
+    def test_rss_fallback_and_feed_failure(self):
+        from tracker.http import HttpError
+
+        class FakeClient:
+            def __init__(self):
+                self.calls = []
+
+            def get(self, url, headers=None):
+                self.calls.append(url)
+                if "blocked" in url:
+                    raise HttpError(f"HTTP 403 for {url}", 403)
+                return RSS_XML
+
+        cfg = {"lookback_days": 100000, "feeds": [
+            {"name": "Mirrored", "url": "https://blocked.example/feed",
+             "fallback_urls": ["https://mirror.example/feed/"]},
+            {"name": "Dead", "url": "https://blocked.example/dead"},
+            {"name": "Ok", "url": "https://ok.example/feed"},
+        ]}
+        client, logs = FakeClient(), []
+        res = rss.collect(cfg, client, logs.append)
+        self.assertEqual(client.calls, ["https://blocked.example/feed", "https://mirror.example/feed/",
+                                        "https://blocked.example/dead", "https://ok.example/feed"])
+        self.assertEqual(len(res["items"]), 4)
+        self.assertEqual({it["extra"]["feed"] for it in res["items"]}, {"Mirrored", "Ok"})
+        self.assertEqual(len(res["errors"]), 1)
+        self.assertIn("Dead", res["errors"][0])
+        self.assertTrue(any("via https://mirror.example/feed/" in m for m in logs))
+
+    def test_rss_full_content_excerpt(self):
+        xml = b"""<?xml version="1.0"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel>
+<item><title>Import AI 478: Math for alignment</title><link>https://jack-clark.net/2026/10/26/x/</link>
+<description>Welcome to Import AI, a newsletter about AI research.</description>
+<content:encoded><![CDATA[<p>Welcome to Import AI.</p><p>Spacecraft are cool. Labs now pursue
+recursive self-improvement in earnest!</p><p>Another unrelated story.</p>]]></content:encoded>
+<pubDate>Mon, 26 Oct 2026 12:31:52 +0000</pubDate></item>
+</channel></rss>"""
+        entry = rss.parse_feed(xml)[0]
+        self.assertNotIn("_content", rss.entry_to_item(entry, "Import AI"))
+        item = rss.entry_to_item(entry, "Import AI", full_content=True)
+        cls = Classifier(load_config(ROOT / "config"))
+        self.assertFalse(cls.classify(dict(item)))
+        excerpt = cls.relevant_excerpt(item["_content"], 2000)
+        self.assertEqual(excerpt, "Labs now pursue recursive self-improvement in earnest!")
+        item["summary"] = excerpt
+        self.assertTrue(cls.classify(item))
+        self.assertIn("rsi", item["topics"])
+
     def test_benchmark_detection(self):
         repo = github.repo_to_item({**GITHUB_REPO, "full_name": "x/zk-autoresearch",
                                     "description": "autoresearch loop that beats a benchmark"})

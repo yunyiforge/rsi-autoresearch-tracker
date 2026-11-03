@@ -1,7 +1,11 @@
 """Rule-based relevance filtering, topic assignment and tagging."""
 from __future__ import annotations
 
-from .textutil import KeywordMatcher, normalize_text
+import re
+
+from .textutil import KeywordMatcher, clean_ws, normalize_text
+
+_SENTENCE = re.compile(r"(?<=[.!?])\s+")
 
 
 class Classifier:
@@ -45,6 +49,23 @@ class Classifier:
         if self.exclude.matches(text):
             return False
         return bool(topics) and score >= int(rule.get("min_relevance", 1))
+
+    def relevant_excerpt(self, text: str, limit: int) -> str:
+        """Join the sentences of a long text that mention a topic keyword, up to ~limit chars.
+
+        Used for newsletters whose feed excerpt is boilerplate: the stored summary then still
+        carries the matching evidence, so the item stays relevant when reclassified later.
+        """
+        picked, size = [], 0
+        for sentence in _SENTENCE.split(clean_ws(text)):
+            norm = normalize_text(sentence)
+            if not any(m.matches(norm) for m in self.topics.values()):
+                continue
+            if picked and size + len(sentence) > limit:
+                break
+            picked.append(sentence)
+            size += len(sentence) + 3
+        return " … ".join(picked)
 
     def first_match(self, rules: dict, text: str, default: str = "other") -> str:
         norm = normalize_text(text)

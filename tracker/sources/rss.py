@@ -1,6 +1,7 @@
 """RSS 2.0 / RSS 1.0 (RDF) / Atom collector for blogs and newsletters."""
 from __future__ import annotations
 
+import os
 import re
 import time
 import xml.etree.ElementTree as ET
@@ -56,6 +57,7 @@ def parse_feed(data: bytes, base_url: str = "") -> list[dict]:
                 "title": strip_html(_text(e, "title")),
                 "link": link,
                 "summary": strip_html(_text(e, "summary", "content")),
+                "content": strip_html(_text(e, "content")),
                 "published": to_iso(_text(e, "published", "updated")),
                 "author": _text(author, "name") if author is not None else "",
             })
@@ -67,6 +69,7 @@ def parse_feed(data: bytes, base_url: str = "") -> list[dict]:
                 "title": strip_html(_text(e, "title")),
                 "link": _text(e, "link", "guid"),
                 "summary": strip_html(_text(e, "description", "encoded", "summary")),
+                "content": strip_html(_text(e, "encoded")),
                 "published": to_iso(_text(e, "pubDate", "date", "published", "updated")),
                 "author": _text(e, "creator", "author"),
             })
@@ -76,8 +79,8 @@ def parse_feed(data: bytes, base_url: str = "") -> list[dict]:
     return [x for x in entries if x["title"] and x["link"].startswith("http")]
 
 
-def entry_to_item(entry: dict, feed_name: str) -> dict:
-    return make_item(
+def entry_to_item(entry: dict, feed_name: str, full_content: bool = False) -> dict:
+    item = make_item(
         id=f"url:{short_hash(canonical_url(entry['link']))}",
         source="rss",
         type="article",
@@ -88,6 +91,39 @@ def entry_to_item(entry: dict, feed_name: str) -> dict:
         published=entry["published"],
         extra={"feed": feed_name},
     )
+    if full_content and entry.get("content"):
+        # Transient: the pipeline condenses it into a keyword-bearing summary before storing.
+        item["_content"] = entry["content"]
+    return item
+
+
+_ACCEPT = "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8"
+
+
+def _warn(log, msg: str) -> None:
+    log(f"  [rss] {msg}")
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        # Surface as a workflow annotation without failing the run.
+        log(f"::warning title=RSS feed failed::{msg}")
+
+
+def _fetch_feed(client, feed: dict, log) -> tuple[list[dict], str]:
+    """Try the feed URL, then any fallback_urls, returning entries from the first that works."""
+    urls = [feed.get("url")] + list(feed.get("fallback_urls") or [])
+    urls = [u for u in urls if u]
+    if not urls:
+        raise ValueError("no url configured")
+    failures = []
+    for url in urls:
+        try:
+            entries = parse_feed(client.get(url, headers={"Accept": _ACCEPT}), base_url=url)
+        except Exception as e:  # noqa: BLE001
+            failures.append(str(e))
+            if url != urls[-1]:
+                log(f"  [rss] {feed.get('name') or url}: {e}; trying fallback")
+            continue
+        return entries, url
+    raise RuntimeError("; ".join(failures))
 
 
 def collect(cfg: dict, client, log) -> dict:
@@ -96,15 +132,15 @@ def collect(cfg: dict, client, log) -> dict:
                            time.gmtime(time.time() - 86400 * int(cfg.get("lookback_days", 60))))
     limit = int(cfg.get("max_items_per_feed", 50))
     for feed in cfg.get("feeds") or []:
-        name, url = feed.get("name") or feed.get("url"), feed.get("url")
+        name = feed.get("name") or feed.get("url")
         try:
-            entries = parse_feed(client.get(url, headers={
-                "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8"}), base_url=url)
+            entries, used = _fetch_feed(client, feed, log)
         except Exception as e:  # noqa: BLE001
             errors.append(f"{name}: {e}")
-            log(f"  [rss] feed failed: {name}: {e}")
+            _warn(log, f"feed failed: {name}: {e}")
             continue
         fresh = [e for e in entries if not e["published"] or e["published"] >= cutoff][:limit]
-        log(f"  [rss] {name}: {len(entries)} entries, {len(fresh)} within lookback")
-        items.extend(entry_to_item(e, name) for e in fresh)
+        via = f" (via {used})" if used != feed.get("url") else ""
+        log(f"  [rss] {name}: {len(entries)} entries, {len(fresh)} within lookback{via}")
+        items.extend(entry_to_item(e, name, bool(feed.get("full_content"))) for e in fresh)
     return {"items": items, "errors": errors}
