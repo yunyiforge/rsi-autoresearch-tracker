@@ -1,6 +1,6 @@
 # RSI & AutoResearch 每日追踪 · 2026-11-03
 
-> 自动生成于 2026-11-03T09:41:58Z（UTC）。累计 **900** 条数据，今日新增 **900** 条；框架 112 个，benchmark 76 个，复现任务候选 100 个。
+> 自动生成于 2026-11-03T09:45:01Z（UTC）。累计 **900** 条数据，今日新增 **900** 条；框架 112 个，benchmark 76 个，复现任务候选 100 个。
 
 ## 运行概况
 
@@ -8,7 +8,7 @@
 |---|---|---:|---|
 | arxiv | ok | 500 |  |
 | github | ok | 601 |  |
-| hn | ok | 40 |  |
+| hn | ok | 46 |  |
 | rss | ok | 204 |  |
 
 ## 🆕 新论文（473）
@@ -59,7 +59,7 @@
 | 仓库 | ⭐ | 描述 | 标签 |
 |---|---:|---|---|
 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,136 | AI agents running research on single-GPU nanochat training automatically | `AutoResearch` |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,902 | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use val | `AutoResearch` `#framework` `#science-domain` |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,904 | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use val | `AutoResearch` `#framework` `#science-domain` |
 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,424 | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills. | `RSI` |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | 25,324 | Platform for stateful agents: AI with advanced memory that can learn and self-improve over time. | `RSI` `#framework` |
 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,550 | A self-improving RLM agent for coding workflows and long-running autonomous tasks. | `RSI` |
@@ -128,7 +128,7 @@
 | 仓库 | ⭐ | 主题 |
 |---|---:|---|
 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,136 | `AutoResearch` |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,902 | `AutoResearch` `#framework` `#science-domain` |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,904 | `AutoResearch` `#framework` `#science-domain` |
 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,424 | `RSI` |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | 25,324 | `RSI` `#framework` |
 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,550 | `RSI` |

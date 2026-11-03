@@ -1,13 +1,13 @@
 # RSI & AutoResearch 技术框架清单
 
-> 自动生成于 2026-11-03T09:41:58Z（UTC）。精选 32 个（`config/frameworks.yaml`）+ 自动发现候选 80 个。Star 数据每日刷新。
+> 自动生成于 2026-11-03T09:45:01Z（UTC）。精选 32 个（`config/frameworks.yaml`）+ 自动发现候选 80 个。Star 数据每日刷新。
 
 ## agent-infra
 
 | 框架 | 机构 | ⭐ | 最近提交 | 论文 | 说明 |
 |---|---|---:|---|---|---|
 | [OpenHands](https://github.com/All-Hands-AI/OpenHands) |  | 92,551 | 2026-11-03 |  | 开源软件工程 agent 平台，常作为自我改进编码循环的执行器 |
-| [MetaGPT](https://github.com/geekan/MetaGPT) |  | 71,146 | 2026-01-21 |  | 多 agent 协作框架，含 Data Interpreter 等数据科学 agent |
+| [MetaGPT](https://github.com/geekan/MetaGPT) |  | 71,147 | 2026-01-21 |  | 多 agent 协作框架，含 Data Interpreter 等数据科学 agent |
 | [AutoGen](https://github.com/microsoft/autogen) | Microsoft | 61,686 | 2026-10-28 |  | 多 agent 对话与编排框架 |
 | [smolagents](https://github.com/huggingface/smolagents) | Hugging Face | 30,197 | 2026-10-29 |  | 轻量级 code-agent 框架，官方含 open deep research 示例 |
 | [SWE-agent](https://github.com/SWE-agent/SWE-agent) | Princeton / Stanford | 20,712 | 2026-11-02 |  | 面向真实仓库修复的编码 agent 与 agent-computer interface |
@@ -29,7 +29,7 @@
 
 | 框架 | 机构 | ⭐ | 最近提交 | 论文 | 说明 |
 |---|---|---:|---|---|---|
-| [STORM](https://github.com/stanford-oval/storm) | Stanford OVAL | 31,781 | 2025-09-30 | [arXiv](https://arxiv.org/abs/2402.14207) | 多视角提问 + 检索，自动生成维基百科式长篇研究报告 |
+| [STORM](https://github.com/stanford-oval/storm) | Stanford OVAL | 31,782 | 2025-09-30 | [arXiv](https://arxiv.org/abs/2402.14207) | 多视角提问 + 检索，自动生成维基百科式长篇研究报告 |
 | [GPT Researcher](https://github.com/assafelovic/gpt-researcher) |  | 30,456 | 2026-10-10 |  | 开源自主研究 agent，自动检索并生成带引用的研究报告 |
 | [deep-research](https://github.com/dzhng/deep-research) |  | 19,871 | 2026-04-11 |  | 极简的迭代式深度研究 agent 实现 |
 | [Open Deep Research](https://github.com/langchain-ai/open_deep_research) ⚠️ | LangChain | 12,681 | 2026-08-10 |  | 可配置的开源 deep research agent 参考实现 |
@@ -75,7 +75,7 @@
 
 | 仓库 | 类别 | ⭐ | 主题 | 描述 |
 |---|---|---:|---|---|
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | autoresearch-system | 55,902 | `AutoResearch` | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use val |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | autoresearch-system | 55,904 | `AutoResearch` | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use val |
 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | self-improvement | 41,424 | `RSI` | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills. |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | self-improvement | 25,324 | `RSI` | Platform for stateful agents: AI with advanced memory that can learn and self-improve over time. |
 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | self-improvement | 22,550 | `RSI` | A self-improving RLM agent for coding workflows and long-running autonomous tasks. |
@@ -136,7 +136,7 @@
 | [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext) | self-improvement | 1,317 | `AutoResearch` `RSI` | a recursive self-improving harness designed to help your agents (and future iterations of those agents) succeed on any task |
 | [aiming-lab/Agent0](https://github.com/aiming-lab/Agent0) | self-improvement | 1,284 | `RSI` | [ICML'26 & COLM'26] Agent0 Series: Self-Evolving Agents from Zero Data |
 | [ZHangZHengEric/Sage](https://github.com/ZHangZHengEric/Sage) | agent-infra | 1,220 | `RSI` | An RSI Agent Harness for running, evaluating, and evolving agents—with tools, skills, MCP, stateful execution, and multi-agent workflows. |
-| [OpenLAIR/dr-claw](https://github.com/OpenLAIR/dr-claw) | other | 1,193 | `AutoResearch` | A Super AI Lab with massive AI Doctors as Assistants. Best IDE for Research via AI Power. |
+| [OpenLAIR/dr-claw](https://github.com/OpenLAIR/dr-claw) | other | 1,194 | `AutoResearch` | A Super AI Lab with massive AI Doctors as Assistants. Best IDE for Research via AI Power. |
 | [mattprusak/autoresearch-genealogy](https://github.com/mattprusak/autoresearch-genealogy) | autoresearch-system | 1,189 | `AutoResearch` | Structured prompts, vault templates, and archive guides for AI-assisted genealogy research. Built for Claude Code. |
 | [polyuiislab/infiAgent](https://github.com/polyuiislab/infiAgent) | autoresearch-system | 1,189 | `AutoResearch` | Build your own Cowork, AI Scientist and other SoTA Agents just by editing config files. Support anthropic skills. An infinite-horizon agent  |
 | [withkynam/vibecode-pro-max-kit](https://github.com/withkynam/vibecode-pro-max-kit) | self-improvement | 1,165 | `RSI` | Your AI forgets. This remembers. Spec-driven coding harness for vibecoders, product owners, CEOs and real builders — self-improving context  |

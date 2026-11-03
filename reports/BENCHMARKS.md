@@ -1,6 +1,6 @@
 # RSI & AutoResearch Benchmark 数据集
 
-> 自动生成于 2026-11-03T09:41:58Z（UTC）。精选 16 个 + 自动发现候选 60 个；论文复现任务候选 100 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
+> 自动生成于 2026-11-03T09:45:01Z（UTC）。精选 16 个 + 自动发现候选 60 个；论文复现任务候选 100 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
 
 ## 精选 Benchmark
 
@@ -9,7 +9,7 @@
 | [METR Time Horizon](https://arxiv.org/abs/2503.14499) | ai-rnd | METR | 2025 |  | 50% 成功率对应的人类任务时长（time horizon） | [arXiv](https://arxiv.org/abs/2503.14499) |  |
 | [MLRC-Bench](https://arxiv.org/abs/2504.09702) | ai-rnd |  | 2025 |  | 相对基线与人类最佳方案的提升 | [arXiv](https://arxiv.org/abs/2504.09702) |  |
 | [RE-Bench](https://arxiv.org/abs/2411.15114) | ai-rnd | METR | 2024 | 7 个开放式 ML 研究工程环境 | 相对参考解的归一化得分，并与人类专家 8 小时成绩对比 | [arXiv](https://arxiv.org/abs/2411.15114) |  |
-| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | coding | Princeton | 2023 | 2,294 个 GitHub issue（Verified 子集 500） | 解决率 (% Resolved) | [arXiv](https://arxiv.org/abs/2310.06770) | 6,135 |
+| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | coding | Princeton | 2023 | 2,294 个 GitHub issue（Verified 子集 500） | 解决率 (% Resolved) | [arXiv](https://arxiv.org/abs/2310.06770) | 6,136 |
 | [HCAST](https://arxiv.org/abs/2503.17354) | general-agent | METR | 2025 | 189 个软件/ML/网络安全任务 | 按人类完成时长校准的成功率 | [arXiv](https://arxiv.org/abs/2503.17354) |  |
 | [MLAgentBench](https://github.com/snap-stanford/MLAgentBench) | ml-engineering | Stanford | 2023 | 13 个 ML 实验任务 | 相对基线提升 ≥10% 的成功率 | [arXiv](https://arxiv.org/abs/2310.03302) | 359 |
 | [MLE-bench](https://github.com/openai/mle-bench) | ml-engineering | OpenAI | 2024 | 75 个 Kaggle 竞赛 | 获得 Kaggle 奖牌的比例 | [arXiv](https://arxiv.org/abs/2410.07095) | 1,789 |
