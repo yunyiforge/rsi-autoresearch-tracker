@@ -1,11 +1,15 @@
 # RSI & AutoResearch 每日追踪 · 2026-11-03
 
-> 自动生成于 2026-11-03T09:01:29Z（UTC）。累计 **893** 条数据，今日新增 **893** 条；框架 112 个，benchmark 76 个，复现任务候选 100 个。
+> 自动生成于 2026-11-03T09:04:39Z（UTC）。累计 **893** 条数据，今日新增 **893** 条；框架 112 个，benchmark 76 个，复现任务候选 100 个。
 
 ## 运行概况
 
 | 数据源 | 状态 | 本次抓取 | 错误 |
 |---|---|---:|---|
+| arxiv | ok | 500 |  |
+| github | ok | 601 |  |
+| hn | ok | 44 |  |
+| rss | partial | 196 | Import AI: HTTP 403 for https://importai.substack.com/feed |
 
 ## 🆕 新论文（473）
 
@@ -54,7 +58,7 @@
 
 | 仓库 | ⭐ | 描述 | 标签 |
 |---|---:|---|---|
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,132 | AI agents running research on single-GPU nanochat training automatically | `AutoResearch` |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,133 | AI agents running research on single-GPU nanochat training automatically | `AutoResearch` |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,898 | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use val | `AutoResearch` `#framework` `#science-domain` |
 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,422 | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills. | `RSI` |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | 25,324 | Platform for stateful agents: AI with advanced memory that can learn and self-improve over time. | `RSI` `#framework` |
@@ -72,8 +76,8 @@
 | [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI) | 9,318 | PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, co | `RSI` `#framework` `#multi-agent` |
 | [EvoMap/evolver](https://github.com/EvoMap/evolver) | 8,715 | The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. \| evomap.ai | `RSI` `#framework` |
 | [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | 8,435 | MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7, achieves 74.0  | `AutoResearch` `#benchmark` `#framework` |
-| [davebcn87/pi-autoresearch](https://github.com/davebcn87/pi-autoresearch) | 8,210 | Autonomous experiment loop extension for pi | `AutoResearch` |
-| [alphaXiv/OpenResearch](https://github.com/alphaXiv/OpenResearch) | 7,795 | Turn your coding agents into research agents | `AutoResearch` `#code-agent` |
+| [davebcn87/pi-autoresearch](https://github.com/davebcn87/pi-autoresearch) | 8,209 | Autonomous experiment loop extension for pi | `AutoResearch` |
+| [alphaXiv/OpenResearch](https://github.com/alphaXiv/OpenResearch) | 7,796 | Turn your coding agents into research agents | `AutoResearch` `#code-agent` |
 | [Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef) | 7,789 | Infrastructure for continually self‑improving agents | `RSI` |
 | [dwzhu-pku/PaperBanana](https://github.com/dwzhu-pku/PaperBanana) | 7,548 | PaperBanana: Automating Academic Illustration For AI Scientists | `AutoResearch` |
 | [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | 7,433 | The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search | `AutoResearch` |
@@ -92,7 +96,7 @@
 | [yilewang/llm-for-zotero](https://github.com/yilewang/llm-for-zotero) | 3,488 | An open-source research agent system for your Zotero library. | `AutoResearch` `#framework` |
 | [ANative-Lab/EvoAgentX](https://github.com/ANative-Lab/EvoAgentX) | 3,414 | 🚀 EvoAgentX: Building a Self-Evolving Ecosystem of AI Agents | `RSI` `#multi-agent` |
 | [sentrux/sentrux](https://github.com/sentrux/sentrux) | 3,334 | Real-time architectural sensor that helps AI agents close the feedback loop, enabling recursive self-improvement of code quality. Pure Rust. | `RSI` |
-| [Asymptote-Labs/agent-beacon](https://github.com/Asymptote-Labs/agent-beacon) | 3,163 | The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu | `RSI` |
+| [Asymptote-Labs/agent-beacon](https://github.com/Asymptote-Labs/agent-beacon) | 3,167 | The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu | `RSI` |
 | [Prism-Shadow/penguin-harness](https://github.com/Prism-Shadow/penguin-harness) | 3,120 | 🐧 Unified and Stable RSI Platform | `RSI` `#framework` |
 
 ## 🆕 讨论与博客（14）
@@ -116,7 +120,7 @@
 
 | 仓库 | ⭐ | 主题 |
 |---|---:|---|
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,132 | `AutoResearch` |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,133 | `AutoResearch` |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 55,898 | `AutoResearch` `#framework` `#science-domain` |
 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,422 | `RSI` |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | 25,324 | `RSI` `#framework` |

@@ -1,6 +1,6 @@
 # RSI & AutoResearch Benchmark 数据集
 
-> 自动生成于 2026-11-03T09:01:29Z（UTC）。精选 16 个 + 自动发现候选 60 个；论文复现任务候选 100 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
+> 自动生成于 2026-11-03T09:04:39Z（UTC）。精选 16 个 + 自动发现候选 60 个；论文复现任务候选 100 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
 
 ## 精选 Benchmark
 

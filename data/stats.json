@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-03T09:01:29Z",
+  "generated_at": "2026-11-03T09:04:39Z",
   "run_date": "2026-11-03",
-  "mode": "offline-build",
+  "mode": "collect",
   "counts": {
     "items_total": 893,
     "new_this_run": 0,
@@ -71,14 +71,41 @@
     }
   },
   "benchmark_tasks": 100,
-  "sources": {},
+  "sources": {
+    "arxiv": {
+      "status": "ok",
+      "fetched": 500,
+      "errors": [],
+      "seconds": 49.9
+    },
+    "github": {
+      "status": "ok",
+      "fetched": 601,
+      "errors": [],
+      "seconds": 54.8
+    },
+    "hn": {
+      "status": "ok",
+      "fetched": 44,
+      "errors": [],
+      "seconds": 5.8
+    },
+    "rss": {
+      "status": "partial",
+      "fetched": 196,
+      "errors": [
+        "Import AI: HTTP 403 for https://importai.substack.com/feed"
+      ],
+      "seconds": 3.1
+    }
+  },
   "pipeline": {
-    "collected": 0,
-    "irrelevant_filtered": 0,
+    "collected": 1341,
+    "irrelevant_filtered": 315,
     "duplicates_removed": 0,
     "cross_links": 7,
     "enrich_errors": [],
-    "http_requests": 0
+    "http_requests": 85
   },
   "quality": {
     "invalid_dropped": 0,
