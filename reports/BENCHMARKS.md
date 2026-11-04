@@ -1,6 +1,6 @@
 # RSI & AutoResearch Benchmark 数据集
 
-> 自动生成于 2026-11-03T09:45:01Z（UTC）。精选 16 个 + 自动发现候选 60 个；论文复现任务候选 100 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
+> 自动生成于 2026-11-04T07:30:20Z（UTC）。精选 16 个 + 自动发现候选 60 个；论文复现任务候选 101 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
 
 ## 精选 Benchmark
 
@@ -9,18 +9,18 @@
 | [METR Time Horizon](https://arxiv.org/abs/2503.14499) | ai-rnd | METR | 2025 |  | 50% 成功率对应的人类任务时长（time horizon） | [arXiv](https://arxiv.org/abs/2503.14499) |  |
 | [MLRC-Bench](https://arxiv.org/abs/2504.09702) | ai-rnd |  | 2025 |  | 相对基线与人类最佳方案的提升 | [arXiv](https://arxiv.org/abs/2504.09702) |  |
 | [RE-Bench](https://arxiv.org/abs/2411.15114) | ai-rnd | METR | 2024 | 7 个开放式 ML 研究工程环境 | 相对参考解的归一化得分，并与人类专家 8 小时成绩对比 | [arXiv](https://arxiv.org/abs/2411.15114) |  |
-| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | coding | Princeton | 2023 | 2,294 个 GitHub issue（Verified 子集 500） | 解决率 (% Resolved) | [arXiv](https://arxiv.org/abs/2310.06770) | 6,136 |
+| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | coding | Princeton | 2023 | 2,294 个 GitHub issue（Verified 子集 500） | 解决率 (% Resolved) | [arXiv](https://arxiv.org/abs/2310.06770) | 6,141 |
 | [HCAST](https://arxiv.org/abs/2503.17354) | general-agent | METR | 2025 | 189 个软件/ML/网络安全任务 | 按人类完成时长校准的成功率 | [arXiv](https://arxiv.org/abs/2503.17354) |  |
 | [MLAgentBench](https://github.com/snap-stanford/MLAgentBench) | ml-engineering | Stanford | 2023 | 13 个 ML 实验任务 | 相对基线提升 ≥10% 的成功率 | [arXiv](https://arxiv.org/abs/2310.03302) | 359 |
-| [MLE-bench](https://github.com/openai/mle-bench) | ml-engineering | OpenAI | 2024 | 75 个 Kaggle 竞赛 | 获得 Kaggle 奖牌的比例 | [arXiv](https://arxiv.org/abs/2410.07095) | 1,789 |
+| [MLE-bench](https://github.com/openai/mle-bench) | ml-engineering | OpenAI | 2024 | 75 个 Kaggle 竞赛 | 获得 Kaggle 奖牌的比例 | [arXiv](https://arxiv.org/abs/2410.07095) | 1,790 |
 | [MLGym](https://github.com/facebookresearch/MLGym) | ml-engineering | Meta | 2025 | 13 个跨领域 AI 研究任务 | performance profile / AUP | [arXiv](https://arxiv.org/abs/2502.14499) | 625 |
 | [CORE-Bench](https://github.com/siegelz/core-bench) | paper-replication | Princeton | 2024 | 来自 90 篇论文的 270 个任务 | 准确率 | [arXiv](https://arxiv.org/abs/2409.11363) | 80 |
-| [PaperBench](https://github.com/openai/preparedness) | paper-replication | OpenAI | 2025 | 20 篇 ICML 2024 论文，约 8,316 个可打分子任务 | 基于层级 rubric 的复现得分（LLM judge 评分） | [arXiv](https://arxiv.org/abs/2504.01848) | 1,333 |
+| [PaperBench](https://github.com/openai/preparedness) | paper-replication | OpenAI | 2025 | 20 篇 ICML 2024 论文，约 8,316 个可打分子任务 | 基于层级 rubric 的复现得分（LLM judge 评分） | [arXiv](https://arxiv.org/abs/2504.01848) | 1,334 |
 | [SUPER](https://github.com/allenai/super-benchmark) | paper-replication | AI2 | 2024 | 45 个专家问题 + 152 个子问题 + 604 个自动生成问题 | 任务成功率 | [arXiv](https://arxiv.org/abs/2409.07440) | 58 |
 | [BixBench](https://github.com/Future-House/BixBench) | scientific-discovery | FutureHouse | 2025 |  | 开放式答案准确率 | [arXiv](https://arxiv.org/abs/2503.00096) | 151 |
 | [DiscoveryWorld](https://github.com/allenai/discoveryworld) | scientific-discovery | AI2 | 2024 | 120 个虚拟科学发现任务 | 任务完成度 / 解释性知识得分 | [arXiv](https://arxiv.org/abs/2406.06769) | 229 |
 | [LAB-Bench](https://github.com/Future-House/LAB-Bench) | scientific-discovery | FutureHouse | 2024 | 2,400+ 道生物学研究实务题 | 准确率 / 精确率 | [arXiv](https://arxiv.org/abs/2407.10362) | 135 |
-| [SciCode](https://github.com/scicode-bench/SciCode) | scientific-discovery |  | 2024 | 80 个主问题 / 338 个子问题 | 通过率 | [arXiv](https://arxiv.org/abs/2407.13168) | 245 |
+| [SciCode](https://github.com/scicode-bench/SciCode) | scientific-discovery |  | 2024 | 80 个主问题 / 338 个子问题 | 通过率 | [arXiv](https://arxiv.org/abs/2407.13168) | 246 |
 | [ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench) | scientific-discovery | OSU NLP | 2024 | 来自 44 篇论文的 102 个任务 | 成功率 / CodeBERTScore | [arXiv](https://arxiv.org/abs/2410.05080) | 181 |
 
 ## 自动发现的 Benchmark 候选
@@ -92,12 +92,13 @@
 
 ## 论文复现任务候选（自动构建）
 
-共 100 个（难度提示：easy 3，hard 13，medium 84）。完整数据见 [`data/benchmark_tasks.jsonl`](../data/benchmark_tasks.jsonl)。
+共 101 个（难度提示：easy 3，hard 13，medium 85）。完整数据见 [`data/benchmark_tasks.jsonl`](../data/benchmark_tasks.jsonl)。
 
 | 任务 | 论文 | 官方代码 | 难度 |
 |---|---|---|---|
 | `replicate:2611.01918` | [AgenticMobility: An Open-Source Platform for Multi-AI-Agent Mobility Dynamics](https://arxiv.org/abs/2611.01918) | [Agentic-City-Research/Agentic-Mobility](https://github.com/Agentic-City-Research/Agentic-Mobility) | medium |
 | `replicate:2611.01840` | [Self-Evolving Agentic Workflows via Semantic Decomposition of Complex Tasks](https://arxiv.org/abs/2611.01840) | [Applied-Machine-Learning-Lab/NeurIPS2026_SeaFlow](https://github.com/Applied-Machine-Learning-Lab/NeurIPS2026_SeaFlow) | medium |
+| `replicate:2611.03721` | [Counterexample-driven autonomous research with application to excess radiated energy in a Z-pinch](https://arxiv.org/abs/2611.03721) | [tomzhu0225/simjecture](https://github.com/tomzhu0225/simjecture) | medium |
 | `replicate:2610.40589` | [Collaborative AI agents for autonomous experimental research with solid-state quantum spins](https://arxiv.org/abs/2610.40589) | [E-zClap/auctopus](https://github.com/E-zClap/auctopus) | medium |
 | `replicate:2610.40488` | [rTaste: Do Research Agents Have Taste? Evaluating Early Stage Research Judgment](https://arxiv.org/abs/2610.40488) | [ArtKanke/rTaste](https://github.com/ArtKanke/rTaste) | medium |
 | `replicate:2610.38691` | [Beyond fabrication: Misattributed numbers in papers written by AI research agents](https://arxiv.org/abs/2610.38691) | [mos3b-faqeeh/agent-integrity-analysis](https://github.com/mos3b-faqeeh/agent-integrity-analysis) | medium |
@@ -125,4 +126,3 @@
 | `replicate:2610.33046` | [Organon : From Evolutionary Search to Recursive Self-Improving Agents for Scientific Discovery](https://arxiv.org/abs/2610.33046) | [cheikh025/Organon](https://github.com/cheikh025/Organon) | hard |
 | `replicate:2610.23839` | [DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses](https://arxiv.org/abs/2610.23839) | [Gen-Verse/DiscoveryRSI](https://github.com/Gen-Verse/DiscoveryRSI) | medium |
 | `replicate:2610.22740` | [R$^2$Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop](https://arxiv.org/abs/2610.22740) | [beita6969/R2Orch](https://github.com/beita6969/R2Orch) | medium |
-| `replicate:2610.22599` | [Can LLMs predict the outcomes of machine learning experiments?](https://arxiv.org/abs/2610.22599) | [autolab-ai/EV-estimation](https://github.com/autolab-ai/EV-estimation) | medium |

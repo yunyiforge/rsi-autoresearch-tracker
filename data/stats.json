@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-11-03T09:45:01Z",
-  "run_date": "2026-11-03",
+  "generated_at": "2026-11-04T07:30:20Z",
+  "run_date": "2026-11-04",
   "mode": "collect",
   "counts": {
-    "items_total": 900,
-    "new_this_run": 0,
-    "new_today": 900,
+    "items_total": 911,
+    "new_this_run": 11,
+    "new_today": 11,
     "by_source": {
-      "arxiv": 473,
-      "github": 406,
+      "arxiv": 481,
+      "github": 409,
       "rss": 11,
       "hn": 10
     },
     "by_type": {
-      "paper": 473,
-      "repo": 406,
+      "paper": 481,
+      "repo": 409,
       "article": 11,
       "discussion": 10
     },
     "by_topic": {
-      "autoresearch": 562,
-      "rsi": 389
+      "autoresearch": 568,
+      "rsi": 394
     },
     "by_tag": {
-      "benchmark": 294,
-      "framework": 282,
-      "multi-agent": 103,
-      "has-code": 102,
+      "benchmark": 300,
+      "framework": 286,
+      "multi-agent": 104,
+      "has-code": 103,
       "code-agent": 88,
-      "dataset": 85,
+      "dataset": 86,
       "idea-generation": 83,
-      "evolutionary-search": 66,
+      "evolutionary-search": 67,
       "safety": 55,
-      "science-domain": 40,
+      "science-domain": 42,
       "ml-engineering": 29,
       "survey": 23,
-      "self-training": 21,
+      "self-training": 22,
       "prompt-optimization": 16,
       "paper-replication": 5
     }
@@ -70,36 +70,36 @@
       "paper-replication": 5
     }
   },
-  "benchmark_tasks": 100,
+  "benchmark_tasks": 101,
   "sources": {
     "arxiv": {
       "status": "ok",
       "fetched": 500,
       "errors": [],
-      "seconds": 49.5
+      "seconds": 58.3
     },
     "github": {
       "status": "ok",
       "fetched": 601,
       "errors": [],
-      "seconds": 53.0
+      "seconds": 52.8
     },
     "hn": {
       "status": "ok",
-      "fetched": 46,
+      "fetched": 44,
       "errors": [],
-      "seconds": 5.6
+      "seconds": 6.5
     },
     "rss": {
       "status": "ok",
-      "fetched": 204,
+      "fetched": 206,
       "errors": [],
-      "seconds": 2.1
+      "seconds": 1.9
     }
   },
   "pipeline": {
     "collected": 1351,
-    "irrelevant_filtered": 318,
+    "irrelevant_filtered": 319,
     "duplicates_removed": 0,
     "cross_links": 7,
     "enrich_errors": [],
