@@ -1,6 +1,6 @@
 # RSI & AutoResearch Benchmark 数据集
 
-> 自动生成于 2026-11-04T07:30:20Z（UTC）。精选 16 个 + 自动发现候选 60 个；论文复现任务候选 101 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
+> 自动生成于 2026-11-05T07:55:13Z（UTC）。精选 16 个 + 自动发现候选 61 个；论文复现任务候选 101 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
 
 ## 精选 Benchmark
 
@@ -9,7 +9,7 @@
 | [METR Time Horizon](https://arxiv.org/abs/2503.14499) | ai-rnd | METR | 2025 |  | 50% 成功率对应的人类任务时长（time horizon） | [arXiv](https://arxiv.org/abs/2503.14499) |  |
 | [MLRC-Bench](https://arxiv.org/abs/2504.09702) | ai-rnd |  | 2025 |  | 相对基线与人类最佳方案的提升 | [arXiv](https://arxiv.org/abs/2504.09702) |  |
 | [RE-Bench](https://arxiv.org/abs/2411.15114) | ai-rnd | METR | 2024 | 7 个开放式 ML 研究工程环境 | 相对参考解的归一化得分，并与人类专家 8 小时成绩对比 | [arXiv](https://arxiv.org/abs/2411.15114) |  |
-| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | coding | Princeton | 2023 | 2,294 个 GitHub issue（Verified 子集 500） | 解决率 (% Resolved) | [arXiv](https://arxiv.org/abs/2310.06770) | 6,141 |
+| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | coding | Princeton | 2023 | 2,294 个 GitHub issue（Verified 子集 500） | 解决率 (% Resolved) | [arXiv](https://arxiv.org/abs/2310.06770) | 6,148 |
 | [HCAST](https://arxiv.org/abs/2503.17354) | general-agent | METR | 2025 | 189 个软件/ML/网络安全任务 | 按人类完成时长校准的成功率 | [arXiv](https://arxiv.org/abs/2503.17354) |  |
 | [MLAgentBench](https://github.com/snap-stanford/MLAgentBench) | ml-engineering | Stanford | 2023 | 13 个 ML 实验任务 | 相对基线提升 ≥10% 的成功率 | [arXiv](https://arxiv.org/abs/2310.03302) | 359 |
 | [MLE-bench](https://github.com/openai/mle-bench) | ml-engineering | OpenAI | 2024 | 75 个 Kaggle 竞赛 | 获得 Kaggle 奖牌的比例 | [arXiv](https://arxiv.org/abs/2410.07095) | 1,790 |
@@ -21,14 +21,15 @@
 | [DiscoveryWorld](https://github.com/allenai/discoveryworld) | scientific-discovery | AI2 | 2024 | 120 个虚拟科学发现任务 | 任务完成度 / 解释性知识得分 | [arXiv](https://arxiv.org/abs/2406.06769) | 229 |
 | [LAB-Bench](https://github.com/Future-House/LAB-Bench) | scientific-discovery | FutureHouse | 2024 | 2,400+ 道生物学研究实务题 | 准确率 / 精确率 | [arXiv](https://arxiv.org/abs/2407.10362) | 135 |
 | [SciCode](https://github.com/scicode-bench/SciCode) | scientific-discovery |  | 2024 | 80 个主问题 / 338 个子问题 | 通过率 | [arXiv](https://arxiv.org/abs/2407.13168) | 246 |
-| [ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench) | scientific-discovery | OSU NLP | 2024 | 来自 44 篇论文的 102 个任务 | 成功率 / CodeBERTScore | [arXiv](https://arxiv.org/abs/2410.05080) | 181 |
+| [ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench) | scientific-discovery | OSU NLP | 2024 | 来自 44 篇论文的 102 个任务 | 成功率 / CodeBERTScore | [arXiv](https://arxiv.org/abs/2410.05080) | 182 |
 
 ## 自动发现的 Benchmark 候选
 
-按方向统计：general-agent 15，coding 14，research-ideation 12，self-improvement 6，scientific-discovery 5，ai-rnd 4，ml-engineering 2，paper-replication 2
+按方向统计：coding 15，general-agent 15，research-ideation 12，self-improvement 6，scientific-discovery 5，ai-rnd 4，ml-engineering 2，paper-replication 2
 
 | 名称 | 方向 | 年份 | 论文 | 仓库 | 首次发现 |
 |---|---|---|---|---|---|
+| CompressionBench | coding | 2026 | [arXiv](https://arxiv.org/abs/2611.06858) |  | 2026-11-05 |
 | When Agent Evaluation Becomes Unreliable | general-agent | 2026 | [arXiv](https://arxiv.org/abs/2610.16067) |  | 2026-11-03 |
 | VibeTraining-Bench | coding | 2026 | [arXiv](https://arxiv.org/abs/2610.26342) | [D2I-ai/VibeTraining-Bench](https://github.com/D2I-ai/VibeTraining-Bench) | 2026-11-03 |
 | TSFLab | coding | 2026 | [arXiv](https://arxiv.org/abs/2610.40901) | [D2I-Group/TSFLab](https://github.com/D2I-Group/TSFLab) | 2026-11-03 |
