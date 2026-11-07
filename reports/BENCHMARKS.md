@@ -1,6 +1,6 @@
 # RSI & AutoResearch Benchmark 数据集
 
-> 自动生成于 2026-11-06T07:56:18Z（UTC）。精选 16 个 + 自动发现候选 61 个；论文复现任务候选 101 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
+> 自动生成于 2026-11-07T07:11:59Z（UTC）。精选 16 个 + 自动发现候选 61 个；论文复现任务候选 101 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
 
 ## 精选 Benchmark
 
@@ -9,13 +9,13 @@
 | [METR Time Horizon](https://arxiv.org/abs/2503.14499) | ai-rnd | METR | 2025 |  | 50% 成功率对应的人类任务时长（time horizon） | [arXiv](https://arxiv.org/abs/2503.14499) |  |
 | [MLRC-Bench](https://arxiv.org/abs/2504.09702) | ai-rnd |  | 2025 |  | 相对基线与人类最佳方案的提升 | [arXiv](https://arxiv.org/abs/2504.09702) |  |
 | [RE-Bench](https://arxiv.org/abs/2411.15114) | ai-rnd | METR | 2024 | 7 个开放式 ML 研究工程环境 | 相对参考解的归一化得分，并与人类专家 8 小时成绩对比 | [arXiv](https://arxiv.org/abs/2411.15114) |  |
-| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | coding | Princeton | 2023 | 2,294 个 GitHub issue（Verified 子集 500） | 解决率 (% Resolved) | [arXiv](https://arxiv.org/abs/2310.06770) | 6,152 |
+| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | coding | Princeton | 2023 | 2,294 个 GitHub issue（Verified 子集 500） | 解决率 (% Resolved) | [arXiv](https://arxiv.org/abs/2310.06770) | 6,155 |
 | [HCAST](https://arxiv.org/abs/2503.17354) | general-agent | METR | 2025 | 189 个软件/ML/网络安全任务 | 按人类完成时长校准的成功率 | [arXiv](https://arxiv.org/abs/2503.17354) |  |
 | [MLAgentBench](https://github.com/snap-stanford/MLAgentBench) | ml-engineering | Stanford | 2023 | 13 个 ML 实验任务 | 相对基线提升 ≥10% 的成功率 | [arXiv](https://arxiv.org/abs/2310.03302) | 359 |
-| [MLE-bench](https://github.com/openai/mle-bench) | ml-engineering | OpenAI | 2024 | 75 个 Kaggle 竞赛 | 获得 Kaggle 奖牌的比例 | [arXiv](https://arxiv.org/abs/2410.07095) | 1,791 |
+| [MLE-bench](https://github.com/openai/mle-bench) | ml-engineering | OpenAI | 2024 | 75 个 Kaggle 竞赛 | 获得 Kaggle 奖牌的比例 | [arXiv](https://arxiv.org/abs/2410.07095) | 1,792 |
 | [MLGym](https://github.com/facebookresearch/MLGym) | ml-engineering | Meta | 2025 | 13 个跨领域 AI 研究任务 | performance profile / AUP | [arXiv](https://arxiv.org/abs/2502.14499) | 625 |
 | [CORE-Bench](https://github.com/siegelz/core-bench) | paper-replication | Princeton | 2024 | 来自 90 篇论文的 270 个任务 | 准确率 | [arXiv](https://arxiv.org/abs/2409.11363) | 80 |
-| [PaperBench](https://github.com/openai/preparedness) | paper-replication | OpenAI | 2025 | 20 篇 ICML 2024 论文，约 8,316 个可打分子任务 | 基于层级 rubric 的复现得分（LLM judge 评分） | [arXiv](https://arxiv.org/abs/2504.01848) | 1,335 |
+| [PaperBench](https://github.com/openai/preparedness) | paper-replication | OpenAI | 2025 | 20 篇 ICML 2024 论文，约 8,316 个可打分子任务 | 基于层级 rubric 的复现得分（LLM judge 评分） | [arXiv](https://arxiv.org/abs/2504.01848) | 1,336 |
 | [SUPER](https://github.com/allenai/super-benchmark) | paper-replication | AI2 | 2024 | 45 个专家问题 + 152 个子问题 + 604 个自动生成问题 | 任务成功率 | [arXiv](https://arxiv.org/abs/2409.07440) | 58 |
 | [BixBench](https://github.com/Future-House/BixBench) | scientific-discovery | FutureHouse | 2025 |  | 开放式答案准确率 | [arXiv](https://arxiv.org/abs/2503.00096) | 151 |
 | [DiscoveryWorld](https://github.com/allenai/discoveryworld) | scientific-discovery | AI2 | 2024 | 120 个虚拟科学发现任务 | 任务完成度 / 解释性知识得分 | [arXiv](https://arxiv.org/abs/2406.06769) | 229 |

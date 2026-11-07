@@ -1,6 +1,6 @@
-# RSI & AutoResearch 每日追踪 · 2026-11-06
+# RSI & AutoResearch 每日追踪 · 2026-11-07
 
-> 自动生成于 2026-11-06T07:56:18Z（UTC）。累计 **930** 条数据，今日新增 **8** 条；框架 112 个，benchmark 77 个，复现任务候选 101 个。
+> 自动生成于 2026-11-07T07:11:59Z（UTC）。累计 **935** 条数据，今日新增 **5** 条；框架 112 个，benchmark 77 个，复现任务候选 101 个。
 
 ## 运行概况
 
@@ -8,47 +8,45 @@
 |---|---|---:|---|
 | arxiv | ok | 500 |  |
 | github | ok | 602 |  |
-| hn | ok | 45 |  |
+| hn | ok | 41 |  |
 | rss | ok | 214 |  |
 
-## 🆕 新论文（8）
-
-- [Recursive Self-Improvement for Long-Horizon Role-Playing Dialogue](https://arxiv.org/abs/2611.07469) — Y. L. Li et al. · 2026-11-05 `RSI` `#framework`
-- [Scientist World: Grow a Research World for AI-Scientists](https://arxiv.org/abs/2611.08478) — Taiming Lu et al. · 2026-11-05 `AutoResearch` `#evolutionary-search` `#idea-generation`
-- [Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement](https://arxiv.org/abs/2611.08318) — Wenbo Huang et al. · 2026-11-05 `RSI` `#benchmark` `#code-agent`
-- [Beneath the Surface: What We Overlook When We Talk About Agent Evolution](https://arxiv.org/abs/2611.07624) — Xiaobo Wang et al. · 2026-11-05 `RSI` `#benchmark`
-- [WeightLoop: Weight-Space Programming with Experimental Feedback](https://arxiv.org/abs/2611.07319) — Mengran Li et al. · 2026-11-05 `RSI` `#framework`
-- [Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI](https://arxiv.org/abs/2611.07048) — Andrew W. Lo et al. · 2026-11-04 `RSI` `#framework` `#safety`
-- [CORE: Coarse-to-Fine Search with Context Management for Deep Research](https://arxiv.org/abs/2611.07859) — Hoang Tran Vuong et al. · 2026-11-05 `AutoResearch` `#benchmark` `#dataset`
-- [Selective Retrieval Routing for Multi-Violation Knowledge Graph Repair](https://arxiv.org/abs/2611.07342) — Tung-Wei Lin et al. · 2026-11-05 `AutoResearch` `#dataset` `#framework`
-
-## 🆕 新仓库（0）
+## 🆕 新论文（0）
 
 _今日无新增_
 
-## 🆕 讨论与博客（0）
+## 🆕 新仓库（3）
 
-_今日无新增_
+| 仓库 | ⭐ | 描述 | 标签 |
+|---|---:|---|---|
+| [neomjs/neo](https://github.com/neomjs/neo) | 3,299 | Neo.mjs is a self-evolving software organism: a professional end-to-end AI engineering team whose cross-model swarm inhabits live apps via N | `RSI` |
+| [Leeroo-AI/kapso](https://github.com/Leeroo-AI/kapso) | 138 | Kapso by Leeroo: an engine that runs experiments toward an objective, deploys the best solution on your stack and learns from every run into | `AutoResearch` `#benchmark` `#ml-engineering` |
+| [dietmarwo/autoresearch-trading](https://github.com/dietmarwo/autoresearch-trading) | 36 | Combine Karpathys autoresearch idea with evolutionary optimisation | `AutoResearch` `#evolutionary-search` |
+
+## 🆕 讨论与博客（2）
+
+- **HN** [AI for scientific discovery: How researchers use Claude](https://www.anthropic.com/research/how-researchers-use-claude) · ▲93 · [讨论](https://news.ycombinator.com/item?id=50389990) `AutoResearch`
+- **HN** [Stop running everything through LLMs: How I fixed my research agent](https://www.tinyfish.ai/blog/inside-tinyresearch) · ▲21 · [讨论](https://news.ycombinator.com/item?id=50389479) `AutoResearch`
 
 ## 🔥 Star 最多的相关仓库（累计）
 
 | 仓库 | ⭐ | 主题 |
 |---|---:|---|
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,340 | `AutoResearch` |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 56,249 | `AutoResearch` `#framework` `#science-domain` |
-| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,663 | `RSI` |
-| [letta-ai/letta](https://github.com/letta-ai/letta) | 25,365 | `RSI` `#framework` |
-| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,599 | `RSI` |
-| [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 20,099 | `AutoResearch` |
-| [dzhng/deep-research](https://github.com/dzhng/deep-research) | 19,878 | `AutoResearch` |
-| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | 14,952 | `AutoResearch` `#evolutionary-search` |
-| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 14,826 | `AutoResearch` `RSI` `#multi-agent` |
-| [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 14,395 | `RSI` |
-| [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | 14,309 | `AutoResearch` `#framework` |
-| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,832 | `RSI` |
-| [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 12,290 | `RSI` |
-| [aden-hive/hive](https://github.com/aden-hive/hive) | 11,141 | `RSI` `#framework` `#multi-agent` |
-| [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman) | 10,081 | `AutoResearch` `#code-agent` |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,417 | `AutoResearch` |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 56,347 | `AutoResearch` `#framework` `#science-domain` |
+| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,720 | `RSI` |
+| [letta-ai/letta](https://github.com/letta-ai/letta) | 25,373 | `RSI` `#framework` |
+| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,613 | `RSI` |
+| [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 20,100 | `AutoResearch` |
+| [dzhng/deep-research](https://github.com/dzhng/deep-research) | 19,877 | `AutoResearch` |
+| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | 14,955 | `AutoResearch` `#evolutionary-search` |
+| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 14,831 | `AutoResearch` `RSI` `#multi-agent` |
+| [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 14,399 | `RSI` |
+| [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | 14,322 | `AutoResearch` `#framework` |
+| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,845 | `RSI` |
+| [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 12,307 | `RSI` |
+| [aden-hive/hive](https://github.com/aden-hive/hive) | 11,142 | `RSI` `#framework` `#multi-agent` |
+| [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman) | 10,086 | `AutoResearch` `#code-agent` |
 
 ---
 
