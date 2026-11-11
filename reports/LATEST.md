@@ -1,6 +1,6 @@
-# RSI & AutoResearch 每日追踪 · 2026-11-10
+# RSI & AutoResearch 每日追踪 · 2026-11-11
 
-> 自动生成于 2026-11-10T08:25:58Z（UTC）。累计 **967** 条数据，今日新增 **22** 条；框架 112 个，benchmark 81 个，复现任务候选 110 个。
+> 自动生成于 2026-11-11T07:45:23Z（UTC）。累计 **975** 条数据，今日新增 **8** 条；框架 112 个，benchmark 83 个，复现任务候选 111 个。
 
 ## 运行概况
 
@@ -8,62 +8,46 @@
 |---|---|---:|---|
 | arxiv | ok | 500 |  |
 | github | ok | 605 |  |
-| hn | ok | 42 |  |
-| rss | ok | 211 |  |
+| hn | ok | 46 |  |
+| rss | ok | 216 |  |
 
-## 🆕 新论文（20）
+## 🆕 新论文（7）
 
-- [SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery](https://arxiv.org/abs/2611.12552) — Weimin Wu et al. · 2026-11-09 `RSI` `#benchmark` `#framework` `#multi-agent`
-- [InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure](https://arxiv.org/abs/2611.11558) — InfraRSI Team et al. · 2026-11-08 · 💻 code `RSI` `#code-agent` `#evolutionary-search` `#has-code` `#safety`
-- [Trustworthy Recursive Self-Improvement with Statistical Guarantees](https://arxiv.org/abs/2611.10787) — Zihe Gao et al. · 2026-11-07 `RSI` `#benchmark` `#framework`
-- [Is Recursive Self-Improvement Safe?](https://arxiv.org/abs/2611.10261) — Vincent Conitzer · 2026-11-06 `RSI` `#framework`
-- [REINS: A Self-Evolving Agent Harness for Real-Time Trajectory Planning](https://arxiv.org/abs/2611.10748) — Zhihong Cui et al. · 2026-11-07 · 💻 code `RSI` `#benchmark` `#has-code`
-- [Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists](https://arxiv.org/abs/2611.12184) — Guowei Xu et al. · 2026-11-09 `AutoResearch` `#framework` `#idea-generation`
-- [ForgeSystem: An Architecture for Demand-Specific Artefact Production with AI Agents](https://arxiv.org/abs/2611.12288) — Qingfeng He et al. · 2026-11-09 `RSI` `#framework`
-- [SkillDuet: Co-Evolving Models and Skills through Response Feedback](https://arxiv.org/abs/2611.12109) — Xingguang Ji et al. · 2026-11-09 `RSI` `#framework`
-- [Review the Episodes, Refine the Lessons: Simple Memory Evolution for Embodied Agents](https://arxiv.org/abs/2611.11509) — Yifei Yao et al. · 2026-11-08 `RSI` `#benchmark`
-- [JoMoHa: Joint Model--Harness Optimization with Reinforcement Learning](https://arxiv.org/abs/2611.11499) — Xudong Wu et al. · 2026-11-08 `RSI` `#benchmark` `#framework`
-- [Task-adaptive anonymisation enables privacy-preserving sharing of clinical speech data](https://arxiv.org/abs/2611.11273) — Ziyun Cui et al. · 2026-11-08 `RSI`
-- [No Second Run: Does RSI Stop at Frontier Pre-training?](https://arxiv.org/abs/2611.10719) — Xiaojie Cai et al. · 2026-11-07 · 💻 code `RSI` `#benchmark` `#has-code`
-- [LongCapHarness: Capability-Guided Auto-Harnessing for Long-Context Reasoning](https://arxiv.org/abs/2611.10463) — Tao Zhang et al. · 2026-11-07 `RSI` `#benchmark` `#framework`
-- [Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery](https://arxiv.org/abs/2611.12762) — Weida Wang et al. · 2026-11-09 `AutoResearch` `#benchmark` `#evolutionary-search` `#science-domain`
-- [Causal Discovery Bench: Can LLMs Autonomously Conduct Effective Experiments?](https://arxiv.org/abs/2611.09934) — Zhuoyang Liu et al. · 2026-10-13 · 💻 code `AutoResearch` `#benchmark` `#has-code`
-- [Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction](https://arxiv.org/abs/2611.10439) — Yunzhe Wang et al. · 2026-11-07 `RSI` `#benchmark` `#multi-agent`
-- [HyPLM Technical Report](https://arxiv.org/abs/2611.12000) — Haowei Lin et al. · 2026-11-09 · 💻 code `AutoResearch` `#has-code` `#science-domain`
-- [HyInv Technical Report](https://arxiv.org/abs/2611.11997) — Haowei Lin et al. · 2026-11-09 · 💻 code `AutoResearch` `#benchmark` `#dataset` `#has-code` `#science-domain`
-- [DeepResearch RewardBench: Evaluating Reward Models for Deep Research Report](https://arxiv.org/abs/2611.10156) — Shudong Liu et al. · 2026-11-06 `AutoResearch` `#benchmark` `#dataset`
-- [Deterministic Narrative Gravity: Bridging Theory of Mind and Historical Simulation through ABM-LLM Architectures](https://arxiv.org/abs/2611.11212) — Alicia Colmenero-Fernández et al. · 2026-11-08 · 💻 code `AutoResearch` `#benchmark` `#framework` `#has-code` `#multi-agent`
+- [The RSI Tax: When Recursive Self-Improvement Is Not Worth the Cost](https://arxiv.org/abs/2611.13524) — Yitong Zhang et al. · 2026-11-10 `RSI`
+- [Third Eye: Beyond Immediate Gains in Recursive Self-Improvement](https://arxiv.org/abs/2611.12988) — Sujato Dutta et al. · 2026-11-08 `RSI`
+- [Toward Autonomous RTL and Synthesis Optimization: Benchmarking and Self-Improving Agents](https://arxiv.org/abs/2611.13713) — Wenji Fang et al. · 2026-11-10 `RSI` `#benchmark` `#evolutionary-search` `#framework` `#multi-agent`
+- [NCP: Verifier-Guided Optimization of Weight-Space Control Policies](https://arxiv.org/abs/2611.13236) — Ekrem Aksoy · 2026-11-09 `RSI` `#framework`
+- [A Comprehensive Survey of Agent Distillation across Models, Artifacts, and Harnesses](https://arxiv.org/abs/2609.36630) — Ziluowen Luo et al. · 2026-09-29 `RSI` `#benchmark` `#framework` `#survey`
+- [ARE-bench: Benchmarking Agents' Research Ability in Real-World Researcher Sessions and Workspaces](https://arxiv.org/abs/2611.14364) — Jiahang Lin et al. · 2026-11-10 `AutoResearch` `#benchmark`
+- [Seeing Is Not Believing: Counterfactual Lesion Erasure Teaches a Small Medical Vision-Language Agent to Report Only What the Image Shows](https://arxiv.org/abs/2611.13006) — Bhaskar Gurram · 2026-11-08 · 💻 code `AutoResearch` `#benchmark` `#dataset` `#has-code`
 
-## 🆕 新仓库（2）
-
-| 仓库 | ⭐ | 描述 | 标签 |
-|---|---:|---|---|
-| [MasterAI-EAM/ai-scientists-last-exam](https://github.com/MasterAI-EAM/ai-scientists-last-exam) | 14 | AISLE: evaluating complete AI scientists through simulation and real wet-lab experiments | `AutoResearch` |
-| [richardcsuwandi/kernaut](https://github.com/richardcsuwandi/kernaut) | 11 | Kernel autoresearch for open-ended model discovery | `AutoResearch` `#code-agent` `#evolutionary-search` |
-
-## 🆕 讨论与博客（0）
+## 🆕 新仓库（0）
 
 _今日无新增_
+
+## 🆕 讨论与博客（1）
+
+- **AI Alignment Forum** [Q3.5 Timelines Update: Looks Like the Intelligence Explosion Will Happen in 2027 After All](https://www.alignmentforum.org/posts/f9PajMLmBYzmWzyDv/q3-5-timelines-update-looks-like-the-intelligence-explosion) `RSI` `#safety`
 
 ## 🔥 Star 最多的相关仓库（累计）
 
 | 仓库 | ⭐ | 主题 |
 |---|---:|---|
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,716 | `AutoResearch` |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 56,648 | `AutoResearch` `#framework` `#science-domain` |
-| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,903 | `RSI` |
-| [letta-ai/letta](https://github.com/letta-ai/letta) | 25,396 | `RSI` `#framework` |
-| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,650 | `RSI` |
-| [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 20,122 | `AutoResearch` |
-| [dzhng/deep-research](https://github.com/dzhng/deep-research) | 19,886 | `AutoResearch` |
-| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | 14,977 | `AutoResearch` `#evolutionary-search` |
-| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 14,847 | `AutoResearch` `RSI` `#multi-agent` |
-| [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | 14,403 | `AutoResearch` `#framework` |
-| [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 14,402 | `RSI` |
-| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,865 | `RSI` |
-| [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 12,342 | `RSI` |
-| [aden-hive/hive](https://github.com/aden-hive/hive) | 11,148 | `RSI` `#framework` `#multi-agent` |
-| [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman) | 10,106 | `AutoResearch` `#code-agent` |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 99,771 | `AutoResearch` |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 56,772 | `AutoResearch` `#framework` `#science-domain` |
+| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,990 | `RSI` |
+| [letta-ai/letta](https://github.com/letta-ai/letta) | 25,413 | `RSI` `#framework` |
+| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,657 | `RSI` |
+| [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 20,127 | `AutoResearch` |
+| [dzhng/deep-research](https://github.com/dzhng/deep-research) | 19,891 | `AutoResearch` |
+| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | 14,980 | `AutoResearch` `#evolutionary-search` |
+| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 14,856 | `AutoResearch` `RSI` `#multi-agent` |
+| [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | 14,436 | `AutoResearch` `#framework` |
+| [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 14,404 | `RSI` |
+| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,879 | `RSI` |
+| [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 12,354 | `RSI` |
+| [aden-hive/hive](https://github.com/aden-hive/hive) | 11,151 | `RSI` `#framework` `#multi-agent` |
+| [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman) | 10,107 | `AutoResearch` `#code-agent` |
 
 ---
 
