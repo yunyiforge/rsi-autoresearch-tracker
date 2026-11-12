@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-11T07:45:23Z",
-  "run_date": "2026-11-11",
+  "generated_at": "2026-11-12T08:21:41Z",
+  "run_date": "2026-11-12",
   "mode": "collect",
   "counts": {
     "items_total": 975,
-    "new_this_run": 8,
-    "new_today": 8,
+    "new_this_run": 0,
+    "new_today": 0,
     "by_source": {
       "arxiv": 525,
       "github": 425,
@@ -76,30 +76,30 @@
       "status": "ok",
       "fetched": 500,
       "errors": [],
-      "seconds": 76.3
+      "seconds": 59.3
     },
     "github": {
       "status": "ok",
       "fetched": 605,
       "errors": [],
-      "seconds": 55.8
+      "seconds": 52.1
     },
     "hn": {
       "status": "ok",
-      "fetched": 46,
+      "fetched": 36,
       "errors": [],
-      "seconds": 6.1
+      "seconds": 6.7
     },
     "rss": {
       "status": "ok",
-      "fetched": 216,
+      "fetched": 219,
       "errors": [],
-      "seconds": 5.0
+      "seconds": 3.2
     }
   },
   "pipeline": {
-    "collected": 1367,
-    "irrelevant_filtered": 335,
+    "collected": 1360,
+    "irrelevant_filtered": 329,
     "duplicates_removed": 0,
     "cross_links": 9,
     "enrich_errors": [],
