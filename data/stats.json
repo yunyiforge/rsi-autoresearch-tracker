@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-11-12T08:21:41Z",
-  "run_date": "2026-11-12",
+  "generated_at": "2026-11-13T07:59:40Z",
+  "run_date": "2026-11-13",
   "mode": "collect",
   "counts": {
-    "items_total": 975,
-    "new_this_run": 0,
-    "new_today": 0,
+    "items_total": 984,
+    "new_this_run": 9,
+    "new_today": 9,
     "by_source": {
-      "arxiv": 525,
-      "github": 425,
-      "rss": 13,
-      "hn": 12
+      "arxiv": 532,
+      "github": 426,
+      "hn": 13,
+      "rss": 13
     },
     "by_type": {
-      "paper": 525,
-      "repo": 425,
-      "article": 13,
-      "discussion": 12
+      "paper": 532,
+      "repo": 426,
+      "discussion": 13,
+      "article": 13
     },
     "by_topic": {
-      "autoresearch": 596,
-      "rsi": 432
+      "autoresearch": 600,
+      "rsi": 438
     },
     "by_tag": {
-      "benchmark": 331,
-      "framework": 306,
+      "benchmark": 335,
+      "framework": 308,
       "has-code": 113,
       "multi-agent": 110,
       "code-agent": 95,
-      "dataset": 91,
+      "dataset": 94,
       "idea-generation": 86,
-      "evolutionary-search": 74,
-      "safety": 60,
-      "science-domain": 48,
+      "evolutionary-search": 75,
+      "safety": 61,
+      "science-domain": 50,
       "ml-engineering": 30,
       "survey": 24,
       "self-training": 23,
@@ -56,14 +56,14 @@
     }
   },
   "benchmarks": {
-    "total": 83,
+    "total": 84,
     "curated": 16,
-    "candidates": 67,
+    "candidates": 68,
     "by_focus": {
       "general-agent": 20,
       "coding": 16,
       "research-ideation": 12,
-      "scientific-discovery": 10,
+      "scientific-discovery": 11,
       "self-improvement": 8,
       "ai-rnd": 7,
       "ml-engineering": 5,
@@ -73,37 +73,39 @@
   "benchmark_tasks": 111,
   "sources": {
     "arxiv": {
-      "status": "ok",
-      "fetched": 500,
-      "errors": [],
-      "seconds": 59.3
+      "status": "partial",
+      "fetched": 450,
+      "errors": [
+        "all:replication AND all:benchmark AND all:agent: TimeoutError: The read operation timed out for https://export.arxiv.org/api/query?search_query=%28all%3Areplication+AND+all%3Abenchmark+AND+all%3Aagent%29+AND+%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.MA+OR+cat%3Acs.NE+OR+cat%3Acs.SE%29&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending"
+      ],
+      "seconds": 246.4
     },
     "github": {
       "status": "ok",
       "fetched": 605,
       "errors": [],
-      "seconds": 52.1
+      "seconds": 56.5
     },
     "hn": {
       "status": "ok",
-      "fetched": 36,
+      "fetched": 44,
       "errors": [],
-      "seconds": 6.7
+      "seconds": 6.2
     },
     "rss": {
       "status": "ok",
-      "fetched": 219,
+      "fetched": 222,
       "errors": [],
-      "seconds": 3.2
+      "seconds": 2.8
     }
   },
   "pipeline": {
-    "collected": 1360,
-    "irrelevant_filtered": 329,
+    "collected": 1321,
+    "irrelevant_filtered": 339,
     "duplicates_removed": 0,
     "cross_links": 9,
     "enrich_errors": [],
-    "http_requests": 85
+    "http_requests": 88
   },
   "quality": {
     "invalid_dropped": 0,

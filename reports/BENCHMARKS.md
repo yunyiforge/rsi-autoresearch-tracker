@@ -1,6 +1,6 @@
 # RSI & AutoResearch Benchmark 数据集
 
-> 自动生成于 2026-11-12T08:21:41Z（UTC）。精选 16 个 + 自动发现候选 67 个；论文复现任务候选 111 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
+> 自动生成于 2026-11-13T07:59:40Z（UTC）。精选 16 个 + 自动发现候选 68 个；论文复现任务候选 111 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
 
 ## 精选 Benchmark
 
@@ -9,26 +9,27 @@
 | [METR Time Horizon](https://arxiv.org/abs/2503.14499) | ai-rnd | METR | 2025 |  | 50% 成功率对应的人类任务时长（time horizon） | [arXiv](https://arxiv.org/abs/2503.14499) |  |
 | [MLRC-Bench](https://arxiv.org/abs/2504.09702) | ai-rnd |  | 2025 |  | 相对基线与人类最佳方案的提升 | [arXiv](https://arxiv.org/abs/2504.09702) |  |
 | [RE-Bench](https://arxiv.org/abs/2411.15114) | ai-rnd | METR | 2024 | 7 个开放式 ML 研究工程环境 | 相对参考解的归一化得分，并与人类专家 8 小时成绩对比 | [arXiv](https://arxiv.org/abs/2411.15114) |  |
-| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | coding | Princeton | 2023 | 2,294 个 GitHub issue（Verified 子集 500） | 解决率 (% Resolved) | [arXiv](https://arxiv.org/abs/2310.06770) | 6,178 |
+| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | coding | Princeton | 2023 | 2,294 个 GitHub issue（Verified 子集 500） | 解决率 (% Resolved) | [arXiv](https://arxiv.org/abs/2310.06770) | 6,181 |
 | [HCAST](https://arxiv.org/abs/2503.17354) | general-agent | METR | 2025 | 189 个软件/ML/网络安全任务 | 按人类完成时长校准的成功率 | [arXiv](https://arxiv.org/abs/2503.17354) |  |
 | [MLAgentBench](https://github.com/snap-stanford/MLAgentBench) | ml-engineering | Stanford | 2023 | 13 个 ML 实验任务 | 相对基线提升 ≥10% 的成功率 | [arXiv](https://arxiv.org/abs/2310.03302) | 360 |
-| [MLE-bench](https://github.com/openai/mle-bench) | ml-engineering | OpenAI | 2024 | 75 个 Kaggle 竞赛 | 获得 Kaggle 奖牌的比例 | [arXiv](https://arxiv.org/abs/2410.07095) | 1,796 |
+| [MLE-bench](https://github.com/openai/mle-bench) | ml-engineering | OpenAI | 2024 | 75 个 Kaggle 竞赛 | 获得 Kaggle 奖牌的比例 | [arXiv](https://arxiv.org/abs/2410.07095) | 1,799 |
 | [MLGym](https://github.com/facebookresearch/MLGym) | ml-engineering | Meta | 2025 | 13 个跨领域 AI 研究任务 | performance profile / AUP | [arXiv](https://arxiv.org/abs/2502.14499) | 625 |
 | [CORE-Bench](https://github.com/siegelz/core-bench) | paper-replication | Princeton | 2024 | 来自 90 篇论文的 270 个任务 | 准确率 | [arXiv](https://arxiv.org/abs/2409.11363) | 80 |
 | [PaperBench](https://github.com/openai/preparedness) | paper-replication | OpenAI | 2025 | 20 篇 ICML 2024 论文，约 8,316 个可打分子任务 | 基于层级 rubric 的复现得分（LLM judge 评分） | [arXiv](https://arxiv.org/abs/2504.01848) | 1,340 |
 | [SUPER](https://github.com/allenai/super-benchmark) | paper-replication | AI2 | 2024 | 45 个专家问题 + 152 个子问题 + 604 个自动生成问题 | 任务成功率 | [arXiv](https://arxiv.org/abs/2409.07440) | 58 |
 | [BixBench](https://github.com/Future-House/BixBench) | scientific-discovery | FutureHouse | 2025 |  | 开放式答案准确率 | [arXiv](https://arxiv.org/abs/2503.00096) | 153 |
-| [DiscoveryWorld](https://github.com/allenai/discoveryworld) | scientific-discovery | AI2 | 2024 | 120 个虚拟科学发现任务 | 任务完成度 / 解释性知识得分 | [arXiv](https://arxiv.org/abs/2406.06769) | 229 |
+| [DiscoveryWorld](https://github.com/allenai/discoveryworld) | scientific-discovery | AI2 | 2024 | 120 个虚拟科学发现任务 | 任务完成度 / 解释性知识得分 | [arXiv](https://arxiv.org/abs/2406.06769) | 230 |
 | [LAB-Bench](https://github.com/Future-House/LAB-Bench) | scientific-discovery | FutureHouse | 2024 | 2,400+ 道生物学研究实务题 | 准确率 / 精确率 | [arXiv](https://arxiv.org/abs/2407.10362) | 136 |
 | [SciCode](https://github.com/scicode-bench/SciCode) | scientific-discovery |  | 2024 | 80 个主问题 / 338 个子问题 | 通过率 | [arXiv](https://arxiv.org/abs/2407.13168) | 246 |
-| [ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench) | scientific-discovery | OSU NLP | 2024 | 来自 44 篇论文的 102 个任务 | 成功率 / CodeBERTScore | [arXiv](https://arxiv.org/abs/2410.05080) | 185 |
+| [ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench) | scientific-discovery | OSU NLP | 2024 | 来自 44 篇论文的 102 个任务 | 成功率 / CodeBERTScore | [arXiv](https://arxiv.org/abs/2410.05080) | 184 |
 
 ## 自动发现的 Benchmark 候选
 
-按方向统计：general-agent 19，coding 15，research-ideation 12，self-improvement 8，scientific-discovery 5，ai-rnd 4，ml-engineering 2，paper-replication 2
+按方向统计：general-agent 19，coding 15，research-ideation 12，self-improvement 8，scientific-discovery 6，ai-rnd 4，ml-engineering 2，paper-replication 2
 
 | 名称 | 方向 | 年份 | 论文 | 仓库 | 首次发现 |
 |---|---|---|---|---|---|
+| RSI-PDEbench | scientific-discovery | 2026 | [arXiv](https://arxiv.org/abs/2611.14949) |  | 2026-11-13 |
 | Toward Autonomous RTL and Synthesis Optimization: Benchmarking and Self-Improvi… | self-improvement | 2026 | [arXiv](https://arxiv.org/abs/2611.13713) |  | 2026-11-11 |
 | ARE-bench | general-agent | 2026 | [arXiv](https://arxiv.org/abs/2611.14364) |  | 2026-11-11 |
 | DeepResearch RewardBench | general-agent | 2026 | [arXiv](https://arxiv.org/abs/2611.10156) |  | 2026-11-10 |
