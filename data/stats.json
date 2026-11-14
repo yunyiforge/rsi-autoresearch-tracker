@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-11-13T07:59:40Z",
-  "run_date": "2026-11-13",
+  "generated_at": "2026-11-14T07:37:11Z",
+  "run_date": "2026-11-14",
   "mode": "collect",
   "counts": {
-    "items_total": 984,
-    "new_this_run": 9,
-    "new_today": 9,
+    "items_total": 987,
+    "new_this_run": 3,
+    "new_today": 3,
     "by_source": {
-      "arxiv": 532,
+      "arxiv": 535,
       "github": 426,
       "hn": 13,
       "rss": 13
     },
     "by_type": {
-      "paper": 532,
+      "paper": 535,
       "repo": 426,
       "discussion": 13,
       "article": 13
     },
     "by_topic": {
-      "autoresearch": 600,
+      "autoresearch": 603,
       "rsi": 438
     },
     "by_tag": {
-      "benchmark": 335,
+      "benchmark": 338,
       "framework": 308,
       "has-code": 113,
-      "multi-agent": 110,
+      "multi-agent": 111,
       "code-agent": 95,
       "dataset": 94,
       "idea-generation": 86,
@@ -46,8 +46,8 @@
     "candidates": 80,
     "by_category": {
       "self-improvement": 45,
-      "autoresearch-system": 38,
-      "agent-infra": 10,
+      "autoresearch-system": 37,
+      "agent-infra": 11,
       "deep-research": 5,
       "other": 5,
       "evolutionary-search": 4,
@@ -56,12 +56,12 @@
     }
   },
   "benchmarks": {
-    "total": 84,
+    "total": 85,
     "curated": 16,
-    "candidates": 68,
+    "candidates": 69,
     "by_focus": {
       "general-agent": 20,
-      "coding": 16,
+      "coding": 17,
       "research-ideation": 12,
       "scientific-discovery": 11,
       "self-improvement": 8,
@@ -73,39 +73,37 @@
   "benchmark_tasks": 111,
   "sources": {
     "arxiv": {
-      "status": "partial",
-      "fetched": 450,
-      "errors": [
-        "all:replication AND all:benchmark AND all:agent: TimeoutError: The read operation timed out for https://export.arxiv.org/api/query?search_query=%28all%3Areplication+AND+all%3Abenchmark+AND+all%3Aagent%29+AND+%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.MA+OR+cat%3Acs.NE+OR+cat%3Acs.SE%29&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending"
-      ],
-      "seconds": 246.4
+      "status": "ok",
+      "fetched": 500,
+      "errors": [],
+      "seconds": 57.4
     },
     "github": {
       "status": "ok",
       "fetched": 605,
       "errors": [],
-      "seconds": 56.5
+      "seconds": 51.4
     },
     "hn": {
       "status": "ok",
-      "fetched": 44,
+      "fetched": 36,
       "errors": [],
-      "seconds": 6.2
+      "seconds": 7.1
     },
     "rss": {
       "status": "ok",
-      "fetched": 222,
+      "fetched": 225,
       "errors": [],
-      "seconds": 2.8
+      "seconds": 3.2
     }
   },
   "pipeline": {
-    "collected": 1321,
-    "irrelevant_filtered": 339,
+    "collected": 1366,
+    "irrelevant_filtered": 336,
     "duplicates_removed": 0,
     "cross_links": 9,
     "enrich_errors": [],
-    "http_requests": 88
+    "http_requests": 85
   },
   "quality": {
     "invalid_dropped": 0,
