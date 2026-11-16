@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-11-15T07:53:18Z",
-  "run_date": "2026-11-15",
+  "generated_at": "2026-11-16T07:59:49Z",
+  "run_date": "2026-11-16",
   "mode": "collect",
   "counts": {
-    "items_total": 988,
-    "new_this_run": 1,
-    "new_today": 1,
+    "items_total": 995,
+    "new_this_run": 7,
+    "new_today": 7,
     "by_source": {
-      "arxiv": 535,
-      "github": 427,
+      "arxiv": 538,
+      "github": 431,
       "hn": 13,
       "rss": 13
     },
     "by_type": {
-      "paper": 535,
-      "repo": 427,
+      "paper": 538,
+      "repo": 431,
       "discussion": 13,
       "article": 13
     },
     "by_topic": {
-      "autoresearch": 604,
-      "rsi": 438
+      "autoresearch": 609,
+      "rsi": 440
     },
     "by_tag": {
-      "benchmark": 337,
-      "framework": 308,
+      "benchmark": 338,
+      "framework": 310,
+      "multi-agent": 113,
       "has-code": 113,
-      "multi-agent": 111,
+      "dataset": 95,
       "code-agent": 95,
-      "dataset": 94,
       "idea-generation": 86,
-      "evolutionary-search": 75,
-      "safety": 61,
+      "evolutionary-search": 77,
+      "safety": 62,
       "science-domain": 50,
-      "ml-engineering": 30,
+      "ml-engineering": 31,
       "survey": 24,
       "self-training": 23,
-      "prompt-optimization": 18,
+      "prompt-optimization": 19,
       "paper-replication": 5
     }
   },
@@ -76,30 +76,30 @@
       "status": "ok",
       "fetched": 500,
       "errors": [],
-      "seconds": 57.7
+      "seconds": 99.2
     },
     "github": {
       "status": "ok",
-      "fetched": 605,
+      "fetched": 606,
       "errors": [],
-      "seconds": 51.5
+      "seconds": 52.4
     },
     "hn": {
       "status": "ok",
-      "fetched": 39,
+      "fetched": 35,
       "errors": [],
-      "seconds": 6.6
+      "seconds": 13.8
     },
     "rss": {
       "status": "ok",
       "fetched": 223,
       "errors": [],
-      "seconds": 3.3
+      "seconds": 3.8
     }
   },
   "pipeline": {
-    "collected": 1367,
-    "irrelevant_filtered": 337,
+    "collected": 1364,
+    "irrelevant_filtered": 334,
     "duplicates_removed": 0,
     "cross_links": 9,
     "enrich_errors": [],
