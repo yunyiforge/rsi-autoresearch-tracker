@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-16T07:59:49Z",
-  "run_date": "2026-11-16",
+  "generated_at": "2026-11-17T09:14:33Z",
+  "run_date": "2026-11-17",
   "mode": "collect",
   "counts": {
-    "items_total": 995,
-    "new_this_run": 7,
-    "new_today": 7,
+    "items_total": 1009,
+    "new_this_run": 14,
+    "new_today": 14,
     "by_source": {
-      "arxiv": 538,
+      "arxiv": 550,
       "github": 431,
-      "hn": 13,
-      "rss": 13
+      "rss": 14,
+      "hn": 14
     },
     "by_type": {
-      "paper": 538,
+      "paper": 550,
       "repo": 431,
-      "discussion": 13,
-      "article": 13
+      "article": 14,
+      "discussion": 14
     },
     "by_topic": {
-      "autoresearch": 609,
-      "rsi": 440
+      "autoresearch": 615,
+      "rsi": 448
     },
     "by_tag": {
-      "benchmark": 338,
-      "framework": 310,
-      "multi-agent": 113,
-      "has-code": 113,
-      "dataset": 95,
-      "code-agent": 95,
+      "benchmark": 346,
+      "framework": 312,
+      "multi-agent": 117,
+      "has-code": 115,
+      "code-agent": 97,
+      "dataset": 96,
       "idea-generation": 86,
-      "evolutionary-search": 77,
-      "safety": 62,
-      "science-domain": 50,
+      "evolutionary-search": 78,
+      "safety": 64,
+      "science-domain": 51,
       "ml-engineering": 31,
-      "survey": 24,
+      "survey": 25,
       "self-training": 23,
       "prompt-optimization": 19,
       "paper-replication": 5
@@ -56,12 +56,12 @@
     }
   },
   "benchmarks": {
-    "total": 85,
+    "total": 86,
     "curated": 16,
-    "candidates": 69,
+    "candidates": 70,
     "by_focus": {
       "general-agent": 20,
-      "coding": 17,
+      "coding": 18,
       "research-ideation": 12,
       "scientific-discovery": 11,
       "self-improvement": 8,
@@ -70,36 +70,36 @@
       "paper-replication": 5
     }
   },
-  "benchmark_tasks": 111,
+  "benchmark_tasks": 113,
   "sources": {
     "arxiv": {
       "status": "ok",
-      "fetched": 500,
+      "fetched": 501,
       "errors": [],
-      "seconds": 99.2
+      "seconds": 60.1
     },
     "github": {
       "status": "ok",
       "fetched": 606,
       "errors": [],
-      "seconds": 52.4
+      "seconds": 56.7
     },
     "hn": {
       "status": "ok",
-      "fetched": 35,
+      "fetched": 45,
       "errors": [],
-      "seconds": 13.8
+      "seconds": 6.2
     },
     "rss": {
       "status": "ok",
-      "fetched": 223,
+      "fetched": 225,
       "errors": [],
-      "seconds": 3.8
+      "seconds": 3.2
     }
   },
   "pipeline": {
-    "collected": 1364,
-    "irrelevant_filtered": 334,
+    "collected": 1377,
+    "irrelevant_filtered": 345,
     "duplicates_removed": 0,
     "cross_links": 9,
     "enrich_errors": [],

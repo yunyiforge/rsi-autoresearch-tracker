@@ -1,6 +1,6 @@
 # RSI & AutoResearch Benchmark 数据集
 
-> 自动生成于 2026-11-16T07:59:49Z（UTC）。精选 16 个 + 自动发现候选 69 个；论文复现任务候选 111 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
+> 自动生成于 2026-11-17T09:14:33Z（UTC）。精选 16 个 + 自动发现候选 70 个；论文复现任务候选 113 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
 
 ## 精选 Benchmark
 
@@ -9,13 +9,13 @@
 | [METR Time Horizon](https://arxiv.org/abs/2503.14499) | ai-rnd | METR | 2025 |  | 50% 成功率对应的人类任务时长（time horizon） | [arXiv](https://arxiv.org/abs/2503.14499) |  |
 | [MLRC-Bench](https://arxiv.org/abs/2504.09702) | ai-rnd |  | 2025 |  | 相对基线与人类最佳方案的提升 | [arXiv](https://arxiv.org/abs/2504.09702) |  |
 | [RE-Bench](https://arxiv.org/abs/2411.15114) | ai-rnd | METR | 2024 | 7 个开放式 ML 研究工程环境 | 相对参考解的归一化得分，并与人类专家 8 小时成绩对比 | [arXiv](https://arxiv.org/abs/2411.15114) |  |
-| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | coding | Princeton | 2023 | 2,294 个 GitHub issue（Verified 子集 500） | 解决率 (% Resolved) | [arXiv](https://arxiv.org/abs/2310.06770) | 6,198 |
+| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | coding | Princeton | 2023 | 2,294 个 GitHub issue（Verified 子集 500） | 解决率 (% Resolved) | [arXiv](https://arxiv.org/abs/2310.06770) | 6,209 |
 | [HCAST](https://arxiv.org/abs/2503.17354) | general-agent | METR | 2025 | 189 个软件/ML/网络安全任务 | 按人类完成时长校准的成功率 | [arXiv](https://arxiv.org/abs/2503.17354) |  |
 | [MLAgentBench](https://github.com/snap-stanford/MLAgentBench) | ml-engineering | Stanford | 2023 | 13 个 ML 实验任务 | 相对基线提升 ≥10% 的成功率 | [arXiv](https://arxiv.org/abs/2310.03302) | 360 |
-| [MLE-bench](https://github.com/openai/mle-bench) | ml-engineering | OpenAI | 2024 | 75 个 Kaggle 竞赛 | 获得 Kaggle 奖牌的比例 | [arXiv](https://arxiv.org/abs/2410.07095) | 1,799 |
+| [MLE-bench](https://github.com/openai/mle-bench) | ml-engineering | OpenAI | 2024 | 75 个 Kaggle 竞赛 | 获得 Kaggle 奖牌的比例 | [arXiv](https://arxiv.org/abs/2410.07095) | 1,800 |
 | [MLGym](https://github.com/facebookresearch/MLGym) | ml-engineering | Meta | 2025 | 13 个跨领域 AI 研究任务 | performance profile / AUP | [arXiv](https://arxiv.org/abs/2502.14499) | 625 |
 | [CORE-Bench](https://github.com/siegelz/core-bench) | paper-replication | Princeton | 2024 | 来自 90 篇论文的 270 个任务 | 准确率 | [arXiv](https://arxiv.org/abs/2409.11363) | 80 |
-| [PaperBench](https://github.com/openai/preparedness) | paper-replication | OpenAI | 2025 | 20 篇 ICML 2024 论文，约 8,316 个可打分子任务 | 基于层级 rubric 的复现得分（LLM judge 评分） | [arXiv](https://arxiv.org/abs/2504.01848) | 1,342 |
+| [PaperBench](https://github.com/openai/preparedness) | paper-replication | OpenAI | 2025 | 20 篇 ICML 2024 论文，约 8,316 个可打分子任务 | 基于层级 rubric 的复现得分（LLM judge 评分） | [arXiv](https://arxiv.org/abs/2504.01848) | 1,343 |
 | [SUPER](https://github.com/allenai/super-benchmark) | paper-replication | AI2 | 2024 | 45 个专家问题 + 152 个子问题 + 604 个自动生成问题 | 任务成功率 | [arXiv](https://arxiv.org/abs/2409.07440) | 58 |
 | [BixBench](https://github.com/Future-House/BixBench) | scientific-discovery | FutureHouse | 2025 |  | 开放式答案准确率 | [arXiv](https://arxiv.org/abs/2503.00096) | 153 |
 | [DiscoveryWorld](https://github.com/allenai/discoveryworld) | scientific-discovery | AI2 | 2024 | 120 个虚拟科学发现任务 | 任务完成度 / 解释性知识得分 | [arXiv](https://arxiv.org/abs/2406.06769) | 230 |
@@ -25,10 +25,11 @@
 
 ## 自动发现的 Benchmark 候选
 
-按方向统计：general-agent 19，coding 16，research-ideation 12，self-improvement 8，scientific-discovery 6，ai-rnd 4，ml-engineering 2，paper-replication 2
+按方向统计：general-agent 19，coding 17，research-ideation 12，self-improvement 8，scientific-discovery 6，ai-rnd 4，ml-engineering 2，paper-replication 2
 
 | 名称 | 方向 | 年份 | 论文 | 仓库 | 首次发现 |
 |---|---|---|---|---|---|
+| Security of Deep Research Agents | coding | 2026 | [arXiv](https://arxiv.org/abs/2611.20045) |  | 2026-11-17 |
 | tau2-bench | coding | 2026 | [arXiv](https://arxiv.org/abs/2611.14581) |  | 2026-11-14 |
 | RSI-PDEbench | scientific-discovery | 2026 | [arXiv](https://arxiv.org/abs/2611.14949) |  | 2026-11-13 |
 | Toward Autonomous RTL and Synthesis Optimization: Benchmarking and Self-Improvi… | self-improvement | 2026 | [arXiv](https://arxiv.org/abs/2611.13713) |  | 2026-11-11 |
@@ -101,10 +102,12 @@
 
 ## 论文复现任务候选（自动构建）
 
-共 111 个（难度提示：easy 4，hard 17，medium 90）。完整数据见 [`data/benchmark_tasks.jsonl`](../data/benchmark_tasks.jsonl)。
+共 113 个（难度提示：easy 4，hard 17，medium 92）。完整数据见 [`data/benchmark_tasks.jsonl`](../data/benchmark_tasks.jsonl)。
 
 | 任务 | 论文 | 官方代码 | 难度 |
 |---|---|---|---|
+| `replicate:2611.21541` | [SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents](https://arxiv.org/abs/2611.21541) | [Btwestyo/sciresearch-eval](https://github.com/Btwestyo/sciresearch-eval) | medium |
+| `replicate:2611.19794` | [Eliciting Research Taste in LLMs through Future Research Direction Choice](https://arxiv.org/abs/2611.19794) | [Lossfunk/research-taste-eval-v1](https://github.com/Lossfunk/research-taste-eval-v1) | medium |
 | `replicate:2611.12000` | [HyPLM Technical Report](https://arxiv.org/abs/2611.12000) | [Tencent-Hunyuan/hyra-results](https://github.com/Tencent-Hunyuan/hyra-results) | hard |
 | `replicate:2611.11997` | [HyInv Technical Report](https://arxiv.org/abs/2611.11997) | [Tencent-Hunyuan/Hyra-results](https://github.com/Tencent-Hunyuan/Hyra-results) | hard |
 | `replicate:2611.13006` | [Seeing Is Not Believing: Counterfactual Lesion Erasure Teaches a Small Medical Vision-Language Agent to Report Only What the Image Shows](https://arxiv.org/abs/2611.13006) | [bhaskargurram-ai/medscope](https://github.com/bhaskargurram-ai/medscope) | easy |
@@ -126,12 +129,10 @@
 | `replicate:2610.35866` | [Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling](https://arxiv.org/abs/2610.35866) | [Auto-Research-Arena/auto-research-arena](https://github.com/Auto-Research-Arena/auto-research-arena) | hard |
 | `replicate:2610.35793` | [Quantifying Claim Smoothing by LLM Research Agents](https://arxiv.org/abs/2610.35793) | [tiasa2/SmoothScore](https://github.com/tiasa2/SmoothScore) | medium |
 | `replicate:2610.33845` | [Build, Don't Play: Self-Improving LLM Research Agents Develop a Hearthstone Battlegrounds AI That Rivals Top Players](https://arxiv.org/abs/2610.33845) | [MCG-NJU/AutoTavern](https://github.com/MCG-NJU/AutoTavern) | medium |
-| `replicate:2610.33465` | [LegoSR: A Unified Framework for Self-improving Agent-Guided Scientific Discovery](https://arxiv.org/abs/2610.33465) | [Scientific-Artificial-Intelligence-Lab/kd](https://github.com/Scientific-Artificial-Intelligence-Lab/kd) | medium |
+| `replicate:2610.33465` | [LegoSR: A Unified Framework for Self-Improving Agent-Guided Scientific Discovery](https://arxiv.org/abs/2610.33465) | [Scientific-Artificial-Intelligence-Lab/kd](https://github.com/Scientific-Artificial-Intelligence-Lab/kd) | medium |
 | `replicate:2610.32813` | [HarnessMM: Recursive Self-Improvement for Harness Token Efficiency](https://arxiv.org/abs/2610.32813) | [YuhuaJiang2002/HarnessMM](https://github.com/YuhuaJiang2002/HarnessMM) | medium |
 | `replicate:2610.31158` | [Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports](https://arxiv.org/abs/2610.31158) | [marinero4972/OmniDR-Bench](https://github.com/marinero4972/OmniDR-Bench) | medium |
 | `replicate:2610.28577` | [Cache Engineering for Agents](https://arxiv.org/abs/2610.28577) | [thu-nics/AKV](https://github.com/thu-nics/AKV) | medium |
 | `replicate:2610.26829` | [ProteinGeoBench: Frontier Structural-Biology Agents Are Fluent at Lookup but Lost in Geometry](https://arxiv.org/abs/2610.26829) | [Protege-AI/ProteinGeoBench](https://github.com/Protege-AI/ProteinGeoBench) | medium |
 | `replicate:2610.26770` | [HarnessPro: Recursive Harness Self-Improvement with Pareto Optimization for Performance-Cost Trade-offs](https://arxiv.org/abs/2610.26770) | [pzs19/HarnessPro](https://github.com/pzs19/HarnessPro) | medium |
 | `replicate:2610.26632` | [When the harness decides success: state that cannot be re-observed](https://arxiv.org/abs/2610.26632) | [raimondasl/persistgym](https://github.com/raimondasl/persistgym) | medium |
-| `replicate:2610.26469` | [VeriCUA: Learning Proactive Verification for Reliable GUI Agent Rewards](https://arxiv.org/abs/2610.26469) | [Jeffjeno/VeriCUA](https://github.com/Jeffjeno/VeriCUA) | hard |
-| `replicate:2610.26453` | [Learning What to Remember: Resource-Efficient Self-Improvement for Lifelong Agents](https://arxiv.org/abs/2610.26453) | [AIGNLAI/TokenWorth](https://github.com/AIGNLAI/TokenWorth) | medium |
