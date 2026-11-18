@@ -14,8 +14,8 @@
     "url": "https://github.com/karpathy/autoresearch",
     "arxiv_id": null,
     "year": 2026,
-    "stars": 100157,
-    "forks": 13785,
+    "stars": 100214,
+    "forks": 13786,
     "language": "Python",
     "license": null,
     "last_push": "2026-03-26T00:07:37Z",
@@ -25,7 +25,7 @@
       "github:karpathy/autoresearch"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:the-ai-scientist",
@@ -41,7 +41,7 @@
     "url": "https://github.com/SakanaAI/AI-Scientist",
     "arxiv_id": "2408.06292",
     "year": 2024,
-    "stars": 15005,
+    "stars": 15014,
     "forks": 2088,
     "language": "Jupyter Notebook",
     "license": "NOASSERTION",
@@ -52,7 +52,7 @@
       "github:sakanaai/ai-scientist"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:the-ai-scientist-v2",
@@ -68,8 +68,8 @@
     "url": "https://github.com/SakanaAI/AI-Scientist-v2",
     "arxiv_id": "2504.08066",
     "year": 2025,
-    "stars": 7516,
-    "forks": 1017,
+    "stars": 7524,
+    "forks": 1015,
     "language": "Python",
     "license": "NOASSERTION",
     "last_push": "2025-12-19T07:46:32Z",
@@ -79,7 +79,7 @@
       "github:sakanaai/ai-scientist-v2"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:agent-laboratory",
@@ -104,7 +104,7 @@
     "description": "文献综述→实验→报告撰写的多 agent 科研助手，支持人类在环",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:ai-researcher",
@@ -120,7 +120,7 @@
     "url": "https://github.com/HKUDS/AI-Researcher",
     "arxiv_id": null,
     "year": 2025,
-    "stars": 5894,
+    "stars": 5895,
     "forks": 730,
     "language": "Python",
     "license": null,
@@ -129,7 +129,7 @@
     "description": "端到端自动化科研框架，覆盖文献、想法、实现、实验与论文写作",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:rd-agent",
@@ -146,8 +146,8 @@
     "url": "https://github.com/microsoft/RD-Agent",
     "arxiv_id": null,
     "year": 2024,
-    "stars": 15404,
-    "forks": 2055,
+    "stars": 15413,
+    "forks": 2056,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-10-21T16:01:22Z",
@@ -155,7 +155,7 @@
     "description": "面向数据驱动研发（量化、Kaggle、模型研发）的自动 R&D agent 框架",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:data-to-paper",
@@ -180,7 +180,7 @@
     "description": "从数据出发、可追溯地自动完成假设→分析→论文写作的科研流程",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:paperqa2",
@@ -196,7 +196,7 @@
     "url": "https://github.com/Future-House/paper-qa",
     "arxiv_id": "2409.13740",
     "year": 2024,
-    "stars": 9612,
+    "stars": 9620,
     "forks": 957,
     "language": "Python",
     "license": "Apache-2.0",
@@ -205,7 +205,7 @@
     "description": "面向科学文献的高精度 RAG / 文献综述 agent",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:storm",
@@ -221,7 +221,7 @@
     "url": "https://github.com/stanford-oval/storm",
     "arxiv_id": "2402.14207",
     "year": 2024,
-    "stars": 31901,
+    "stars": 31907,
     "forks": 3014,
     "language": "Python",
     "license": "MIT",
@@ -230,7 +230,7 @@
     "description": "多视角提问 + 检索，自动生成维基百科式长篇研究报告",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:gpt-researcher",
@@ -246,8 +246,8 @@
     "url": "https://github.com/assafelovic/gpt-researcher",
     "arxiv_id": null,
     "year": 2023,
-    "stars": 30751,
-    "forks": 4234,
+    "stars": 30770,
+    "forks": 4238,
     "language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-11-12T19:34:46Z",
@@ -255,7 +255,7 @@
     "description": "开源自主研究 agent，自动检索并生成带引用的研究报告",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:open-deep-research",
@@ -271,7 +271,7 @@
     "url": "https://github.com/langchain-ai/open_deep_research",
     "arxiv_id": null,
     "year": 2025,
-    "stars": 12674,
+    "stars": 12675,
     "forks": 1865,
     "language": "Python",
     "license": "MIT",
@@ -280,7 +280,7 @@
     "description": "可配置的开源 deep research agent 参考实现",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:deep-research",
@@ -296,7 +296,7 @@
     "url": "https://github.com/dzhng/deep-research",
     "arxiv_id": null,
     "year": 2025,
-    "stars": 19908,
+    "stars": 19911,
     "forks": 2008,
     "language": "TypeScript",
     "license": "MIT",
@@ -307,7 +307,7 @@
       "github:dzhng/deep-research"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:aide",
@@ -324,7 +324,7 @@
     "url": "https://github.com/WecoAI/aideml",
     "arxiv_id": "2502.13138",
     "year": 2024,
-    "stars": 1627,
+    "stars": 1626,
     "forks": 240,
     "language": "Python",
     "license": "MIT",
@@ -336,7 +336,7 @@
       "arxiv:2502.13138"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:darwin-godel-machine",
@@ -352,7 +352,7 @@
     "url": "https://github.com/jennyzzt/dgm",
     "arxiv_id": "2505.22954",
     "year": 2025,
-    "stars": 2519,
+    "stars": 2523,
     "forks": 465,
     "language": "Python",
     "license": "Apache-2.0",
@@ -364,7 +364,7 @@
       "arxiv:2505.22954"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:godel-agent",
@@ -389,7 +389,7 @@
     "description": "受 Gödel machine 启发、可递归修改自身逻辑的自指 agent 框架",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:self-improving-coding-agent-sica",
@@ -416,7 +416,7 @@
       "github:maximerobeyns/self_improving_coding_agent"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:adas-meta-agent-search",
@@ -432,7 +432,7 @@
     "url": "https://github.com/ShengranHu/ADAS",
     "arxiv_id": "2408.08435",
     "year": 2024,
-    "stars": 1666,
+    "stars": 1667,
     "forks": 239,
     "language": "Python",
     "license": "Apache-2.0",
@@ -443,7 +443,7 @@
       "arxiv:2408.08435"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:stop-self-taught-optimizer",
@@ -468,7 +468,7 @@
     "description": "递归改进“改进器”代码本身的自我优化脚手架",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:voyager",
@@ -493,7 +493,7 @@
     "description": "通过自动课程与技能库持续自我扩展能力的终身学习 agent",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:alphaevolve",
@@ -519,7 +519,7 @@
     "description": "Gemini 驱动的进化式编码 agent，用于算法与数学发现（未开源）",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:openevolve",
@@ -536,17 +536,17 @@
     "url": "https://github.com/codelion/openevolve",
     "arxiv_id": null,
     "year": 2025,
-    "stars": 7798,
-    "forks": 1224,
+    "stars": 7804,
+    "forks": 1227,
     "language": "Python",
     "license": "Apache-2.0",
-    "last_push": "2026-11-17T00:38:16Z",
+    "last_push": "2026-11-18T03:43:05Z",
     "repo_status": "ok",
     "description": "AlphaEvolve 的开源实现，LLM 驱动的程序进化框架",
     "evidence": [],
     "repo_moved_to": "algorithmicsuperintelligence/openevolve",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:shinkaevolve",
@@ -563,16 +563,16 @@
     "url": "https://github.com/SakanaAI/ShinkaEvolve",
     "arxiv_id": null,
     "year": 2025,
-    "stars": 1521,
+    "stars": 1522,
     "forks": 304,
     "language": "Python",
     "license": "Apache-2.0",
-    "last_push": "2026-11-13T21:04:30Z",
+    "last_push": "2026-11-17T22:12:47Z",
     "repo_status": "ok",
     "description": "样本高效的 LLM 程序进化框架，面向开放式科学发现",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:funsearch",
@@ -597,7 +597,7 @@
     "description": "LLM + 进化搜索在数学问题上发现新构造的方法",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:dspy",
@@ -613,8 +613,8 @@
     "url": "https://github.com/stanfordnlp/dspy",
     "arxiv_id": "2310.03714",
     "year": 2023,
-    "stars": 39102,
-    "forks": 3521,
+    "stars": 39120,
+    "forks": 3524,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-11-13T14:13:09Z",
@@ -622,7 +622,7 @@
     "description": "声明式 LM 程序与自动 prompt/权重优化框架",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:textgrad",
@@ -638,8 +638,8 @@
     "url": "https://github.com/zou-group/textgrad",
     "arxiv_id": "2406.07496",
     "year": 2024,
-    "stars": 3797,
-    "forks": 295,
+    "stars": 3799,
+    "forks": 296,
     "language": "Python",
     "license": "MIT",
     "last_push": "2025-07-25T14:30:39Z",
@@ -647,7 +647,7 @@
     "description": "用文本“梯度”反向传播优化复合 AI 系统",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:gepa",
@@ -663,8 +663,8 @@
     "url": "https://github.com/gepa-ai/gepa",
     "arxiv_id": "2507.19457",
     "year": 2025,
-    "stars": 7460,
-    "forks": 623,
+    "stars": 7481,
+    "forks": 625,
     "language": "Jupyter Notebook",
     "license": "MIT",
     "last_push": "2026-11-09T12:46:31Z",
@@ -672,7 +672,7 @@
     "description": "基于反思与 Pareto 进化的 prompt 优化器",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:gptswarm",
@@ -699,7 +699,7 @@
       "github:metauto-ai/gptswarm"
     ],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:openhands",
@@ -716,17 +716,17 @@
     "url": "https://github.com/All-Hands-AI/OpenHands",
     "arxiv_id": null,
     "year": 2024,
-    "stars": 93628,
-    "forks": 12540,
+    "stars": 93718,
+    "forks": 12552,
     "language": "TypeScript",
     "license": "MIT",
-    "last_push": "2026-11-17T04:02:24Z",
+    "last_push": "2026-11-18T04:35:15Z",
     "repo_status": "ok",
     "description": "开源软件工程 agent 平台，常作为自我改进编码循环的执行器",
     "evidence": [],
     "repo_moved_to": "OpenHands/OpenHands",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:swe-agent",
@@ -742,8 +742,8 @@
     "url": "https://github.com/SWE-agent/SWE-agent",
     "arxiv_id": null,
     "year": 2024,
-    "stars": 20820,
-    "forks": 2271,
+    "stars": 20827,
+    "forks": 2274,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-11-16T22:30:07Z",
@@ -751,7 +751,7 @@
     "description": "面向真实仓库修复的编码 agent 与 agent-computer interface",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:metagpt",
@@ -767,8 +767,8 @@
     "url": "https://github.com/geekan/MetaGPT",
     "arxiv_id": null,
     "year": 2023,
-    "stars": 71320,
-    "forks": 9114,
+    "stars": 71334,
+    "forks": 9116,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-01-21T10:12:33Z",
@@ -777,7 +777,7 @@
     "evidence": [],
     "repo_moved_to": "FoundationAgents/MetaGPT",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:autogen",
@@ -793,7 +793,7 @@
     "url": "https://github.com/microsoft/autogen",
     "arxiv_id": null,
     "year": 2023,
-    "stars": 61882,
+    "stars": 61912,
     "forks": 9411,
     "language": "Python",
     "license": "CC-BY-4.0",
@@ -802,7 +802,7 @@
     "description": "多 agent 对话与编排框架",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:smolagents",
@@ -818,16 +818,16 @@
     "url": "https://github.com/huggingface/smolagents",
     "arxiv_id": null,
     "year": 2024,
-    "stars": 30401,
-    "forks": 3220,
+    "stars": 30427,
+    "forks": 3221,
     "language": "Python",
     "license": "Apache-2.0",
-    "last_push": "2026-11-15T19:34:42Z",
+    "last_push": "2026-11-17T18:34:15Z",
     "repo_status": "ok",
     "description": "轻量级 code-agent 框架，官方含 open deep research 示例",
     "evidence": [],
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:k-dense-ai-scientific-agent-skills",
@@ -847,14 +847,14 @@
     "evidence": [
       "github:k-dense-ai/scientific-agent-skills"
     ],
-    "stars": 57527,
-    "forks": 5057,
+    "stars": 57633,
+    "forks": 5068,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-11-16T09:19:25Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:volcengine-openviking",
@@ -874,14 +874,14 @@
     "evidence": [
       "github:volcengine/openviking"
     ],
-    "stars": 42345,
-    "forks": 3507,
+    "stars": 42403,
+    "forks": 3508,
     "language": "Python",
     "license": "AGPL-3.0",
-    "last_push": "2026-11-17T09:01:48Z",
+    "last_push": "2026-11-18T08:32:14Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:letta-ai-letta",
@@ -901,14 +901,14 @@
     "evidence": [
       "github:letta-ai/letta"
     ],
-    "stars": 25467,
-    "forks": 2676,
+    "stars": 25478,
+    "forks": 2677,
     "language": null,
     "license": "Apache-2.0",
     "last_push": "2026-10-18T22:28:04Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:primeintellect-ai-prime-agent",
@@ -928,14 +928,14 @@
     "evidence": [
       "github:primeintellect-ai/prime-agent"
     ],
-    "stars": 22794,
+    "stars": 22813,
     "forks": 2530,
     "language": "Rust",
     "license": "NOASSERTION",
-    "last_push": "2026-11-17T00:04:17Z",
+    "last_push": "2026-11-18T04:45:24Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:alibaba-nlp-deepresearch",
@@ -955,14 +955,14 @@
     "evidence": [
       "github:alibaba-nlp/deepresearch"
     ],
-    "stars": 20149,
-    "forks": 1535,
+    "stars": 20153,
+    "forks": 1534,
     "language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-02-27T13:12:11Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:aiming-lab-autoresearchclaw",
@@ -983,14 +983,14 @@
     "evidence": [
       "github:aiming-lab/autoresearchclaw"
     ],
-    "stars": 14886,
-    "forks": 1716,
+    "stars": 14893,
+    "forks": 1715,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-08-19T03:35:13Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:orchestra-research-ai-research-skills",
@@ -1010,14 +1010,14 @@
     "evidence": [
       "github:orchestra-research/ai-research-skills"
     ],
-    "stars": 14609,
-    "forks": 1004,
+    "stars": 14635,
+    "forks": 1006,
     "language": "TeX",
     "license": "MIT",
     "last_push": "2026-10-11T02:56:34Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:lsdefine-genericagent",
@@ -1037,14 +1037,14 @@
     "evidence": [
       "github:lsdefine/genericagent"
     ],
-    "stars": 14431,
-    "forks": 1672,
+    "stars": 14434,
+    "forks": 1674,
     "language": "Python",
     "license": "MIT",
-    "last_push": "2026-11-06T00:42:45Z",
+    "last_push": "2026-11-17T09:41:02Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:evermind-ai-everos",
@@ -1064,14 +1064,14 @@
     "evidence": [
       "github:evermind-ai/everos"
     ],
-    "stars": 13927,
+    "stars": 13935,
     "forks": 978,
     "language": "Python",
     "license": "Apache-2.0",
-    "last_push": "2026-11-16T09:57:19Z",
+    "last_push": "2026-11-18T07:28:22Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:memtensor-memos",
@@ -1091,14 +1091,14 @@
     "evidence": [
       "github:memtensor/memos"
     ],
-    "stars": 12426,
+    "stars": 12443,
     "forks": 1126,
     "language": "TypeScript",
     "license": "Apache-2.0",
-    "last_push": "2026-11-11T02:51:43Z",
+    "last_push": "2026-11-18T07:22:30Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:aden-hive-hive",
@@ -1118,14 +1118,14 @@
     "evidence": [
       "github:aden-hive/hive"
     ],
-    "stars": 11163,
+    "stars": 11171,
     "forks": 5630,
     "language": "Python",
     "license": "Apache-2.0",
-    "last_push": "2026-11-17T07:21:07Z",
+    "last_push": "2026-11-17T17:53:37Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:companion-inc-feynman",
@@ -1145,14 +1145,14 @@
     "evidence": [
       "github:companion-inc/feynman"
     ],
-    "stars": 10127,
+    "stars": 10132,
     "forks": 1110,
     "language": "TypeScript",
     "license": "MIT",
     "last_push": "2026-11-16T15:28:07Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:mervinpraison-praisonai",
@@ -1179,7 +1179,7 @@
     "last_push": "2026-11-04T07:25:34Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:evomap-evolver",
@@ -1199,14 +1199,14 @@
     "evidence": [
       "github:evomap/evolver"
     ],
-    "stars": 8745,
-    "forks": 853,
+    "stars": 8750,
+    "forks": 854,
     "language": "JavaScript",
     "license": "GPL-3.0",
     "last_push": "2026-11-12T06:39:05Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:davebcn87-pi-autoresearch",
@@ -1226,14 +1226,14 @@
     "evidence": [
       "github:davebcn87/pi-autoresearch"
     ],
-    "stars": 8245,
-    "forks": 470,
+    "stars": 8246,
+    "forks": 469,
     "language": "TypeScript",
     "license": "MIT",
     "last_push": "2026-10-07T14:17:37Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:alphaxiv-openresearch",
@@ -1253,14 +1253,14 @@
     "evidence": [
       "github:alphaxiv/openresearch"
     ],
-    "stars": 8182,
-    "forks": 563,
+    "stars": 8201,
+    "forks": 565,
     "language": "Rust",
     "license": "MIT",
-    "last_push": "2026-11-17T08:52:12Z",
+    "last_push": "2026-11-18T08:10:03Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:human-agent-society-reef",
@@ -1280,14 +1280,14 @@
     "evidence": [
       "github:human-agent-society/reef"
     ],
-    "stars": 7834,
+    "stars": 7839,
     "forks": 740,
     "language": "Python",
     "license": "Apache-2.0",
-    "last_push": "2026-11-17T09:08:27Z",
+    "last_push": "2026-11-18T08:34:02Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:dwzhu-pku-paperbanana",
@@ -1307,14 +1307,14 @@
     "evidence": [
       "github:dwzhu-pku/paperbanana"
     ],
-    "stars": 7659,
-    "forks": 579,
+    "stars": 7664,
+    "forks": 578,
     "language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-11-12T03:01:54Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:alchaincyf-darwin-skill",
@@ -1335,14 +1335,14 @@
     "evidence": [
       "github:alchaincyf/darwin-skill"
     ],
-    "stars": 6953,
-    "forks": 719,
+    "stars": 6979,
+    "forks": 723,
     "language": "HTML",
     "license": "MIT",
-    "last_push": "2026-11-14T23:14:35Z",
+    "last_push": "2026-11-18T06:11:01Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:uditgoenka-autoresearch",
@@ -1362,14 +1362,14 @@
     "evidence": [
       "github:uditgoenka/autoresearch"
     ],
-    "stars": 6845,
+    "stars": 6847,
     "forks": 491,
     "language": "Shell",
     "license": "MIT",
     "last_push": "2026-10-31T13:56:11Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:loopx-project-loopx",
@@ -1389,14 +1389,14 @@
     "evidence": [
       "github:loopx-project/loopx"
     ],
-    "stars": 6707,
+    "stars": 6718,
     "forks": 636,
     "language": "Python",
     "license": "Apache-2.0",
-    "last_push": "2026-11-17T09:15:12Z",
+    "last_push": "2026-11-18T08:31:58Z",
     "repo_status": "ok",
     "first_seen": "2026-11-15T07:53:18Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:wubing2023-paperspine",
@@ -1416,14 +1416,14 @@
     "evidence": [
       "github:wubing2023/paperspine"
     ],
-    "stars": 6328,
+    "stars": 6338,
     "forks": 255,
     "language": "Python",
     "license": "MIT",
-    "last_push": "2026-11-15T09:43:46Z",
+    "last_push": "2026-11-17T14:06:31Z",
     "repo_status": "ok",
     "first_seen": "2026-11-15T07:53:18Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:evermind-ai-raven",
@@ -1443,14 +1443,14 @@
     "evidence": [
       "github:evermind-ai/raven"
     ],
-    "stars": 6232,
-    "forks": 265,
+    "stars": 6246,
+    "forks": 267,
     "language": "Python",
     "license": "Apache-2.0",
-    "last_push": "2026-11-17T08:58:19Z",
+    "last_push": "2026-11-18T08:05:49Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:galaxy-dawn-claude-scholar",
@@ -1470,14 +1470,14 @@
     "evidence": [
       "github:galaxy-dawn/claude-scholar"
     ],
-    "stars": 6065,
+    "stars": 6068,
     "forks": 472,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-10-19T10:08:11Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:aiwaves-cn-agents",
@@ -1497,14 +1497,14 @@
     "evidence": [
       "github:aiwaves-cn/agents"
     ],
-    "stars": 5965,
+    "stars": 5967,
     "forks": 480,
     "language": "Python",
     "license": "Apache-2.0",
     "last_push": "2024-09-26T03:12:53Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:evoscientist-evoscientist",
@@ -1525,14 +1525,14 @@
     "evidence": [
       "github:evoscientist/evoscientist"
     ],
-    "stars": 5006,
+    "stars": 5025,
     "forks": 370,
     "language": "Python",
     "license": "Apache-2.0",
-    "last_push": "2026-11-16T12:32:36Z",
+    "last_push": "2026-11-17T16:30:44Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:jordan-gibbs-hyperresearch",
@@ -1552,14 +1552,14 @@
     "evidence": [
       "github:jordan-gibbs/hyperresearch"
     ],
-    "stars": 4837,
+    "stars": 4871,
     "forks": 500,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-11-17T03:01:15Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:ruc-datalab-deepanalyze",
@@ -1579,14 +1579,14 @@
     "evidence": [
       "github:ruc-datalab/deepanalyze"
     ],
-    "stars": 4824,
+    "stars": 4828,
     "forks": 756,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-11-02T13:47:42Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:letta-ai-letta-code",
@@ -1606,14 +1606,14 @@
     "evidence": [
       "github:letta-ai/letta-code"
     ],
-    "stars": 3860,
-    "forks": 478,
+    "stars": 3867,
+    "forks": 480,
     "language": "TypeScript",
     "license": "Apache-2.0",
-    "last_push": "2026-11-17T07:25:44Z",
+    "last_push": "2026-11-18T02:24:13Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:yilewang-llm-for-zotero",
@@ -1633,14 +1633,14 @@
     "evidence": [
       "github:yilewang/llm-for-zotero"
     ],
-    "stars": 3580,
-    "forks": 221,
+    "stars": 3584,
+    "forks": 220,
     "language": "TypeScript",
     "license": "AGPL-3.0",
-    "last_push": "2026-11-16T23:41:23Z",
+    "last_push": "2026-11-17T18:36:02Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:asymptote-labs-agent-beacon",
@@ -1660,14 +1660,14 @@
     "evidence": [
       "github:asymptote-labs/agent-beacon"
     ],
-    "stars": 3551,
-    "forks": 320,
+    "stars": 3565,
+    "forks": 323,
     "language": "Go",
     "license": "MIT",
-    "last_push": "2026-11-17T05:13:54Z",
+    "last_push": "2026-11-18T04:25:41Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:anative-lab-evoagentx",
@@ -1687,14 +1687,14 @@
     "evidence": [
       "github:anative-lab/evoagentx"
     ],
-    "stars": 3439,
+    "stars": 3445,
     "forks": 325,
     "language": "Python",
     "license": "NOASSERTION",
     "last_push": "2026-10-31T01:50:36Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:sentrux-sentrux",
@@ -1714,14 +1714,14 @@
     "evidence": [
       "github:sentrux/sentrux"
     ],
-    "stars": 3344,
+    "stars": 3345,
     "forks": 299,
     "language": "Rust",
     "license": "MIT",
     "last_push": "2026-03-19T02:23:12Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:neomjs-neo",
@@ -1741,14 +1741,14 @@
     "evidence": [
       "github:neomjs/neo"
     ],
-    "stars": 3304,
-    "forks": 307,
+    "stars": 3305,
+    "forks": 311,
     "language": "JavaScript",
     "license": "MIT",
-    "last_push": "2026-11-17T08:13:57Z",
+    "last_push": "2026-11-18T08:11:14Z",
     "repo_status": "ok",
     "first_seen": "2026-11-07T07:11:59Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:prism-shadow-penguin-harness",
@@ -1768,14 +1768,14 @@
     "evidence": [
       "github:prism-shadow/penguin-harness"
     ],
-    "stars": 3257,
-    "forks": 353,
+    "stars": 3269,
+    "forks": 355,
     "language": "TypeScript",
     "license": "Apache-2.0",
-    "last_push": "2026-11-17T09:12:07Z",
+    "last_push": "2026-11-18T08:34:05Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:leo-lilinxiao-codex-autoresearch",
@@ -1795,14 +1795,14 @@
     "evidence": [
       "github:leo-lilinxiao/codex-autoresearch"
     ],
-    "stars": 3228,
+    "stars": 3230,
     "forks": 130,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-09-12T14:07:51Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:openags-paper-search-mcp",
@@ -1822,14 +1822,14 @@
     "evidence": [
       "github:openags/paper-search-mcp"
     ],
-    "stars": 3116,
+    "stars": 3118,
     "forks": 308,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-10-02T06:16:38Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:evomap-autoresearch",
@@ -1849,14 +1849,14 @@
     "evidence": [
       "github:evomap/autoresearch"
     ],
-    "stars": 3103,
+    "stars": 3105,
     "forks": 279,
     "language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-09-16T08:13:08Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:opennswm-lab-faros",
@@ -1876,14 +1876,14 @@
     "evidence": [
       "github:opennswm-lab/faros"
     ],
-    "stars": 3045,
+    "stars": 3046,
     "forks": 388,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-10-21T12:30:47Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:phyagentos-phyagentos-core",
@@ -1903,41 +1903,14 @@
     "evidence": [
       "github:phyagentos/phyagentos-core"
     ],
-    "stars": 3008,
-    "forks": 139,
+    "stars": 3010,
+    "forks": 141,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-11-17T08:01:40Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
-  },
-  {
-    "id": "fw:sahibzada-allahyar-formal-verification-rsi",
-    "name": "Formal-Verification-RSI",
-    "category": "self-improvement",
-    "topics": [
-      "rsi"
-    ],
-    "status": "candidate",
-    "source": "auto",
-    "org": "sahibzada-allahyar",
-    "repo": "sahibzada-allahyar/Formal-Verification-RSI",
-    "url": "https://github.com/sahibzada-allahyar/Formal-Verification-RSI",
-    "arxiv_id": null,
-    "year": 2025,
-    "description": "Formal verification for AI: a Lean 4 + Dafny proof checker that catches fake AI proofs (reward hacking), and verified recursive self-improvement (RSI) for coding agents. AI for math, physics and software engineering.",
-    "evidence": [
-      "github:sahibzada-allahyar/formal-verification-rsi"
-    ],
-    "stars": 2905,
-    "forks": 127,
-    "language": "Python",
-    "license": "MIT",
-    "last_push": "2026-10-22T19:27:09Z",
-    "repo_status": "ok",
-    "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:facebookresearch-hyperagents",
@@ -1957,14 +1930,41 @@
     "evidence": [
       "github:facebookresearch/hyperagents"
     ],
-    "stars": 2904,
+    "stars": 2910,
     "forks": 374,
     "language": "Python",
     "license": "NOASSERTION",
     "last_push": "2026-07-31T16:56:22Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
+  },
+  {
+    "id": "fw:sahibzada-allahyar-formal-verification-rsi",
+    "name": "Formal-Verification-RSI",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "sahibzada-allahyar",
+    "repo": "sahibzada-allahyar/Formal-Verification-RSI",
+    "url": "https://github.com/sahibzada-allahyar/Formal-Verification-RSI",
+    "arxiv_id": null,
+    "year": 2025,
+    "description": "Formal verification for AI: a Lean 4 + Dafny proof checker that catches fake AI proofs (reward hacking), and verified recursive self-improvement (RSI) for coding agents. AI for math, physics and software engineering.",
+    "evidence": [
+      "github:sahibzada-allahyar/formal-verification-rsi"
+    ],
+    "stars": 2909,
+    "forks": 127,
+    "language": "Python",
+    "license": "MIT",
+    "last_push": "2026-10-22T19:27:09Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:yeqing17-2026-omniagent",
@@ -1991,7 +1991,7 @@
     "last_push": "2026-07-27T07:54:11Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:chrisworsey55-atlas-gic",
@@ -2012,14 +2012,14 @@
     "evidence": [
       "github:chrisworsey55/atlas-gic"
     ],
-    "stars": 2447,
+    "stars": 2448,
     "forks": 435,
     "language": "Python",
     "license": "NOASSERTION",
     "last_push": "2026-09-22T11:51:44Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:guy-hartstein-company-research-agent",
@@ -2039,14 +2039,14 @@
     "evidence": [
       "github:guy-hartstein/company-research-agent"
     ],
-    "stars": 2322,
-    "forks": 320,
+    "stars": 2323,
+    "forks": 321,
     "language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-11-03T10:20:20Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:anotiawang-deep-research-web-ui",
@@ -2066,14 +2066,14 @@
     "evidence": [
       "github:anotiawang/deep-research-web-ui"
     ],
-    "stars": 2227,
-    "forks": 307,
+    "stars": 2228,
+    "forks": 308,
     "language": "TypeScript",
     "license": null,
     "last_push": "2026-11-15T13:44:38Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:hyperspaceai-agi",
@@ -2093,14 +2093,14 @@
     "evidence": [
       "github:hyperspaceai/agi"
     ],
-    "stars": 2078,
+    "stars": 2079,
     "forks": 249,
     "language": "JavaScript",
     "license": "MIT",
     "last_push": "2026-10-17T14:34:45Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:trevin-creator-autoresearch-mlx",
@@ -2120,14 +2120,14 @@
     "evidence": [
       "github:trevin-creator/autoresearch-mlx"
     ],
-    "stars": 1893,
+    "stars": 1891,
     "forks": 372,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-07-02T13:49:49Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:os-copilot-os-copilot",
@@ -2154,7 +2154,7 @@
     "last_push": "2024-09-09T02:11:13Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:mims-harvard-tooluniverse",
@@ -2174,14 +2174,14 @@
     "evidence": [
       "github:mims-harvard/tooluniverse"
     ],
-    "stars": 1791,
-    "forks": 277,
+    "stars": 1796,
+    "forks": 275,
     "language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-11-16T07:02:17Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:tokenrhythm-neohorse",
@@ -2201,14 +2201,14 @@
     "evidence": [
       "github:tokenrhythm/neohorse"
     ],
-    "stars": 1706,
+    "stars": 1708,
     "forks": 25,
     "language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-09-26T04:42:21Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:rightnow-ai-autokernel",
@@ -2228,14 +2228,14 @@
     "evidence": [
       "github:rightnow-ai/autokernel"
     ],
-    "stars": 1627,
-    "forks": 165,
+    "stars": 1630,
+    "forks": 166,
     "language": "Python",
     "license": "MIT",
-    "last_push": "2026-11-13T14:58:04Z",
+    "last_push": "2026-11-18T03:09:02Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:zhengkid-dream-rsi",
@@ -2255,14 +2255,14 @@
     "evidence": [
       "github:zhengkid/dream-rsi"
     ],
-    "stars": 1602,
+    "stars": 1605,
     "forks": 142,
     "language": null,
     "license": null,
     "last_push": "2026-10-23T18:30:23Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:modelscope-agentevolver",
@@ -2282,14 +2282,14 @@
     "evidence": [
       "github:modelscope/agentevolver"
     ],
-    "stars": 1596,
+    "stars": 1597,
     "forks": 174,
     "language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-04-01T08:47:19Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:hexdocom-lemonai",
@@ -2309,14 +2309,14 @@
     "evidence": [
       "github:hexdocom/lemonai"
     ],
-    "stars": 1574,
+    "stars": 1573,
     "forks": 318,
     "language": "JavaScript",
     "license": "NOASSERTION",
     "last_push": "2026-02-03T10:39:31Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:dzhng-skills",
@@ -2343,34 +2343,7 @@
     "last_push": "2026-11-13T19:26:21Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
-  },
-  {
-    "id": "fw:ghostwright-phantom",
-    "name": "phantom",
-    "category": "self-improvement",
-    "topics": [
-      "rsi"
-    ],
-    "status": "candidate",
-    "source": "auto",
-    "org": "ghostwright",
-    "repo": "ghostwright/phantom",
-    "url": "https://github.com/ghostwright/phantom",
-    "arxiv_id": null,
-    "year": 2026,
-    "description": "An AI co-worker with its own computer. Self-evolving, persistent memory, MCP server, secure credential collection, email identity. Built on the Claude Agent SDK.",
-    "evidence": [
-      "github:ghostwright/phantom"
-    ],
-    "stars": 1496,
-    "forks": 194,
-    "language": "TypeScript",
-    "license": "Apache-2.0",
-    "last_push": "2026-06-16T21:26:09Z",
-    "repo_status": "ok",
-    "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:huytieu-cog-second-brain",
@@ -2390,14 +2363,41 @@
     "evidence": [
       "github:huytieu/cog-second-brain"
     ],
-    "stars": 1496,
+    "stars": 1499,
     "forks": 184,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-10-23T02:52:56Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
+  },
+  {
+    "id": "fw:ghostwright-phantom",
+    "name": "phantom",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "ghostwright",
+    "repo": "ghostwright/phantom",
+    "url": "https://github.com/ghostwright/phantom",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "An AI co-worker with its own computer. Self-evolving, persistent memory, MCP server, secure credential collection, email identity. Built on the Claude Agent SDK.",
+    "evidence": [
+      "github:ghostwright/phantom"
+    ],
+    "stars": 1497,
+    "forks": 194,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "last_push": "2026-06-16T21:26:09Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:internscience-internagent",
@@ -2424,7 +2424,7 @@
     "last_push": "2026-07-29T07:46:45Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:lilmgenius-paperthin",
@@ -2444,14 +2444,14 @@
     "evidence": [
       "github:lilmgenius/paperthin"
     ],
-    "stars": 1452,
+    "stars": 1453,
     "forks": 124,
     "language": "JavaScript",
     "license": "MIT",
     "last_push": "2026-11-15T14:04:38Z",
     "repo_status": "ok",
     "first_seen": "2026-11-09T07:59:15Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:charlesq9-self-evolving-agents",
@@ -2471,14 +2471,14 @@
     "evidence": [
       "github:charlesq9/self-evolving-agents"
     ],
-    "stars": 1348,
+    "stars": 1350,
     "forks": 109,
     "language": null,
     "license": "Apache-2.0",
     "last_push": "2025-10-15T08:17:14Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:openraiser-nanoresearch",
@@ -2505,7 +2505,7 @@
     "last_push": "2026-10-09T06:06:51Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:greyhaven-ai-autocontext",
@@ -2530,10 +2530,10 @@
     "forks": 115,
     "language": "Python",
     "license": "Apache-2.0",
-    "last_push": "2026-11-11T00:41:23Z",
+    "last_push": "2026-11-18T00:42:27Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:aiming-lab-agent0",
@@ -2560,7 +2560,7 @@
     "last_push": "2026-07-10T07:54:20Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:ruc-datalab-evoontology",
@@ -2580,14 +2580,14 @@
     "evidence": [
       "github:ruc-datalab/evoontology"
     ],
-    "stars": 1232,
+    "stars": 1256,
     "forks": 105,
     "language": "Python",
     "license": "MIT",
     "last_push": "2026-11-06T10:59:36Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:zhangzhengeric-sage",
@@ -2607,14 +2607,14 @@
     "evidence": [
       "github:zhangzhengeric/sage"
     ],
-    "stars": 1216,
+    "stars": 1218,
     "forks": 116,
     "language": "Python",
     "license": "MIT",
-    "last_push": "2026-11-17T02:07:33Z",
+    "last_push": "2026-11-18T04:22:52Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:openlair-dr-claw",
@@ -2635,13 +2635,13 @@
       "github:openlair/dr-claw"
     ],
     "stars": 1200,
-    "forks": 144,
+    "forks": 143,
     "language": "JavaScript",
     "license": "NOASSERTION",
     "last_push": "2026-11-11T02:31:44Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:mattprusak-autoresearch-genealogy",
@@ -2668,7 +2668,7 @@
     "last_push": "2026-06-30T03:46:55Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:polyuiislab-infiagent",
@@ -2695,34 +2695,7 @@
     "last_push": "2026-11-12T09:42:37Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
-  },
-  {
-    "id": "fw:withkynam-vibecode-pro-max-kit",
-    "name": "vibecode-pro-max-kit",
-    "category": "self-improvement",
-    "topics": [
-      "rsi"
-    ],
-    "status": "candidate",
-    "source": "auto",
-    "org": "withkynam",
-    "repo": "withkynam/vibecode-pro-max-kit",
-    "url": "https://github.com/withkynam/vibecode-pro-max-kit",
-    "arxiv_id": null,
-    "year": 2026,
-    "description": "Your AI forgets. This remembers. Spec-driven coding harness for vibecoders, product owners, CEOs and real builders — self-improving context memory, 15 agents, 33 skills working with /goal, agent-team, & workflow on autopilot loops with 0 need for human gate. Kills context rot, ships features, not s…",
-    "evidence": [
-      "github:withkynam/vibecode-pro-max-kit"
-    ],
-    "stars": 1172,
-    "forks": 234,
-    "language": "JavaScript",
-    "license": "MIT",
-    "last_push": "2026-06-21T08:31:44Z",
-    "repo_status": "ok",
-    "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:gen-verse-rsi-anything",
@@ -2742,14 +2715,41 @@
     "evidence": [
       "github:gen-verse/rsi-anything"
     ],
-    "stars": 1169,
+    "stars": 1175,
     "forks": 123,
     "language": "HTML",
     "license": "Apache-2.0",
     "last_push": "2026-10-13T10:00:45Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
+  },
+  {
+    "id": "fw:withkynam-vibecode-pro-max-kit",
+    "name": "vibecode-pro-max-kit",
+    "category": "self-improvement",
+    "topics": [
+      "rsi"
+    ],
+    "status": "candidate",
+    "source": "auto",
+    "org": "withkynam",
+    "repo": "withkynam/vibecode-pro-max-kit",
+    "url": "https://github.com/withkynam/vibecode-pro-max-kit",
+    "arxiv_id": null,
+    "year": 2026,
+    "description": "Your AI forgets. This remembers. Spec-driven coding harness for vibecoders, product owners, CEOs and real builders — self-improving context memory, 15 agents, 33 skills working with /goal, agent-team, & workflow on autopilot loops with 0 need for human gate. Kills context rot, ships features, not s…",
+    "evidence": [
+      "github:withkynam/vibecode-pro-max-kit"
+    ],
+    "stars": 1173,
+    "forks": 234,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_push": "2026-06-21T08:31:44Z",
+    "repo_status": "ok",
+    "first_seen": "2026-11-03T08:54:37Z",
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:rashakil-ds-roadmap-docs",
@@ -2769,14 +2769,14 @@
     "evidence": [
       "github:rashakil-ds/roadmap-docs"
     ],
-    "stars": 1158,
+    "stars": 1159,
     "forks": 530,
     "language": null,
     "license": null,
     "last_push": "2026-10-21T18:28:53Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:ruc-nlpir-arbor",
@@ -2796,14 +2796,14 @@
     "evidence": [
       "github:ruc-nlpir/arbor"
     ],
-    "stars": 1150,
+    "stars": 1151,
     "forks": 132,
     "language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-11-03T05:57:10Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:xiangyue-zhang-auto-deep-researcher-24x7",
@@ -2830,7 +2830,7 @@
     "last_push": "2026-06-03T03:18:50Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:human-agent-society-coral",
@@ -2851,14 +2851,14 @@
     "evidence": [
       "github:human-agent-society/coral"
     ],
-    "stars": 1133,
+    "stars": 1137,
     "forks": 144,
     "language": "Python",
     "license": "Apache-2.0",
     "last_push": "2026-10-19T05:19:16Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:opencrabs-opencrabs",
@@ -2882,10 +2882,10 @@
     "forks": 108,
     "language": "Rust",
     "license": "MIT",
-    "last_push": "2026-11-17T02:10:27Z",
+    "last_push": "2026-11-18T07:07:55Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:wangziqi06-724-office",
@@ -2912,7 +2912,7 @@
     "last_push": "2026-07-31T07:53:16Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:xvirobotics-metabot",
@@ -2939,7 +2939,7 @@
     "last_push": "2026-10-26T00:13:56Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:olelehmann1337-autoresearch-skill",
@@ -2960,13 +2960,13 @@
       "github:olelehmann1337/autoresearch-skill"
     ],
     "stars": 982,
-    "forks": 119,
+    "forks": 120,
     "language": null,
     "license": null,
     "last_push": "2026-03-18T07:36:13Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   },
   {
     "id": "fw:kulaxyz-self-learning-skills",
@@ -2993,6 +2993,6 @@
     "last_push": "2026-09-14T17:06:52Z",
     "repo_status": "ok",
     "first_seen": "2026-11-03T08:54:37Z",
-    "last_seen": "2026-11-17T09:14:33Z"
+    "last_seen": "2026-11-18T08:34:07Z"
   }
 ]
