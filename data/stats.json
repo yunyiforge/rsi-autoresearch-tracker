@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-11-20T08:34:14Z",
-  "run_date": "2026-11-20",
+  "generated_at": "2026-11-21T08:18:07Z",
+  "run_date": "2026-11-21",
   "mode": "collect",
   "counts": {
-    "items_total": 1054,
-    "new_this_run": 16,
-    "new_today": 16,
+    "items_total": 1056,
+    "new_this_run": 2,
+    "new_today": 2,
     "by_source": {
       "arxiv": 588,
-      "github": 434,
+      "github": 435,
       "hn": 17,
-      "rss": 15
+      "rss": 16
     },
     "by_type": {
       "paper": 588,
-      "repo": 434,
+      "repo": 435,
       "discussion": 17,
-      "article": 15
+      "article": 16
     },
     "by_topic": {
-      "autoresearch": 638,
-      "rsi": 474
+      "autoresearch": 639,
+      "rsi": 475
     },
     "by_tag": {
-      "benchmark": 369,
-      "framework": 329,
+      "benchmark": 370,
+      "framework": 330,
       "has-code": 124,
       "multi-agent": 122,
       "code-agent": 101,
       "dataset": 101,
       "idea-generation": 91,
-      "evolutionary-search": 79,
+      "evolutionary-search": 80,
       "safety": 66,
       "science-domain": 53,
       "ml-engineering": 31,
@@ -76,30 +76,30 @@
       "status": "ok",
       "fetched": 501,
       "errors": [],
-      "seconds": 59.6
+      "seconds": 56.9
     },
     "github": {
       "status": "ok",
       "fetched": 606,
       "errors": [],
-      "seconds": 52.5
+      "seconds": 49.1
     },
     "hn": {
       "status": "ok",
-      "fetched": 41,
+      "fetched": 38,
       "errors": [],
-      "seconds": 6.3
+      "seconds": 5.7
     },
     "rss": {
       "status": "ok",
-      "fetched": 229,
+      "fetched": 228,
       "errors": [],
-      "seconds": 2.8
+      "seconds": 2.2
     }
   },
   "pipeline": {
-    "collected": 1377,
-    "irrelevant_filtered": 341,
+    "collected": 1373,
+    "irrelevant_filtered": 339,
     "duplicates_removed": 0,
     "cross_links": 10,
     "enrich_errors": [],
