@@ -1,6 +1,6 @@
-# RSI & AutoResearch 每日追踪 · 2026-11-21
+# RSI & AutoResearch 每日追踪 · 2026-11-22
 
-> 自动生成于 2026-11-21T08:18:07Z（UTC）。累计 **1056** 条数据，今日新增 **2** 条；框架 112 个，benchmark 91 个，复现任务候选 121 个。
+> 自动生成于 2026-11-22T07:59:50Z（UTC）。累计 **1056** 条数据，今日新增 **0** 条；框架 112 个，benchmark 91 个，复现任务候选 121 个。
 
 ## 运行概况
 
@@ -8,42 +8,40 @@
 |---|---|---:|---|
 | arxiv | ok | 501 |  |
 | github | ok | 606 |  |
-| hn | ok | 38 |  |
-| rss | ok | 228 |  |
+| hn | ok | 39 |  |
+| rss | ok | 227 |  |
 
 ## 🆕 新论文（0）
 
 _今日无新增_
 
-## 🆕 新仓库（1）
+## 🆕 新仓库（0）
 
-| 仓库 | ⭐ | 描述 | 标签 |
-|---|---:|---|---|
-| [egma-ai/egma](https://github.com/egma-ai/egma) | 147 | the first open-source platform for simulation testing, monitoring and self-improving voice agents | `RSI` `#framework` |
+_今日无新增_
 
-## 🆕 讨论与博客（1）
+## 🆕 讨论与博客（0）
 
-- **Sakana AI** [Introducing the Sakana AI Applied Research Lab](https://sakana.ai/applied-research-lab/) `AutoResearch` `#benchmark` `#evolutionary-search`
+_今日无新增_
 
 ## 🔥 Star 最多的相关仓库（累计）
 
 | 仓库 | ⭐ | 主题 |
 |---|---:|---|
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 100,347 | `AutoResearch` |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 57,969 | `AutoResearch` `#framework` `#science-domain` |
-| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 42,549 | `RSI` |
-| [letta-ai/letta](https://github.com/letta-ai/letta) | 25,506 | `RSI` `#framework` |
-| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,863 | `RSI` |
-| [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 20,163 | `AutoResearch` |
-| [dzhng/deep-research](https://github.com/dzhng/deep-research) | 19,910 | `AutoResearch` |
-| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | 15,029 | `AutoResearch` `#evolutionary-search` |
-| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 14,913 | `AutoResearch` `RSI` `#multi-agent` |
-| [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | 14,713 | `AutoResearch` `#framework` |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 100,398 | `AutoResearch` |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 58,061 | `AutoResearch` `#framework` `#science-domain` |
+| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 42,584 | `RSI` |
+| [letta-ai/letta](https://github.com/letta-ai/letta) | 25,509 | `RSI` `#framework` |
+| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,875 | `RSI` |
+| [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 20,162 | `AutoResearch` |
+| [dzhng/deep-research](https://github.com/dzhng/deep-research) | 19,911 | `AutoResearch` |
+| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | 15,030 | `AutoResearch` `#evolutionary-search` |
+| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 14,922 | `AutoResearch` `RSI` `#multi-agent` |
+| [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | 14,734 | `AutoResearch` `#framework` |
 | [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 14,441 | `RSI` |
-| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,959 | `RSI` |
-| [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 12,468 | `RSI` |
-| [aden-hive/hive](https://github.com/aden-hive/hive) | 11,166 | `RSI` `#framework` `#multi-agent` |
-| [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman) | 10,143 | `AutoResearch` `#code-agent` |
+| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,964 | `RSI` |
+| [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 12,475 | `RSI` |
+| [aden-hive/hive](https://github.com/aden-hive/hive) | 11,167 | `RSI` `#framework` `#multi-agent` |
+| [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman) | 10,146 | `AutoResearch` `#code-agent` |
 
 ---
 
