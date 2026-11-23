@@ -1,6 +1,6 @@
-# RSI & AutoResearch 每日追踪 · 2026-11-22
+# RSI & AutoResearch 每日追踪 · 2026-11-23
 
-> 自动生成于 2026-11-22T07:59:50Z（UTC）。累计 **1056** 条数据，今日新增 **0** 条；框架 112 个，benchmark 91 个，复现任务候选 121 个。
+> 自动生成于 2026-11-23T09:08:03Z（UTC）。累计 **1063** 条数据，今日新增 **7** 条；框架 112 个，benchmark 91 个，复现任务候选 121 个。
 
 ## 运行概况
 
@@ -8,16 +8,23 @@
 |---|---|---:|---|
 | arxiv | ok | 501 |  |
 | github | ok | 606 |  |
-| hn | ok | 39 |  |
-| rss | ok | 227 |  |
+| hn | ok | 32 |  |
+| rss | ok | 225 |  |
 
-## 🆕 新论文（0）
+## 🆕 新论文（6）
 
-_今日无新增_
+- [Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation](https://arxiv.org/abs/2611.27689) — Zhenxuan Fan et al. · 2026-11-20 `RSI` `#benchmark` `#framework`
+- [MedicalRSI: Medical Recursive Self-Improving Agents via Clinical Model-Harness Co-Evolution](https://arxiv.org/abs/2611.26806) — Ziqing Wang et al. · 2026-11-19 `RSI` `#benchmark` `#framework`
+- [Search-RSI: Expanding Search Worlds Along Multimodal Agents' Capability Frontier](https://arxiv.org/abs/2611.27780) — Chengchao Lv et al. · 2026-11-20 `RSI` `#benchmark` `#framework`
+- [$γ$-Scape: An Agent-Centric World for Mobile Embodied Intelligence](https://arxiv.org/abs/2611.27306) — Xiaotao Zhang et al. · 2026-11-20 `RSI` `#benchmark` `#framework`
+- [ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization](https://arxiv.org/abs/2611.26782) — Trupti Mohanty et al. · 2026-11-19 `AutoResearch` `#benchmark` `#idea-generation` `#multi-agent`
+- [Exercised, Rarely Recovered: What Public Reports Say About Recovery in 50 AI Agent Harnesses and Runtimes](https://arxiv.org/abs/2611.27090) — Kaviru Hapuarachchi · 2026-11-20 `AutoResearch` `#benchmark` `#code-agent`
 
-## 🆕 新仓库（0）
+## 🆕 新仓库（1）
 
-_今日无新增_
+| 仓库 | ⭐ | 描述 | 标签 |
+|---|---:|---|---|
+| [ksenxx/kiss_ai](https://github.com/ksenxx/kiss_ai) | 561 | Open-source general-purpose recursively self-evolving AI agent for long-horizon tasks and AI discovery and optimization | `RSI` |
 
 ## 🆕 讨论与博客（0）
 
@@ -27,21 +34,21 @@ _今日无新增_
 
 | 仓库 | ⭐ | 主题 |
 |---|---:|---|
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 100,398 | `AutoResearch` |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 58,061 | `AutoResearch` `#framework` `#science-domain` |
-| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 42,584 | `RSI` |
-| [letta-ai/letta](https://github.com/letta-ai/letta) | 25,509 | `RSI` `#framework` |
-| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,875 | `RSI` |
-| [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 20,162 | `AutoResearch` |
-| [dzhng/deep-research](https://github.com/dzhng/deep-research) | 19,911 | `AutoResearch` |
-| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | 15,030 | `AutoResearch` `#evolutionary-search` |
-| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 14,922 | `AutoResearch` `RSI` `#multi-agent` |
-| [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | 14,734 | `AutoResearch` `#framework` |
-| [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 14,441 | `RSI` |
-| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,964 | `RSI` |
-| [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 12,475 | `RSI` |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 100,449 | `AutoResearch` |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 58,158 | `AutoResearch` `#framework` `#science-domain` |
+| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 42,637 | `RSI` |
+| [letta-ai/letta](https://github.com/letta-ai/letta) | 25,518 | `RSI` `#framework` |
+| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 22,886 | `RSI` |
+| [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 20,167 | `AutoResearch` |
+| [dzhng/deep-research](https://github.com/dzhng/deep-research) | 19,915 | `AutoResearch` |
+| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | 15,032 | `AutoResearch` `#evolutionary-search` |
+| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 14,926 | `AutoResearch` `RSI` `#multi-agent` |
+| [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | 14,761 | `AutoResearch` `#framework` |
+| [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 14,440 | `RSI` |
+| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,975 | `RSI` |
+| [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 12,486 | `RSI` |
 | [aden-hive/hive](https://github.com/aden-hive/hive) | 11,167 | `RSI` `#framework` `#multi-agent` |
-| [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman) | 10,146 | `AutoResearch` `#code-agent` |
+| [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman) | 10,149 | `AutoResearch` `#code-agent` |
 
 ---
 
