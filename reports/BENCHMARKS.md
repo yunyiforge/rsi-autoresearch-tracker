@@ -1,6 +1,6 @@
 # RSI & AutoResearch Benchmark 数据集
 
-> 自动生成于 2026-11-25T09:52:13Z（UTC）。精选 16 个 + 自动发现候选 77 个；论文复现任务候选 126 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
+> 自动生成于 2026-11-26T09:31:40Z（UTC）。精选 16 个 + 自动发现候选 79 个；论文复现任务候选 128 个。构建方法见 [docs/BENCHMARK_PIPELINE.md](../docs/BENCHMARK_PIPELINE.md)。
 
 ## 精选 Benchmark
 
@@ -9,7 +9,7 @@
 | [METR Time Horizon](https://arxiv.org/abs/2503.14499) | ai-rnd | METR | 2025 |  | 50% 成功率对应的人类任务时长（time horizon） | [arXiv](https://arxiv.org/abs/2503.14499) |  |
 | [MLRC-Bench](https://arxiv.org/abs/2504.09702) | ai-rnd |  | 2025 |  | 相对基线与人类最佳方案的提升 | [arXiv](https://arxiv.org/abs/2504.09702) |  |
 | [RE-Bench](https://arxiv.org/abs/2411.15114) | ai-rnd | METR | 2024 | 7 个开放式 ML 研究工程环境 | 相对参考解的归一化得分，并与人类专家 8 小时成绩对比 | [arXiv](https://arxiv.org/abs/2411.15114) |  |
-| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | coding | Princeton | 2023 | 2,294 个 GitHub issue（Verified 子集 500） | 解决率 (% Resolved) | [arXiv](https://arxiv.org/abs/2310.06770) | 6,244 |
+| [SWE-bench](https://github.com/SWE-bench/SWE-bench) | coding | Princeton | 2023 | 2,294 个 GitHub issue（Verified 子集 500） | 解决率 (% Resolved) | [arXiv](https://arxiv.org/abs/2310.06770) | 6,252 |
 | [HCAST](https://arxiv.org/abs/2503.17354) | general-agent | METR | 2025 | 189 个软件/ML/网络安全任务 | 按人类完成时长校准的成功率 | [arXiv](https://arxiv.org/abs/2503.17354) |  |
 | [MLAgentBench](https://github.com/snap-stanford/MLAgentBench) | ml-engineering | Stanford | 2023 | 13 个 ML 实验任务 | 相对基线提升 ≥10% 的成功率 | [arXiv](https://arxiv.org/abs/2310.03302) | 360 |
 | [MLE-bench](https://github.com/openai/mle-bench) | ml-engineering | OpenAI | 2024 | 75 个 Kaggle 竞赛 | 获得 Kaggle 奖牌的比例 | [arXiv](https://arxiv.org/abs/2410.07095) | 1,803 |
@@ -21,14 +21,16 @@
 | [DiscoveryWorld](https://github.com/allenai/discoveryworld) | scientific-discovery | AI2 | 2024 | 120 个虚拟科学发现任务 | 任务完成度 / 解释性知识得分 | [arXiv](https://arxiv.org/abs/2406.06769) | 231 |
 | [LAB-Bench](https://github.com/Future-House/LAB-Bench) | scientific-discovery | FutureHouse | 2024 | 2,400+ 道生物学研究实务题 | 准确率 / 精确率 | [arXiv](https://arxiv.org/abs/2407.10362) | 136 |
 | [SciCode](https://github.com/scicode-bench/SciCode) | scientific-discovery |  | 2024 | 80 个主问题 / 338 个子问题 | 通过率 | [arXiv](https://arxiv.org/abs/2407.13168) | 246 |
-| [ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench) | scientific-discovery | OSU NLP | 2024 | 来自 44 篇论文的 102 个任务 | 成功率 / CodeBERTScore | [arXiv](https://arxiv.org/abs/2410.05080) | 187 |
+| [ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench) | scientific-discovery | OSU NLP | 2024 | 来自 44 篇论文的 102 个任务 | 成功率 / CodeBERTScore | [arXiv](https://arxiv.org/abs/2410.05080) | 188 |
 
 ## 自动发现的 Benchmark 候选
 
-按方向统计：general-agent 21，coding 18，research-ideation 12，scientific-discovery 9，self-improvement 9，ai-rnd 4，ml-engineering 2，paper-replication 2
+按方向统计：general-agent 22，coding 18，research-ideation 12，self-improvement 10，scientific-discovery 9，ai-rnd 4，ml-engineering 2，paper-replication 2
 
 | 名称 | 方向 | 年份 | 论文 | 仓库 | 首次发现 |
 |---|---|---|---|---|---|
+| EvoLink-Bench | self-improvement | 2026 | [arXiv](https://arxiv.org/abs/2611.34400) |  | 2026-11-26 |
+| DRBench Pro | general-agent | 2026 | [arXiv](https://arxiv.org/abs/2611.34852) | [ZJU-REAL/DRBenchPro](https://github.com/ZJU-REAL/DRBenchPro) | 2026-11-26 |
 | RecurSciBench | scientific-discovery | 2026 | [arXiv](https://arxiv.org/abs/2611.32508) |  | 2026-11-25 |
 | WingBench | coding | 2026 | [arXiv](https://arxiv.org/abs/2611.28418) |  | 2026-11-24 |
 | TwinLab-Bench | scientific-discovery | 2026 | [arXiv](https://arxiv.org/abs/2611.26248) |  | 2026-11-20 |
@@ -109,10 +111,12 @@
 
 ## 论文复现任务候选（自动构建）
 
-共 126 个（难度提示：easy 4，hard 20，medium 102）。完整数据见 [`data/benchmark_tasks.jsonl`](../data/benchmark_tasks.jsonl)。
+共 128 个（难度提示：easy 4，hard 20，medium 104）。完整数据见 [`data/benchmark_tasks.jsonl`](../data/benchmark_tasks.jsonl)。
 
 | 任务 | 论文 | 官方代码 | 难度 |
 |---|---|---|---|
+| `replicate:2611.34852` | [DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents](https://arxiv.org/abs/2611.34852) | [ZJU-REAL/DRBenchPro](https://github.com/ZJU-REAL/DRBenchPro) | medium |
+| `replicate:2611.34398` | [When Skills Fail to Compose: Compatibility and Retention in Language Models](https://arxiv.org/abs/2611.34398) | [YanLin-Quinne/SkillCompatibility](https://github.com/YanLin-Quinne/SkillCompatibility) | medium |
 | `replicate:2611.31466` | [AdProducer: Towards Agentic Advertising Video Generation](https://arxiv.org/abs/2611.31466) | [lky-ang/AdProducer](https://github.com/lky-ang/AdProducer) | hard |
 | `replicate:2611.31027` | [ComputeWise: Measuring and Fixing GPU Waste by AI Research Agents](https://arxiv.org/abs/2611.31027) | [SalesforceAIResearch/computewise](https://github.com/SalesforceAIResearch/computewise) | hard |
 | `replicate:2611.30141` | [Reading the Tea Leaves, Again: Can Large Language Models Predict Language Model Training Runs?](https://arxiv.org/abs/2611.30141) | [colinzhaoust/read-tea-leaves](https://github.com/colinzhaoust/read-tea-leaves) | hard |
@@ -141,5 +145,3 @@
 | `replicate:2611.03721` | [Counterexample-driven autonomous research with application to excess radiated energy in a Z-pinch](https://arxiv.org/abs/2611.03721) | [tomzhu0225/simjecture](https://github.com/tomzhu0225/simjecture) | medium |
 | `replicate:2610.40589` | [Collaborative AI agents for autonomous experimental research with solid-state quantum spins](https://arxiv.org/abs/2610.40589) | [E-zClap/auctopus](https://github.com/E-zClap/auctopus) | medium |
 | `replicate:2610.40488` | [rTaste: Do Research Agents Have Taste? Evaluating Early Stage Research Judgment](https://arxiv.org/abs/2610.40488) | [ArtKanke/rTaste](https://github.com/ArtKanke/rTaste) | medium |
-| `replicate:2610.38691` | [Beyond fabrication: Misattributed numbers in papers written by AI research agents](https://arxiv.org/abs/2610.38691) | [mos3b-faqeeh/agent-integrity-analysis](https://github.com/mos3b-faqeeh/agent-integrity-analysis) | medium |
-| `replicate:2610.37741` | [Agentic Backdoors via Pretraining Poisoning](https://arxiv.org/abs/2610.37741) | [safety-research/agentic-backdoor](https://github.com/safety-research/agentic-backdoor) | hard |
