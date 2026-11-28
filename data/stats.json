@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-27T09:41:38Z",
-  "run_date": "2026-11-27",
+  "generated_at": "2026-11-28T08:55:54Z",
+  "run_date": "2026-11-28",
   "mode": "collect",
   "counts": {
-    "items_total": 1106,
-    "new_this_run": 4,
-    "new_today": 4,
+    "items_total": 1107,
+    "new_this_run": 1,
+    "new_today": 1,
     "by_source": {
       "arxiv": 624,
-      "github": 444,
+      "github": 445,
       "hn": 21,
       "rss": 17
     },
     "by_type": {
       "paper": 624,
-      "repo": 444,
+      "repo": 445,
       "discussion": 21,
       "article": 17
     },
     "by_topic": {
-      "autoresearch": 666,
+      "autoresearch": 667,
       "rsi": 502
     },
     "by_tag": {
@@ -82,24 +82,24 @@
       "status": "ok",
       "fetched": 606,
       "errors": [],
-      "seconds": 54.3
+      "seconds": 50.6
     },
     "hn": {
       "status": "ok",
-      "fetched": 41,
+      "fetched": 46,
       "errors": [],
-      "seconds": 6.2
+      "seconds": 5.7
     },
     "rss": {
       "status": "ok",
-      "fetched": 228,
+      "fetched": 227,
       "errors": [],
-      "seconds": 2.9
+      "seconds": 3.3
     }
   },
   "pipeline": {
-    "collected": 1376,
-    "irrelevant_filtered": 336,
+    "collected": 1380,
+    "irrelevant_filtered": 341,
     "duplicates_removed": 0,
     "cross_links": 10,
     "enrich_errors": [],
